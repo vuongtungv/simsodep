@@ -1,0 +1,287 @@
+.comments{
+    ._textarea {
+        textarea{
+            display: block;
+            overflow: hidden;
+            background: #fff;
+            min-height: 100px;
+            border: 1px solid #c1bfbf;
+            padding: 10px;
+            font-size: 16px;
+            color: #333;
+            width: 100%;
+        }
+    }
+    .wrap_loginpost {
+        display: block;
+        overflow: hidden;
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #d8d8d8;
+        border-top: 0;
+        position: relative;
+        ._left {
+            float: left;
+            overflow: hidden;
+            width: 100%;
+            border-right: 1px solid #d8d8d8;
+            @media only screen and (min-width:600px){
+                &{
+                     width: 55%;
+                }
+            }
+            label {
+                display: block;
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 10px;
+                padding-right: 5px;
+            }
+            a {
+                overflow: hidden;
+                margin-right: 2px;
+                i {
+                    background-image: url(../images/bg_comment.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    vertical-align: middle;
+                }
+                ._facebook {
+                    background-position: 0 0;
+                    width: 110px;
+                    height: 37px;
+                }
+                ._googleplus {
+                    background-position: 0 -40px;
+                    width: 110px;
+                    height: 37px;
+                }
+                ._mobileworld {
+                    background-position: 0 -80px;
+                    width: 130px;
+                    height: 37px;
+                }
+            }
+            ._noaccount {
+                display: block;
+                padding: 10px 0;
+                font-size: 14px;
+                color: #999;
+                a {
+                    color: #4a90e2;
+                }
+            }
+        }
+        ._right {
+            float: right;
+            overflow: hidden;
+            width: 100%;
+            @media only screen and (min-width:600px){
+                &{
+                     width: 42%;
+                }
+            }
+            label {
+                display: block;
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 10px;
+            }
+            .txt_input {
+                display: block;
+                padding: 8px;
+                border: 1px solid #dadada;
+                font-size: 14px;
+                margin-bottom: 10px;
+                width: 100%;
+                color: #333;
+            }
+            
+            ._btn_comment {
+                float: right;
+                background: none repeat scroll 0 0 #f38400;
+                border: 1px solid #f38400;
+                font-family: MyriadPro-Regular;
+                font-size: 16px;
+                text-transform: uppercase;
+                color: #fff;
+                padding: 10px;
+            }
+        }
+    }
+    .wrap_submit{
+        display: block;
+        overflow: hidden;
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #d8d8d8;
+        border-top: 0;
+        position: relative;
+        .userinfo {
+            font-size: 14px;
+            color: #2a2a2a;
+            text-align: center;
+            font-weight: 600;
+            max-width: 250px;
+            padding: 11px 0 10px;
+            cursor: pointer;
+            background: #fff;
+            position: absolute;
+            right: 150px;
+            padding-right: 64px;
+            &.in{
+                 right: 280px;
+            } 
+            .avaS {
+                margin-top: -4px;
+                float: left;
+                width: 25px;
+                height: 25px;
+                margin-right: 7px;
+            }
+            .uname {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                max-width: 160px;
+                float: left;
+                text-align: left;
+            }
+            a {
+                color: #4a90e2;
+                font-weight: 300;
+                float: left;
+                position: absolute;
+                right: -3px;
+            }
+        }
+        ._close_comment {
+                position: absolute;
+                right: 150px;
+                background: none repeat scroll 0 0 #F1F1F1;
+                font-family: MyriadPro-Regular;
+                font-size: 16px;
+                text-transform: uppercase;
+                padding: 10px;
+                line-height: 16px;
+                margin-right: 10px;
+            }
+       ._btn_comment {
+            float: right;
+            background: none repeat scroll 0 0 #f38400;
+            border: 1px solid #f38400;
+            font-family: MyriadPro-Regular;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 10px;
+        }
+    }
+    ._contents{
+        ._level_0{
+            margin-bottom: 10px;
+            p{
+                ._img {
+                    float: left;
+                    margin-right: 10px;
+                }
+                ._name {
+                    color: #22221D;
+                    font-weight: bold;
+                    float: left;
+                    line-height: 28px;
+                    margin-right: 20px;
+                }
+                ._level {
+                    float: left;
+                    background: #EFBB47;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    margin-top: 4px;
+                }
+            }
+            ._wrap {
+                padding-left: 34px;
+                padding-bottom: 10px;
+                ._control {
+                    font-size: 11px;
+                    .button_reply {
+                        color: #498FE1;
+                    }
+                    .dot {
+                        padding: 0 5px;
+                        font-size: 30px;
+                        height: 6px;
+                        line-height: 0;
+                        display: inline-block;
+                        color: #B3B5B2;
+                    }
+                    .favorite {
+                        color: #498FE1;
+                        background: url(http://didongthongminh.vn/modules/products/assets/images/favorite.png) no-repeat;
+                        display: inline-block;
+                        padding-left: 18px;
+                    }
+                    .date {
+                        color: #B3B5B2;
+                    }
+                }
+            }
+            ._level_1 {
+                background: #F1F1F1;
+                padding-top: 10px;
+                margin-left: 35px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .pagination{
+        font{
+            float: left;
+            padding: 4px 10px;
+            background: #ccc;
+            border-radius: 3px;
+            text-align: center;
+            color: #333;
+            margin-right: 4px;
+            font-size: 12px;
+            clear: none !important;
+            cursor: pointer;
+        }
+         a {
+            float: left;
+            padding: 4px 10px;
+            background: #eee;
+            border-radius: 3px;
+            text-align: center;
+            color: #333;
+            margin-right: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            &.last-page,
+            &.first-page{
+                display: none;
+
+            }
+        }
+        b {
+            float: left;
+            padding: 4px 10px;
+            background: #eee;
+            border-radius: 3px;
+            text-align: center;
+            color: #333;
+            margin-right: 4px;
+            font-size: 12px;
+            clear: none !important;
+            cursor: pointer;
+        }
+    }
+}
+/**************** COMMENT ****************/
+ 

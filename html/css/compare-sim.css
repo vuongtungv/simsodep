@@ -1,0 +1,154 @@
+.compare-sim {
+  background: #ffffff;
+  padding: 16px 25px 0px 25px; }
+  .compare-sim p {
+    font-family: Text-regular;
+    font-size: 16px; }
+  .compare-sim .title-hea {
+    margin-bottom: 5px;
+    font-family: Text-semibold; }
+  .compare-sim .show-sim-compare {
+    border-bottom: 1px solid #e8e8e9;
+    border-top: 1px solid #e8e8e9;
+    padding: 25px 0px 12px 0px; }
+    .compare-sim .show-sim-compare .item-compare {
+      margin-right: 0px;
+      padding-left: 25px;
+      margin-bottom: 15px; }
+      .compare-sim .show-sim-compare .item-compare p {
+        margin-bottom: 0px; }
+      .compare-sim .show-sim-compare .item-compare .phone {
+        font-family: Text-semibold;
+        font-size: 15px; }
+      .compare-sim .show-sim-compare .item-compare .supplier, .compare-sim .show-sim-compare .item-compare .price {
+        font-family: Text-regular;
+        font-size: 14px;
+        color: #6e6e6e; }
+      .compare-sim .show-sim-compare .item-compare .custom-control-label {
+        cursor: pointer; }
+        .compare-sim .show-sim-compare .item-compare .custom-control-label:before {
+          background: #e4e4e4;
+          height: 18px;
+          width: 18px;
+          margin: -2px 0px 0px -2px; }
+  .compare-sim .title-box {
+    border-bottom: 1px solid #e8e8e9;
+    text-align: center; }
+    .compare-sim .title-box .box-head {
+      cursor: pointer;
+      padding: 11px 61px 6px 25px;
+      width: 25%;
+      border: 1px solid #aeaeae;
+      border-radius: 25px;
+      font-size: 16px;
+      background: #ffffff;
+      font-family: Text-regular;
+      position: relative;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      margin-top: 15px; }
+      .compare-sim .title-box .box-head:hover {
+        background-color: #f3f3f3;
+        transition: 0.1s; }
+      .compare-sim .title-box .box-head:after {
+        content: "";
+        background-image: url("../images/so-sanh-sim_03.png");
+        width: 36px;
+        height: 19px;
+        top: 9px;
+        right: 40px;
+        position: absolute; }
+  .compare-sim .table-compare {
+    margin-top: 30px;
+    font-family: Text-regular; }
+    .compare-sim .table-compare thead tr {
+      background: #3478f7; }
+      .compare-sim .table-compare thead tr th {
+        color: #ffffff;
+        border-top: none;
+        text-align: center;
+        font-weight: normal; }
+        .compare-sim .table-compare thead tr th:last-child {
+          border-right: 1px solid #3478f7; }
+        .compare-sim .table-compare thead tr th p {
+          margin-bottom: 0px;
+          border-radius: 25px;
+          height: 30px;
+          background: #0253ea;
+          width: 100%;
+          padding-top: 5px;
+          font-family: Text-semibold; }
+      .compare-sim .table-compare thead tr th:nth-child(1) p {
+        background: none; }
+    .compare-sim .table-compare tbody {
+      color: #333333;
+      border-bottom: 1px solid #e8e8e9; }
+      .compare-sim .table-compare tbody tr th p {
+        margin-bottom: 0px;
+        width: 65%;
+        text-align: right;
+        font-family: Text-semibold;
+        font-weight: normal; }
+      .compare-sim .table-compare tbody tr th, .compare-sim .table-compare tbody tr td {
+        border-top: 0px;
+        border-right: 1px solid #e8e8e9;
+        border-left: 1px solid #e8e8e9; }
+      .compare-sim .table-compare tbody tr td {
+        padding-left: 50px;
+        font-size: 15px; }
+    .compare-sim .table-compare tfoot {
+      text-align: center;
+      line-height: 56px; }
+      .compare-sim .table-compare tfoot tr td:nth-child(1) button {
+        border-radius: 30px;
+        height: 33px;
+        padding-top: 7px; }
+      .compare-sim .table-compare tfoot tr td .item-compare {
+        margin: 0px;
+        padding: 0px;
+        width: 1rem;
+        margin-top: 17px; }
+        .compare-sim .table-compare tfoot tr td .item-compare .custom-control-label {
+          cursor: pointer; }
+          .compare-sim .table-compare tfoot tr td .item-compare .custom-control-label:before {
+            background: #b8b8b8;
+            height: 19px;
+            width: 19px; }
+          .compare-sim .table-compare tfoot tr td .item-compare .custom-control-label:after {
+            display: block;
+            background-image: none; }
+        .compare-sim .table-compare tfoot tr td .item-compare .custom-control-input:checked ~ .custom-control-label::before {
+          background-color: #6bcd0a;
+          box-shadow: none;
+          height: 19px;
+          width: 19px;
+          background-image: url(../images/selected.png);
+          background-repeat: no-repeat;
+          background-position: center; }
+
+.table th, .table td {
+  padding: 12px;
+  vertical-align: top;
+  border-top: none; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #3478f7;
+  padding: 8px 30px 30px 30px; }
+
+.no-gutters {
+  margin-right: 0px;
+  margin-left: 15px; }
+
+.table thead th {
+  border-bottom: none; }
+
+.no-gutters .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #3478f7;
+  background-image: url(../images/selected.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+.no-gutters .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background: none; }
+
+/*# sourceMappingURL=compare-sim.css.map */

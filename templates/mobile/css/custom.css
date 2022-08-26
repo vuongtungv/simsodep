@@ -1,0 +1,353 @@
+  .name-header-ls {
+    font-size: 34px;
+    font-family: Roboto-Regular;
+    padding: 30px;
+    text-transform: uppercase;
+    /*border-bottom: 2px solid #e0e0e0;*/
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  .cart-moblie-show-header{
+  	display: none;
+  }
+  /* The Modal (background) */
+ #msgModal {
+   display: none;
+  /* Hidden by default */
+   position: fixed;
+  /* Stay in place */
+   z-index: 99;
+  /* Sit on top */
+   padding-top: 200px;
+  /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%;
+  /* Full width */
+   height: 100%;
+  /* Full height */
+   overflow: auto;
+  /* Enable scroll if needed */
+   background-color: #000;
+  /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  /* Modal Content */
+  /* Add Animation */
+  /* The Close Button */
+}
+ #msgModal .msgmodal-content {
+   position: relative;
+   background-color: #fefefe;
+   margin: auto;
+   padding: 0;
+   border: 1px solid #888;
+   border-radius: 4px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -webkit-animation-name: animatetop;
+   -webkit-animation-duration: 0.4s;
+   animation-name: animatetop;
+   animation-duration: 0.4s;
+}
+ @media (min-width: 768px) {
+   #msgModal .msgmodal-content {
+     width: 500px;
+  }
+}
+ @media (max-width: 767px) {
+   #msgModal .msgmodal-content {
+     max-width: 100%;
+  }
+}
+ @-webkit-keyframes animatetop {
+   from {
+     top: -300px;
+     opacity: 0;
+  }
+   to {
+     top: 0;
+     opacity: 1;
+  }
+}
+ @keyframes animatetop {
+   from {
+     top: -300px;
+     opacity: 0;
+  }
+   to {
+     top: 0;
+     opacity: 1;
+  }
+}
+ #msgModal .close {
+   color: white;
+   float: right;
+   font-size: 36px;
+   font-weight: bold;
+}
+ #msgModal h5 {
+   font-weight: bold;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+ #msgModal .close:focus, #msgModal .close:hover {
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+ #msgModal .msgmodal-header {
+   padding: 2px 10px 2px 16px;
+   background-color: #116bb3;
+   line-height: 36px;
+   color: white;
+}
+ #msgModal .msgmodal-body {
+   padding: 15px 16px 30px;
+   line-height: 20px;
+   text-align: center;
+} 
+#msgModal .msgmodal-body p,#msgModal .msgmodal-body a{
+   font-size: 30px !important;
+   line-height: 40px !important;
+}
+ #msgModal .msgmodal-body .bt-modals {
+   background-color: #e83e28;
+   margin-right: 10px;
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 20px;
+   text-transform: uppercase;
+   border-radius: 3px;
+   display: inline-block;
+   margin-top: 20px;
+}
+ #msgModal .msgmodal-footer {
+   padding: 2px 16px;
+   background-color: #5cb85c;
+   color: white;
+}
+ #msgModal svg {
+   width: 100px;
+   display: block;
+   margin: 40px auto;
+}
+ #msgModal .path {
+   stroke-dasharray: 1000;
+   stroke-dashoffset: 0;
+}
+ #msgModal .path.circle {
+   -webkit-animation: dash 0.9s ease-in-out;
+   animation: dash 0.9s ease-in-out;
+}
+ #msgModal .path.line {
+   stroke-dashoffset: 1000;
+   -webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+   animation: dash 0.9s 0.35s ease-in-out forwards;
+}
+ #msgModal .path.check {
+   stroke-dashoffset: -100;
+   -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+   animation: dash-check 0.9s 0.35s ease-in-out forwards;
+}
+ .alert {
+   padding: 10px;
+   background-color: #f44336;
+   color: white;
+   display: block;
+   opacity: 1;
+   transition: opacity 0.6s;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   position: fixed;
+   z-index: 999999;
+   width: 300px;
+   top: 0;
+   right: 10px;
+   border-radius: 4px;
+   -ms-transform: translateY(-20px) scaleY(0.9);
+   -webkit-transform: translateY(-20px) scaleY(0.9);
+   transform: translateY(-20px) scaleY(0.9);
+   -webkit-transition: transform cubic-bezier(0.35, 1.65, 0.65, 1.1) 250ms, opacity ease 250ms;
+   transition: transform cubic-bezier(0.35, 1.65, 0.65, 1.1) 250ms, opacity ease 250ms;
+}
+ .alert.success {
+   background-color: #4caf50;
+}
+ .alert.info {
+   background-color: #2196f3;
+}
+ .alert.warning {
+   background-color: #ff9800;
+}
+ .closebtn {
+   margin-left: 15px;
+   color: white;
+   font-weight: bold;
+   float: right;
+   font-size: 22px;
+   line-height: 20px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+ .closebtn:hover {
+   color: black;
+}
+ #dialogoverlay {
+   display: none;
+   opacity: 0.8;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.3);
+   width: 100%;
+   z-index: 9999;
+}
+ #dialogbox {
+   display: none;
+   position: fixed;
+   border: 5px solid #ccc;
+   background-color: #fff;
+   border-radius: 5px;
+   width: 320px;
+   z-index: 9999;
+   font-size: 16px;
+}
+ #dialogbox > div > #dialogboxhead {
+   background: #116bb3;
+   font-size: 19px;
+   padding: 10px;
+   color: #fff;
+}
+ #dialogbox > div > #dialogboxbody {
+   padding: 25px 10px;
+}
+ #dialogbox > div > #dialogboxfoot {
+   padding: 10px;
+   text-align: center;
+}
+ #dialogbox > div > #dialogboxfoot > button {
+   color: #fff;
+   background-color: #116bb3;
+   border-radius: 3px;
+   padding: 5px 25px;
+}
+ .preloader {
+   background-color: #fff;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   margin-top: 0;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   overflow: hidden !important;
+   right: 0;
+   z-index: 999999;
+   text-align: center;
+}
+ .loader {
+   border: 16px solid #f3f3f3;
+   border-radius: 50%;
+   border-top: 16px solid #2196f3;
+   width: 120px;
+   margin: 200px auto;
+   height: 120px;
+   -webkit-animation: spin 2s linear infinite;
+   animation: spin 2s linear infinite;
+}
+ @-webkit-keyframes spin {
+   0% {
+     -webkit-transform: rotate(0deg);
+  }
+   100% {
+     -webkit-transform: rotate(360deg);
+  }
+}
+ @keyframes spin {
+   0% {
+     transform: rotate(0deg);
+  }
+   100% {
+     transform: rotate(360deg);
+  }
+}
+ .animated {
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   z-index: 100;
+}
+ @keyframes fadeInUp {
+   0% {
+     opacity: 0;
+     -webkit-transform: translateY(20px);
+     -ms-transform: translateY(20px);
+     transform: translateY(20px);
+  }
+   100% {
+     opacity: 1;
+     -webkit-transform: translateY(0);
+     -ms-transform: translateY(0);
+     transform: translateY(0);
+  }
+}
+ .fadeInUp {
+   -webkit-animation-name: fadeInUp;
+   animation-name: fadeInUp;
+}
+ @keyframes fadeInRight {
+   0% {
+     opacity: 0;
+     -webkit-transform: translateX(40px);
+     -ms-transform: translateX(40px);
+     transform: translateX(40px);
+  }
+   100% {
+     opacity: 1;
+     -webkit-transform: translateX(0);
+     -ms-transform: translateX(0);
+     transform: translateX(0);
+  }
+}
+ .fadeInRight {
+   -webkit-animation-name: fadeInRight;
+   animation-name: fadeInRight;
+}
+ @-webkit-keyframes dash {
+   0% {
+     stroke-dashoffset: 1000;
+  }
+   100% {
+     stroke-dashoffset: 0;
+  }
+}
+ @keyframes dash {
+   0% {
+     stroke-dashoffset: 1000;
+  }
+   100% {
+     stroke-dashoffset: 0;
+  }
+}
+ @-webkit-keyframes dash-check {
+   0% {
+     stroke-dashoffset: -100;
+  }
+   100% {
+     stroke-dashoffset: 900;
+  }
+}
+ @keyframes dash-check {
+   0% {
+     stroke-dashoffset: -100;
+  }
+   100% {
+     stroke-dashoffset: 900;
+  }
+}
+
+  .company-contact .contact-banner .banner{
+      width: 620px !important;
+  }

@@ -1,0 +1,20 @@
+array(1) {
+  ["0762340733"]=>
+  array(6) {
+    [0]=>
+    string(7) "1179429"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    object(stdClass)#42 (1) {
+      ["id"]=>
+      string(7) "1179429"
+    }
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(13) "Sim giá rẻ"
+    [5]=>
+    string(2) "35"
+  }
+}

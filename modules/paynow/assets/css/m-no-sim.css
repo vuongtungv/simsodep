@@ -1,0 +1,59 @@
+.m-no-sim-fuild {
+  background: #e0e0e0; }
+  .m-no-sim-fuild .no-sim {
+    background: #FFFFFF;
+    margin-bottom: 35px; }
+    .m-no-sim-fuild .no-sim .title {
+      font-family: Roboto-Medium;
+      text-transform: uppercase;
+      font-size: 40px;
+      line-height: 55px;
+      color: #e74c3c;
+      padding: 45px 60px;
+      border-bottom: 2px solid #e0e0e0; }
+    .m-no-sim-fuild .no-sim .des-no-sim {
+      padding: 45px 60px 80px 60px; }
+      .m-no-sim-fuild .no-sim .des-no-sim p {
+        font-size: 36px;
+        font-family: Roboto-Regular; }
+      .m-no-sim-fuild .no-sim .des-no-sim .tutorial {
+        margin-top: 35px; }
+        .m-no-sim-fuild .no-sim .des-no-sim .tutorial h4 {
+          font-family: Roboto-Medium;
+          font-size: 36px; }
+        .m-no-sim-fuild .no-sim .des-no-sim .tutorial p {
+          font-size: 36px;
+          font-family: Roboto-Regular; }
+          .m-no-sim-fuild .no-sim .des-no-sim .tutorial p a, .m-no-sim-fuild .no-sim .des-no-sim .tutorial p span {
+            color: #f73434;
+            font-weight: bold; }
+  .m-no-sim-fuild .ex-no-sim {
+    background: #3478f7; }
+    .m-no-sim-fuild .ex-no-sim .p-no-sim {
+      font-family: Roboto-Medium;
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 0px;
+      text-transform: uppercase;
+      color: #fffffF;
+      height: 108px;
+      line-height: 108px; }
+  .m-no-sim-fuild .bmd {
+    margin: 0px auto;
+    text-align: center;
+    padding: 80px 60px;
+    background: #fffffF; }
+  .m-no-sim-fuild .m_sosim {
+    background: #3478f7;
+    border-radius: 5px;
+    height: 108px;
+    line-height: 108px;
+    font-size: 44px;
+    font-family: Roboto-Medium;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%; }
+
+/*# sourceMappingURL=m-no-sim.css.map */

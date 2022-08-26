@@ -1,0 +1,111 @@
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>65</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Undefined variable: number in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>71</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Undefined variable: string in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>72</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>73</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>74</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>75</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>76</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>77</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>78</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>79</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>80</b><br />
+{"total":null,"string":null,"telephone":null,"email":null,"address":null,"name":null,"discount":null,"position":null,"position_name":null,"id":null}

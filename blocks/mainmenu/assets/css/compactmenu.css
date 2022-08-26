@@ -1,0 +1,14 @@
+.menu-top .item {
+    float: left;
+     margin-right: 6px;
+}
+.item-detail{
+    font-family: "MyriadPro-Regular";
+    color: #555555;
+    font-size: 13px;
+}
+
+.menu-top .item2, .menu-top .item3{
+    padding: 0px 0px 0px 9px;
+    background: url('../images/icon-menu.png') no-repeat left 9px;
+}

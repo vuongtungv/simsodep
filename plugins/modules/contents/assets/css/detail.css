@@ -1,0 +1,26 @@
+.contents h1 {
+    line-height: 28px;
+    font-size: 30px;
+    color: #b21413;
+    font-weight: normal;
+    border-bottom: 1px solid #bbbbbb;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contents .summary, .contents  .description p {
+    padding: 10px 0px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #333333;
+}
+.contents .description img{
+    max-width: 100% !important;
+}
+.contents .description{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #bbbbbb;
+}
+.news-sours {
+    font-family: "MyriadPro-Bold";
+}

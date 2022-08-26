@@ -1,0 +1,67 @@
+
+.news_cat{
+	.news-cat-title{
+		color: #b21413;
+		font-size: 16px;
+		font-family: "MyriadPro-Bold";
+		line-height: 16px;
+		text-transform: uppercase;
+		padding: 8px 0px;
+		margin: 5px 0px 20px;
+		border-bottom: 3px solid #b91517;
+		span{
+			padding-right: 18px;
+			background: url('../images/icon-title.png') no-repeat right center;
+		}
+	}
+	
+	.newslist{
+
+		.newslist-item{
+			padding: 8px;
+			margin-bottom: 16px;
+			.img_news{
+				display: block;
+			    border: 1px solid #e1e1e1;
+			}
+			.newslist-item-content{
+				padding: 0px 8px;
+				h3{
+					font-size: 15px;
+				    line-height: 16px;
+				    font-weight: normal;
+				    text-transform: uppercase;
+				    margin-bottom: 6px;
+				    a{
+				    	color: #3a4c8c;
+				    }
+				}
+				.time-news{
+					color: #999999;
+				}
+				p{
+					font-size: 14px;
+					line-height: 18px;
+					padding: 8px 0px;
+				}
+			}
+			.item-info{
+				padding: 2px 0px;
+				// overflow: hidden;
+				// white-space: nowrap;
+			 //    text-overflow: ellipsis;
+				span{
+
+					font-family: 'MyriadPro-Bold';
+					color: #333333;
+				}
+				a{
+					color: #3a4c8c;
+				}
+			}
+			.item-info-email{
+				color: #b21413;
+			}
+		}
+	} 
+}

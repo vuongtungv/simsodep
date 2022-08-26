@@ -1,0 +1,50 @@
+.col-content .activated span a ,.col-content .level0:hover span a{
+    color: #ffdf61 !important;
+}
+.leftmenu .level0 span a{
+    font-family: "timesbd";
+    color: #e3cdaa;
+}
+.leftmenu {
+    width: 170px;
+}
+.col-content .level0 span a{
+    font-size: 14px;
+}
+.col-content li.level0 {
+    margin-bottom: 8px;
+}
+
+.col-content{
+    text-align: right;
+}
+.col-contact {
+    padding-left: 50px;
+}
+.col-contact .level0 span a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffdf61 !important;
+}
+
+.gift-menu .level0  a {
+    color: #ffdf61 !important;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.gift-menu {
+    margin-left: 32px;
+    padding: 1px 0px 12px 18px;
+    cursor: pointer;
+    background: url("../images/icon-menu-left.png") no-repeat left 0px;
+}
+@media screen and (max-width:900px){
+	.bottommenu .level0 {
+	    width: 50%;
+	}
+}
+@media screen and (max-width:500px){
+	.bottommenu .level0 {
+	    width: 100%;
+	}
+}

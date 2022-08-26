@@ -1,0 +1,29 @@
+
+.hitstat {
+    float: right;
+    width: 185px;
+}
+.hitstat li, .statistics > span {
+    float: right;
+}
+.hitstat li strong {
+    color: #5a5a5a;
+    font-weight: normal;
+}
+.statistics > a {
+    float: left;
+    margin-left: 75px;
+}
+.statistics > span {
+    color: #1984e4;
+    padding: 6px 0;
+}
+.copyright a {
+    color: #1984e4;
+    float: right;
+    font-size: 11px;
+    padding: 5px 0;
+}
+.copyright a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.shopcart_simple{
+    background: transparent url("../images/shopcart.png") no-repeat scroll 7px 12px;
+    border-left: 1px solid #b9e7f0;
+    float: left;
+    line-height: 26px;
+    padding: 8px 10px 4px 34px;
+}
+.shopcart_simple a{
+}
+.buy_title span{
+}
+.buy_img font{
+}

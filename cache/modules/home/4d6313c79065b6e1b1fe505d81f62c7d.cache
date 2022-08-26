@@ -1,0 +1,19 @@
+array(1) {
+  ["0762340526"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179403"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340526"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "35"
+    [6]=>
+    string(1) "5"
+  }
+}

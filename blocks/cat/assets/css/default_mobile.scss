@@ -1,0 +1,18 @@
+.li-find-sim{
+  ul.level_0{
+    >li{
+      padding-bottom: 0px !important;
+    }
+    ul.level_1{
+      >li{
+        padding-bottom: 68px !important;
+        &:last-child{
+          padding-bottom: 30px !important;
+        }
+      }
+    }  
+  }
+  .scroll-y.mCustomScrollbar._mCS_1{
+    height: 700px !important;
+  }
+}

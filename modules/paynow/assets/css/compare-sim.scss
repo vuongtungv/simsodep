@@ -1,0 +1,231 @@
+.compare-sim{
+  background: #ffffff;
+  padding: 16px 25px 0px 25px;
+  p{font-family: Text-regular;font-size: 16px;}
+  .title-hea{
+    margin-bottom: 5px;
+    font-family: Text-semibold;
+  }
+  .show-sim-compare{
+    border-bottom: 1px solid #e8e8e9;
+    border-top: 1px solid #e8e8e9;
+    padding: 25px 0px 12px 0px;
+
+    .item-compare{
+      margin-right: 0px;
+      padding-left: 25px;
+      margin-bottom: 15px;
+      p{
+        margin-bottom: 0px;
+      }
+      .phone{
+        font-family: Text-semibold;
+        font-size: 15px;
+      }
+      .supplier, .price{
+        font-family: Text-regular;
+        font-size: 14px;
+        color: #6e6e6e;
+      }
+      .custom-control-label{
+        cursor: pointer;
+        &:before{
+          background: #e4e4e4;
+          height: 18px;
+          width: 18px;
+          margin: -2px 0px 0px -2px;
+        }
+
+      }
+    }
+  }
+  .title-box{
+    border-bottom: 1px solid #e8e8e9;
+    text-align: center;
+    .box-head{
+      cursor: pointer;
+      padding-right: 46px;
+      line-height: 44px;
+      width: 25%;
+      border: 1px solid #aeaeae;
+      border-radius: 25px;
+      font-size: 16px;
+      background: #ffffff;
+      font-family: Text-regular;
+      position: relative;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      margin-top: 15px;
+
+      &:after{
+        content: "";
+        background: url("/templates/default/images/img_svg/so_sanh_sim/sosanhsim_icon.svg");
+        width: 36px;
+        height: 19px;
+        top: 9px;
+        right: 40px;
+        position: absolute;
+      }
+      &:hover{background-color: #f3f3f3; transition: 0.1s;
+        &:after{
+          background: url("/templates/default/images/img_svg/so_sanh_sim/sosanhsim_icon_hover.svg");
+        }
+      }
+    }
+  }
+  .table-compare{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-family: Text-regular;
+    thead{
+      tr{
+        background: #3478f7;
+        th{
+          color: #ffffff;
+          border-top: none;
+          text-align: center;
+          font-weight: normal;
+          &:last-child{border-right: 1px solid #3478f7;}
+          p{
+            margin-bottom: 0px;
+            border-radius: 25px;
+            height: 30px;
+            background: #0253ea;
+            width: 100%;
+            padding-top: 5px;
+            font-family: Text-semibold;
+          }
+        }
+        th:nth-child(1){
+          p{
+            background: none;
+          }
+        }
+      }
+    }
+    tbody{
+      color: #333333;
+      tr{
+        th{
+          p{
+            margin-bottom: 0px;
+            width: 65%;
+            text-align: right;
+            font-family: Text-semibold;
+            font-weight: normal;
+
+          }
+        }
+        th,td{
+          border-top: 0px;
+          border-right: 1px solid #e8e8e9;
+          border-left: 1px solid #e8e8e9;
+        }
+        td{
+          padding-left: 50px;
+          font-size: 15px;
+
+        }
+      }
+      border-bottom: 1px solid #e8e8e9;
+    }
+    tfoot{
+      text-align: center;
+      line-height: 56px;
+      tr{
+        td:nth-child(1){
+          button{
+            border-radius: 30px;
+            height: 33px;
+            padding-top: 7px;
+          }
+        }
+        td .item-compare{
+          margin: 0px;
+          padding: 0px;
+          width: 1rem;
+          margin-top: 5px;
+          .custom-control-label{
+            cursor: pointer;
+            &:before{
+              background: #b8b8b8;
+              height: 19px;
+              width: 19px;
+            }
+            &:after{
+              display: block;
+              background-image: none;
+            }
+          }
+          .custom-control-input:checked ~ .custom-control-label::before {
+            background-color: #6bcd0a;
+            box-shadow: none;
+            height: 19px;
+            width: 19px;
+            background-image: url("../../../../templates/default/images/img_svg/so_sanh_sim/check.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          //.custom-control-input:checked ~ .custom-control-label::after {
+          //  background-color: #6bcd0a;
+          //  box-shadow: none;
+          //}
+        }
+      }
+    }
+  }
+}
+
+.table th{
+  padding: 12px;
+  vertical-align: top;
+  border-top: none;
+}
+
+.table-compare{
+  th{
+    padding: 9.5px 12px;
+  }
+  td{
+    height: 42px;
+    line-height: 42px;
+    padding: 0px;
+  }
+  tfoot td{
+    padding-top: 16px;
+    padding-bottom: 28px;
+  }
+}
+#paynow {
+  color: #fff;
+  background-color: #3478f7;
+  padding: 7px 30px 30px 30px;
+  &:hover{
+    background-color: #949494;
+    transition: 0.1s;
+  }
+}
+
+.no-gutters {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.table thead th {
+  border-bottom: none;
+}
+.no-gutters .custom-checkbox .custom-control-input {
+
+  &:checked {
+    ~ .custom-control-label::before {
+      background-color: #3478f7;
+      background-image: url("../../../../templates/default/images/img_svg/so_sanh_sim/check.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+    ~ .custom-control-label::after {
+      background: none;
+    }
+  }
+}

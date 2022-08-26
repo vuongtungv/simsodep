@@ -1,0 +1,206 @@
+array(12) {
+  ["0762340526"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179403"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340526"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "35"
+    [6]=>
+    string(1) "5"
+  }
+  ["0762340530"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179404"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340530"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(13) "Sim giá rẻ"
+    [5]=>
+    string(2) "30"
+    [6]=>
+    string(1) "0"
+  }
+  ["0762340541"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179405"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340541"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "32"
+    [6]=>
+    string(1) "2"
+  }
+  ["0762340543"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179406"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340543"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "34"
+    [6]=>
+    string(1) "4"
+  }
+  ["0762340578"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179408"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340578"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(16) "Sim tiến đơn"
+    [5]=>
+    string(2) "42"
+    [6]=>
+    string(1) "2"
+  }
+  ["0762340569"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179407"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340569"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(16) "Sim tiến đơn"
+    [5]=>
+    string(2) "42"
+    [6]=>
+    string(1) "2"
+  }
+  ["0762340583"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179409"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340583"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "38"
+    [6]=>
+    string(1) "8"
+  }
+  ["0762340522"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179402"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340522"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "31"
+    [6]=>
+    string(1) "1"
+  }
+  ["0762340590"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179410"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340590"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "36"
+    [6]=>
+    string(1) "6"
+  }
+  ["0762340591"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179411"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340591"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "37"
+    [6]=>
+    string(1) "7"
+  }
+  ["0762340520"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179401"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340520"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "29"
+    [6]=>
+    string(1) "9"
+  }
+  ["0762340592"]=>
+  array(7) {
+    [0]=>
+    string(7) "1179412"
+    [1]=>
+    string(6) "450000"
+    [2]=>
+    string(10) "0762340592"
+    [3]=>
+    string(8) "Mobifone"
+    [4]=>
+    string(17) "Sim tiến giữa"
+    [5]=>
+    string(2) "38"
+    [6]=>
+    string(1) "8"
+  }
+}

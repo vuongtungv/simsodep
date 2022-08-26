@@ -1,0 +1,77 @@
+.icon_add-cart:hover {
+  text-decoration: none; }
+
+.detail-regis ul {
+  list-style: none;
+  padding-left: 0px; }
+
+.icon_drop_x {
+  top: 3px;
+  position: absolute;
+  right: 0px;
+  width: 14px;
+  height: 9px; }
+
+.click-regis-now {
+  margin-top: 20px;
+  border: none;
+  background-color: #3478f7;
+  border-radius: 25px;
+  color: #ffff;
+  width: 144px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0px; }
+  .click-regis-now:hover {
+    background: #949494; }
+
+.success-click {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  display: none; }
+  .success-click .show-send-mess {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background: #ffffff;
+    color: #333333;
+    padding: 40px 30px; }
+    .success-click .show-send-mess p {
+      margin-bottom: 0px; }
+      .success-click .show-send-mess p span {
+        font-family: Text-bold; }
+    .success-click .show-send-mess .close-pup {
+      position: absolute;
+      top: 15px;
+      right: 15px; }
+
+.find-date .option {
+  margin: 0 auto;
+  height: 30px;
+  width: 30px; }
+  .find-date .option:first-child {
+    margin-top: 0px; }
+  .find-date .option:hover {
+    background: #f2f2f2 !important;
+    border-radius: 25px !important;
+    color: #000000 !important;
+    font-family: Text-semibold; }
+.find-date .select-year .options, .find-date .select-year-2 .options {
+  width: 76px !important; }
+  .find-date .select-year .options .option, .find-date .select-year-2 .options .option {
+    margin: 0 auto;
+    width: 40px !important;
+    height: 40px;
+    padding-top: 10px !important; }
+
+.sim-combine-destiny .type-number, .sim-combine-destiny .find-date {
+  display: none !important; }
+
+/*# sourceMappingURL=default.css.map */

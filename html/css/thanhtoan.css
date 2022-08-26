@@ -1,0 +1,179 @@
+* {
+  font-weight: normal; }
+
+.show-cart-top {
+  background: #ffffff;
+  padding: 30px 30px 20px; }
+  .show-cart-top .box-code .code-customer {
+    width: 60%;
+    border-radius: 25px;
+    background: #e3e3e3;
+    float: left;
+    margin-right: 10px;
+    height: 33px;
+    text-align: center; }
+  .show-cart-top .box-code .enter-code {
+    border-radius: 25px;
+    padding: 7px 16px 5px 15px;
+    height: 36px; }
+  .show-cart-top .policy-cart span {
+    font-family: Text-semibold;
+    font-size: 16px; }
+  .show-cart-top .policy-cart p {
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 3px;
+    font-size: 14.5px;
+    font-family: Text-semibold-italic;
+    line-height: 23px; }
+  .show-cart-top .table-cart table thead {
+    background: #3478f7;
+    color: white;
+    font-family: Text-semibold;
+    font-size: 15px; }
+    .show-cart-top .table-cart table thead th {
+      border: none;
+      padding: 13px 0px 13px 0px;
+      border-bottom: 1px solid #3478f7; }
+      .show-cart-top .table-cart table thead th span {
+        background: #0253ea;
+        padding: 8px 30px;
+        border-radius: 25px; }
+  .show-cart-top .table-cart table tbody {
+    border-bottom: 1px solid #d8d7d7; }
+    .show-cart-top .table-cart table tbody tr:hover td:nth-child(1) span {
+      color: #333333; }
+    .show-cart-top .table-cart table tbody tr:hover td:nth-child(2) {
+      color: #3478f7; }
+    .show-cart-top .table-cart table tbody td:nth-child(1) span {
+      color: #dee2e6;
+      cursor: pointer; }
+    .show-cart-top .table-cart table tbody td:nth-child(5) {
+      padding-left: 35px; }
+  .show-cart-top .table-cart .row-line p {
+    display: inline-block;
+    font-family: Text-semibold;
+    margin: 5px 0px 0px 0px; }
+  .show-cart-top .table-cart .row-line .head {
+    width: 40%;
+    text-align: right;
+    font-family: text-regular; }
+  .show-cart-top .table-cart .row-line .text {
+    text-align: left;
+    padding-left: 10px;
+    width: 59%; }
+
+.form-order {
+  background: #ffffff;
+  margin-top: 12px;
+  padding: 35px 30px; }
+  .form-order .header-top {
+    display: flex; }
+    .form-order .header-top .title-top {
+      width: 35%;
+      margin-left: -45px; }
+    .form-order .header-top span {
+      margin-left: 18px;
+      padding-top: 7px;
+      text-transform: uppercase;
+      font-family: Text-regular; }
+      .form-order .header-top span img {
+        margin-right: 15px; }
+  .form-order .form-default .item-left, .form-order .form-default .item-right {
+    padding: 0px 20px; }
+  .form-order .form-default .item-left .select-paymethod {
+    width: 100%; }
+    .form-order .form-default .item-left .select-paymethod .options {
+      font-size: 16px;
+      font-weight: normal;
+      opacity: 1;
+      font-family: text-regular;
+      width: 91.5%;
+      margin-top: -7px;
+      margin-bottom: 18px;
+      right: 20px;
+      text-rendering: initial;
+      cursor: pointer; }
+      .form-order .form-default .item-left .select-paymethod .options .option {
+        padding-left: 25px; }
+  .form-order .form-default .item-left .choose-pay {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding: 11px 10px 9px 21px;
+    position: relative;
+    font-size: 16px;
+    font-family: text-regular; }
+    .form-order .form-default .item-left .choose-pay .option:after {
+      top: -8px;
+      right: 13px; }
+    .form-order .form-default .item-left .choose-pay:after {
+      content: "";
+      display: block;
+      color: #ffffff;
+      top: 15px;
+      right: 2px;
+      position: absolute;
+      background-position: right;
+      width: 27%;
+      padding: 7px 14px;
+      background-image: url(../images/arrowselect2.png);
+      background-repeat: no-repeat; }
+  .form-order .form-default .item-right {
+    font-family: Text-regular; }
+    .form-order .form-default .item-right .date-price, .form-order .form-default .item-right .infor-customer, .form-order .form-default .item-right .pay-method {
+      border-bottom: 1px solid #c4c4c4;
+      margin-bottom: 15px;
+      padding-bottom: 10px; }
+      .form-order .form-default .item-right .date-price p, .form-order .form-default .item-right .infor-customer p, .form-order .form-default .item-right .pay-method p {
+        margin-bottom: 5px; }
+        .form-order .form-default .item-right .date-price p:nth-child(2), .form-order .form-default .item-right .infor-customer p:nth-child(2), .form-order .form-default .item-right .pay-method p:nth-child(2) {
+          text-transform: uppercase; }
+        .form-order .form-default .item-right .date-price p span, .form-order .form-default .item-right .infor-customer p span, .form-order .form-default .item-right .pay-method p span {
+          font-family: Text-semibold-Italic;
+          text-transform: none; }
+    .form-order .form-default .item-right .infor-customer p:nth-child(2), .form-order .form-default .item-right .pay-method p:nth-child(2) {
+      text-transform: none; }
+    .form-order .form-default .item-right .pay-method {
+      border-bottom: none; }
+      .form-order .form-default .item-right .pay-method p:nth-child(2) {
+        text-align: justify;
+        font-size: 15px; }
+  .form-order .form-default .btn-send {
+    margin-top: 0px; }
+
+.col-md-9 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25% !important; }
+
+.table-cart .table th, .table td {
+  padding: 8px;
+  vertical-align: top;
+  padding: 18px 0px 15px 19px;
+  font-family: Text-semibold;
+  border-top: 1px solid #dee2e6; }
+  .table-cart .table th i:hover:before, .table td i:hover:before {
+    background-image: url(../images/pay_del_red.png);
+    transition: .2s; }
+  .table-cart .table th i::before, .table td i::before {
+    content: "";
+    background-image: url(../images/pay_del.png);
+    display: block;
+    position: relative;
+    width: 9px;
+    height: 9px;
+    top: -1px;
+    left: 0px; }
+
+.table-cart {
+  margin-top: 8px;
+  font-size: 15px; }
+  .table-cart .row-line {
+    font-size: 16px; }
+
+/*# sourceMappingURL=thanhtoan.css.map */

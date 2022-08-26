@@ -1,0 +1,72 @@
+.slideshow-slide_bottom {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding: 0px 20px;
+    .block_title{
+	    text-align: center;
+		font-size: 25px;
+		line-height: 25px;
+		color: #630f05;
+		text-transform: uppercase;
+		padding: 35px 0px;
+		position: relative;
+    }
+    .item{
+		text-align: center;
+	    border: 3px solid #ffffff;
+	}
+	.item-images {
+	    position: relative;
+	    display: block;
+	    h4.title-sile-bt{
+	    	position: absolute;
+	    	bottom: 0px;
+	    	left: 0px;
+	    	background-color: rgba(0, 0, 0, 0.52);
+	    	width: 100%;
+	    	white-space: nowrap;
+	    	overflow: hidden;
+	    	text-overflow: ellipsis;
+	    	font-size: 14px;
+	    	line-height: 36px;
+	    	color: #ffffff;
+	    	text-align: left;
+	    	padding: 0px 10px;
+	    }
+	}
+	.owl-theme {
+		.owl-controls{
+			margin-top: 0px;
+			.owl-buttons {
+				div{
+					color: #FFF;
+				    position: absolute;
+				    top: 0px;
+				    zoom: 1;
+				    height: 100%;
+				    width: 40px;
+				    text-indent: -99999px;
+				    display: block;
+				    font-size: 12px;
+				    padding: 0px;
+				    margin: 0px;
+				    -webkit-border-radius: 30px;
+				    -moz-border-radius: 30px;
+				    border-radius: 30px;
+				    background: url('../images/next-pre-group-small.png') no-repeat !important;
+				    filter: Alpha(Opacity=50);
+				    opacity: 0.5;
+				}
+				.owl-prev{
+			        left: 10px;
+			        background-position: 4px 50% !important;
+			    }
+			    .owl-next{
+			        right: 10px;
+			        background-position: -44px 50% !important;
+			    }
+			}
+		}
+	}
+}

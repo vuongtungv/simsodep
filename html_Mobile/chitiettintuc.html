@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi tiết tin tức</title>
+    <meta name="viewport" content="user-scalable=0"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/chitiettintuc.css"/>
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="scss/font-awesome/css/font-awesome.css"/>
+    <!-- Bootstrap js -->
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/templates.js" type="text/javascript"></script>
+    <script src="js/link_searchFull.js" type="text/javascript"></script>
+    <script src="js/js_scrollBar.js" type="text/javascript"></script>
+
+    <!-- custom scrollbar stylesheet -->
+    <link rel="stylesheet" href="js/jquery.mCustomScrollbar.css">
+    <script src="js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!--Menu top-->
+<nav class="menu-top">
+    <div class="icon_back" style="display: none;">
+        <a href="index.html"><span><i class="fa fa-angle-left" aria-hidden="true"></i></span></a>
+    </div>
+    <div class="menu-icon">
+        <img src="images/icon_show_menu.png" alt="" id="btn-menu">
+        <div class="dropdown-menu" id="show-menu">
+            <ul>
+                <li class="has-child" id="heading1">
+                    <a href="#">Sim theo nhà mạng</a>
+                    <button class="icon-down" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                    <div id="collapse1" class="collapse level2" aria-labelledby="heading1" data-parent="#accordion">
+                        <ul>
+                            <li class="active"><a href="#">Viettel</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Vinaphone</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-child" id="heading2">
+                    <a href="#">Tìm nhanh theo sim</a>
+                    <button class="icon-down" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </button>
+                    <div id="collapse2" class="collapse level2" aria-labelledby="heading1" data-parent="#accordion">
+                        <div class="scroll-y">
+                            <ul>
+                                <li><a href="#">Sim Lục Quý</a></li>
+                                <li><a href="#">Sim Ngũ Quý</a></li>
+                                <li><a href="#">Sim Tứ Quý</a></li>
+                                <li><a href="#">Sim Tam Hoa</a></li>
+                                <li><a href="#">Sim Tam Hoa Kép</a></li>
+                                <li><a href="#">Sim Taxi 2</a></li>
+                                <li><a href="#">Sim Taxi 3</a></li>
+                                <li><a href="#">Sim Taxi 4</a></li>
+                                <li><a href="#">Sim Phát Lộc</a></li>
+                                <li><a href="#">Sim Thần Tài</a></li>
+                                <li><a href="#">Sim Ông Địa</a></li>
+                                <li><a href="#">Sim Số Lặp</a></li>
+                                <li><a href="#">Sim Số Kép</a></li>
+                                <li><a href="#">Sim Số Gánh</a></li>
+                                <li><a href="#">Sim Gánh Đảo</a></li>
+                                <li><a href="#">Sim Soi Gương</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Phong thủy</a></li>
+                <li><a href="#">Ký gửi sim</a></li>
+                <li class="has-child" id="heading3">
+                    <a href="#">Tìm sim theo yêu cầu</a>
+                    <button class="icon-down" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                    <div id="collapse3" class="collapse level2" aria-labelledby="heading3" data-parent="#accordion">
+                        <ul>
+                            <li><a href="#">Viettel</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Vinaphone</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Hướng dẫn</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <div class="child-2">
+                <a href="index.html"><img src="images/logo_menu.png" alt=""></a>
+                <ul>
+                    <li class="icon_email"><p class="title">Simdeptructuyen@gmail.com</p></li>
+                    <li class="icon_phone">
+                        <p class="title">Bộ Phận Chăm Sóc Khách Hàng</p>
+                        <p class="detail">0984 747 747 - 0937 486 486  - 0911 486 486</p>
+                    </li>
+                    <li class="icon_clock">
+                        <p class="title">Giờ làm việc :</p>
+                        <p class="detail">Thứ hai - thứ bảy (8h30 - 19h00), Chủ nhật (10h00 - 15h00) </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="logo-menu"><a href="index.html"><img src="images/logo_small_menu.png" alt=""></a></div>
+    <div class="search-icon">
+        <form action="" class="form-search">
+            <div class="input_search">
+                <input type="number" class="form-control tx-num" placeholder="Nhập số sim muốn tìm kiếm"><img src="images/icon_search.png" alt="">
+            </div>
+            <button type="button" class="form-control click_search">Tìm... <img src="images/icon_search.png" alt=""></button>
+        </form>
+        <div class="form-search-full" style="display: none;">
+            <form action="">
+                <div class="search_bg search_bg-lv1">
+                    <div class="SumoSelect">
+                        <!--Danh sách nhà mạng-->
+                        <input type="hidden" id="selected_1" name="select_1">
+                        <div class="select select_1">
+                            <!--<div class="value value_1">Nhà mạng</div>-->
+                            <!--<div class="select-dropdown-icon">-->
+                            <!--&lt;!&ndash;<i class="fa fa-chevron-down" aria-hidden="true"></i>&ndash;&gt;-->
+                            <!--</div>-->
+                            <!--<div class="options">-->
+                            <!--<div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>-->
+                            <!--<div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>-->
+                            <!--<div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Mobifone</div>-->
+                            <!--<div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile</div>-->
+                            <!--<div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>-->
+                            <!--<div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Sim cố định</div>-->
+                            <!--</div>-->
+                            <img src="images/icon_toggle.png" alt="" class="img-select">
+                            <select name=""  class="sel-ip">
+                                <option value="">Nhà mạng</option>
+                                <option value="">Viettel</option>
+                                <option value="">Vinaphone</option>
+                                <option value="">Mobifone</option>
+                                <option value="">Vietnamobile</option>
+                                <option value="">Gmobile</option>
+                            </select>
+                        </div>
+                        <!--Thể loại sim-->
+                        <input type="hidden" id="selected_2" name="select_2">
+                        <div class="select select_2">
+                            <!--<div class="value value_2">Thể loại</div>-->
+                            <!--<div class="select-dropdown-icon">-->
+                            <!--&lt;!&ndash;<i class="fa fa-chevron-down" aria-hidden="true"></i>&ndash;&gt;-->
+                            <!--</div>-->
+                            <!--<div class="options">-->
+                            <!--<div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Từ 0.5 - 1tr</div>-->
+                            <!--<div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Từ 1tr - 2tr</div>-->
+                            <!--<div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Từ 2tr - 5tr</div>-->
+                            <!--<div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Từ 5tr - 10tr</div>-->
+                            <!--<div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Từ 10tr - 20tr</div>-->
+                            <!--<div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Từ 20tr - 50tr</div>-->
+                            <!--<div class="option" value="7" data-placement="bottom" data-toggle="tooltip">Từ 50tr - 100tr-->
+                            <!--</div>-->
+                            <!--<div class="option" value="8" data-placement="bottom" data-toggle="tooltip">Từ 100tr - 200tr-->
+                            <!--</div>-->
+                            <!--<div class="option" value="9" data-placement="bottom" data-toggle="tooltip">Từ 200tr - 500tr-->
+                            <!--</div>-->
+                            <!--<div class="option" value="10" data-placement="bottom" data-toggle="tooltip">Trên 500tr</div>-->
+                            <!--</div>-->
+                            <img src="images/icon_toggle.png" alt="" class="img-select">
+                            <select name=""  class="sel-ip">
+                                <option>Thể loại</option>
+                                <option value="">Viettel</option>
+                                <option value="">Vinaphone</option>
+                                <option value="">Mobifone</option>
+                                <option value="">Vietnamobile</option>
+                                <option value="">Gmobile</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="search_bg search_bg-lv1">
+                    <div class="SumoSelect">
+                        <!--Thể loại sim-->
+                        <input type="hidden" id="selected_3" name="select_3">
+                        <div class="select select_3" style="width: 100%;">
+                            <!--<div class="value value_3">Thể loại sim</div>-->
+                            <!--<div class="select-dropdown-icon">-->
+                            <!--&lt;!&ndash;<i class="fa fa-chevron-down" aria-hidden="true"></i>&ndash;&gt;-->
+                            <!--</div>-->
+                            <!--<div class="options">-->
+                            <!--<div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>-->
+                            <!--<div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>-->
+                            <!--<div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Mobifone</div>-->
+                            <!--<div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile</div>-->
+                            <!--<div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>-->
+                            <!--<div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Sim cố định</div>-->
+                            <!--</div>-->
+                            <img src="images/icon_toggle.png" alt="" class="img-select">
+                            <select name=""  class="sel-ip">
+                                <option>Thể loại</option>
+                                <option value="">Viettel</option>
+                                <option value="">Vinaphone</option>
+                                <option value="">Mobifone</option>
+                                <option value="">Vietnamobile</option>
+                                <option value="">Gmobile</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="search_bg search_bg-lv2">
+                    <div class="form form-control input-price type-number">
+                        <span class="col-md-3 title-sim-type">Giá tiền:</span>
+                        <input class="form form-control price-show" type="number" id="price-show" name="price-show"
+                               placeholder="Từ...          -          Đến...          ">
+                    </div>
+                    <div class="form form-control type-number">
+                        <span class="title-sim-type">Giá:</span>
+                        <label class="checkcontainer">Tất cả
+                            <input type="radio" checked="checked" name="sim-type">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">Tăng
+                            <input type="radio" name="sim-type">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">Giảm
+                            <input type="radio" name="sim-type">
+                            <span class="radiobtn"></span>
+                        </label>
+                    </div>
+                    <div class="point-total">
+                        <input class="form form-control total-button-sim" type="number" id="total-button-sim"
+                               name="total-button-sim"
+                               placeholder="Tổng nút (1-10)">
+                        <input class="form form-control total-score-sim" type="number" id="total-score-sim" name="total-score-sim"
+                               placeholder="Tổng điểm (1-80)">
+                    </div>
+                    <div class="form form-control seri-sim type-number">
+                        <div class="row no-gutters">
+                            <div class="col-md-4 title-sim-type">Số không gồm:</div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" checked class="custom-control-input" id="InputPlace0">
+                                <label class="custom-control-label" for="InputPlace0">0</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace1">
+                                <label class="custom-control-label" for="InputPlace1">1</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" checked class="custom-control-input" id="InputPlace2">
+                                <label class="custom-control-label" for="InputPlace2">2</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace3">
+                                <label class="custom-control-label" for="InputPlace3">3</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace4">
+                                <label class="custom-control-label" for="InputPlace4">4</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace5">
+                                <label class="custom-control-label" for="InputPlace5">5</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" checked class="custom-control-input" id="InputPlace6">
+                                <label class="custom-control-label" for="InputPlace6">6</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace7">
+                                <label class="custom-control-label" for="InputPlace7">7</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace8">
+                                <label class="custom-control-label" for="InputPlace8">8</label>
+                            </div>
+                            <div class="col-md-2 custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="InputPlace9">
+                                <label class="custom-control-label" for="InputPlace9">9</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn_search">Tìm kiếm</button>
+            </form>
+            <p class="slogan span10">Trung tâm mua bán sim số đẹp giá rẻ, uy tín - chuyên nghiệp</p>
+        </div>
+    </div>
+    <div class="dots-icon">
+        <img src="images/icon_cham_top.png" alt="" id="btn-dots">
+        <div class="dots-show" id="dots-show" style="display: none;">
+            <div class="sale-sim">
+                <h1 class="title-hea">Khuyến mãi sim số đẹp</h1>
+                <div class="list-item">
+                    <div class="row">
+                        <div class="col-md-6 item">
+                            <div class="top">
+                                <p class="phone">0982 666 555</p>
+                                <p class="name-net">Vietnamoblie</p>
+                            </div>
+                            <div class="bottom">
+                                <p class="price-new">8.870.000 đ</p>
+                                <p class="price-old">10.430.000 đ</p>
+                                <img src="images/icon-detail-phone.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 item">
+                            <div class="top">
+                                <p class="phone">0982 666 555</p>
+                                <p class="name-net">Vietnamoblie</p>
+                            </div>
+                            <div class="bottom">
+                                <p class="price-new">8.870.000 đ</p>
+                                <p class="price-old">10.430.000 đ</p>
+                                <img src="images/icon-detail-phone.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 item">
+                            <div class="top">
+                                <p class="phone">0982 666 555</p>
+                                <p class="name-net">Vietnamoblie</p>
+                            </div>
+                            <div class="bottom">
+                                <p class="price-new">8.870.000 đ</p>
+                                <p class="price-old">10.430.000 đ</p>
+                                <img src="images/icon-detail-phone.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 item">
+                            <div class="top">
+                                <p class="phone">0982 666 555</p>
+                                <p class="name-net">Vietnamoblie</p>
+                            </div>
+                            <div class="bottom">
+                                <p class="price-new">8.870.000 đ</p>
+                                <p class="price-old">10.430.000 đ</p>
+                                <img src="images/icon-detail-phone.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#">Xem thêm <span>&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                </div>
+            </div>
+            <div class="find-date">
+                <h1 class="bg-title">Tìm theo ngày sinh</h1>
+                <form class="body">
+                    <div class="choose-date">
+                        <div class="SumoSelect">
+                            <!--Ngày-->
+                            <select class="select-date">
+                                <option value="0">Ngày</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                            </select>
+                            <!--Tháng-->
+                            <select class="select-date">
+                                <option value="0">Tháng</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <!--Năm-->
+                            <select class="select-date">
+                                <option value="0">Năm</option>
+                                <option value="1940">1940</option>
+                                <option value="1941">1941</option>
+                                <option value="1942">1942</option>
+                                <option value="1943">1943</option>
+                                <option value="1944">1944</option>
+                                <option value="1945">1945</option>
+                                <option value="1946">1946</option>
+                                <option value="1947">1947</option>
+                                <option value="1948">1948</option>
+                                <option value="1949">1949</option>
+                                <option value="1950">1950</option>
+                                <option value="1951">1951</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="list-date">
+                        <div class="bottom-num type-number">
+                            <label class="checkcontainer">Tất cả
+                                <input type="radio" checked="checked" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">10 số
+                                <input type="radio" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">11 số
+                                <input type="radio" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <a href="#">Tìm kiếm sim <span>&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                    </div>
+                </form>
+            </div>
+            <div class="find-date feng-shui">
+                <h1 class="bg-title">Tìm theo phong thủy</h1>
+                <form class="body">
+                    <div class="choose-total-point">
+                        <input type="text" class="form form-control" placeholder="Tổng nút (1-10)" />
+                        <input type="text" class="form form-control" placeholder="Tổng điểm (1-80)" />
+                    </div>
+                    <div class="list-date">
+                        <div class="bottom-num type-number">
+                            <label class="checkcontainer">Tất cả
+                                <input type="radio" checked="checked" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">10 số
+                                <input type="radio" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">11 số
+                                <input type="radio" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <a href="#">Tìm kiếm sim <span>&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                    </div>
+                </form>
+            </div>
+            <div class="find-date fine-fate">
+                <h1 class="bg-title">Tìm sim hợp mệnh</h1>
+                <form class="body">
+                    <div class="box-fate">
+                        <div class="pad-f">
+                            <ul>
+                                <li><a href="#">Sim hợp Mệnh Kim</a></li>
+                                <li class="active"><a href="#">Sim hợp Mệnh Mộc</a></li>
+                                <li><a href="#">Sim hợp Mệnh Thủy</a></li>
+                                <li><a href="#">Sim hợp Mệnh Hỏa</a></li>
+                                <li><a href="#">Sim hợp Mệnh Thổ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="choose-date">
+                        <div class="SumoSelect">
+                            <!--Ngày-->
+                            <select class="select-date">
+                                <option value="0">Ngày</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                            </select>
+                            <!--Tháng-->
+                            <select class="select-date">
+                                <option value="0">Tháng</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <!--Năm-->
+                            <select class="select-date">
+                                <option value="0">Năm</option>
+                                <option value="1940">1940</option>
+                                <option value="1941">1941</option>
+                                <option value="1942">1942</option>
+                                <option value="1943">1943</option>
+                                <option value="1944">1944</option>
+                                <option value="1945">1945</option>
+                                <option value="1946">1946</option>
+                                <option value="1947">1947</option>
+                                <option value="1948">1948</option>
+                                <option value="1949">1949</option>
+                                <option value="1950">1950</option>
+                                <option value="1951">1951</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="list-date">
+                        <div class="bottom-num type-number">
+                            <label class="checkcontainer">Nam
+                                <input type="radio" checked="checked" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">Nữ
+                                <input type="radio" name="sim-type">
+                                <span class="radiobtn"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <a href="#">Tìm kiếm sim <span>&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                    </div>
+                </form>
+            </div>
+            <div class="find-date regis-promotion">
+                <form class="body form-promo">
+                    <div class="choose-date">
+                        <h1 class="title-hea">Đăng ký khuyến mãi</h1>
+                        <select name="value-promotion" class="value-promotion">
+                            <option value="1">Vietnamobile</option>
+                            <option value="2">Vinaphone</option>
+                            <option value="3">Mobiphone</option>
+                            <option value="4">Viettel</option>
+                        </select>
+                        <!--<div class="SumoSelect">-->
+                        <!--<input type="hidden" id="regis-promotion" name="regis-promotion" value="1">-->
+                        <!--<div class="select select-promotion">-->
+                        <!--&lt;!&ndash;<div class="value value-promotion">Vietnamobile</div>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<div class="select-dropdown-icon">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<i class="fa fa-angle-down" aria-hidden="true"></i>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                        <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                    <div class="detail-promo">
+                        <img src="images/bg-03.png" alt="">
+                        <button class="btn btn-primary quick-re">Đăng ký ngay <span>&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                    </div>
+                </form>
+            </div>
+            <footer class="footer-bottom">
+                <h1 class="title-footer">Công Ty TNHH TM DV Viễn Thông An Phú Lộc MST: 0313891354</h1>
+                <div class="body">
+                    <p class="b1">Cửa Hàng Ủy Quyền Viettel - Gmobile</p>
+                    <p class="b1">Địa chỉ: 486 Nguyễn Kiệm, P.3, Q. Phú Nhuận, TP.HCM</p>
+                    <p class="b1">Cửa hàng Viettel: 176 Đồng Đen, P.14, Q. Tân Bình, TP.HCM</p>
+                    <p class="b1">CN Hà Nội: Ngõ 8A Vũ Thạnh, P. Ô Chợ Dừa, Q. Đống Đa, Hà Nội</p>
+                    <p class="b1">Hotline: 0984.747.747 - 0937.486.486 - 0911.486.486 - 0997.456.789</p>
+                    <p class="b1">Email: simdeptructuyen@gmail.com</p>
+                    <p class="b1">Website: <a href="#">Simsodepgiare.vn</a> - <a href="#">Simsodepgiare.com.vn</a></p>
+                </div>
+                <div id="accordion-menu">
+                    <div class="title-tog" id="headingOneMenu">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneMenu" aria-expanded="false" aria-controls="collapseOneMenu">
+                            Menu chính
+                        </button>
+                    </div>
+                    <div id="collapseOneMenu" class="collapse tog-show" aria-labelledby="headingOneMenu" data-parent="#accordion-menu">
+                        <ul>
+                            <li><a href="#">Sim theo nhà mạng</a></li>
+                            <li><a href="#">Tìm nhanh theo sim</a></li>
+                            <li><a href="#">Phong thủy</a></li>
+                            <li><a href="#">Ký gửi sim</a></li>
+                            <li><a href="#">Tìm sim theo yêu cầu</a></li>
+                            <li><a href="#">Hướng dẫn</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="title-tog" id="headingTwoMenu">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoMenu" aria-expanded="false" aria-controls="collapseTwoMenu">
+                            Hỗ trợ khách hàng
+                        </button>
+                    </div>
+                    <div id="collapseTwoMenu" class="collapse tog-show" aria-labelledby="headingTwoMenu" data-parent="#accordion-menu">
+                        <ul>
+                            <li><a href="#">Bảo mật thông tin</a></li>
+                            <li><a href="#">Cam kết bán hàng</a></li>
+                            <li><a href="#">Điều khoản và điều kiện</a></li>
+                            <li><a href="#">Chính sách bán hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="bor-bot"></div>
+                </div>
+                <p class="copyright">Copyright 2009 - 2015 © - Trung Tâm Sim Số Đẹp Giá Rẻ</p>
+                <div class="author">
+                    <p class="name">Author: Nguyễn Đức Thọ</p>
+                    <p class="design">Design by Tranhoang.pts@gmail.com</p>
+                    <img src="images/check_bct.png" alt="" class="img-checkbct">
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="cart-icon">
+        <img src="images/icon_cart_menu_top.png" alt="" id="btn-cart">
+        <div id="id-show-cart" style="display: none;">
+            <table class="table-quick-cart" id="table-quick-cart">
+                <thead>
+                <tr>
+                    <th width="62%"><p class="back-head">Sim</p></th>
+                    <th width="38%"><p class="back-head" style="padding: 21px 0px 21px 55px;">Giá tiền</p></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="first">
+                        <p class="title-bold phone-number">0934 747 747</p>
+                        <p class="phone-network">Vietnamoblie</p>
+                        <p class="phone-type">Thể loại: Tứ quý</p>
+                        <p class="phone-point">Điểm: 52</p>
+                    </td>
+                    <td class="second">
+                        <p class="phone-price">15.0000.000 đ</p>
+                        <p class="date-edit">Ngày cập nhật 19/05/2018</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first">
+                        <p class="title-bold phone-number">0934 747 747</p>
+                        <p class="phone-network">Vietnamoblie</p>
+                        <p class="phone-type">Thể loại: Ngày Tháng Năm</p>
+                        <p class="phone-point">Điểm: 52</p>
+                    </td>
+                    <td class="second">
+                        <p class="title-bold phone-price">15.0000.000 đ</p>
+                        <p class="date-edit">Ngày cập nhật 19/05/2018</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first">
+                        <p class="title-bold phone-number">0934 747 747</p>
+                        <p class="phone-network">Vietnamoblie</p>
+                        <p class="phone-type">Thể loại: Thần tài</p>
+                        <p class="phone-point">Điểm: 52</p>
+                    </td>
+                    <td class="second">
+                        <p class="title-bold phone-price">15.0000.000 đ</p>
+                        <p class="date-edit">Ngày cập nhật 19/05/2018</p>
+                    </td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <div class="total-pay" >
+                            <h3 class="title-hea">Tổng thanh toán : 86.230.800 đ</h3>
+                            <p>(Tám mươi sáu triệu hai trăm ba mươi tám nghìn đồng)</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="box-fot">
+                            <button class="btn btn-primary">So sánh sim</button>
+                            <button class="btn btn-primary">Thanh toán</button>
+                        </div>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="help-onl" style="display: none;">
+        <img src="images/icon10.png" alt="" id="id-help">
+        <div class="show-help" id="show-help">
+            <div class="box-1-h">
+                <p class="title-help">Sử dụng dấu " <span>x</span> " đại điện cho 1 số và dấu " <span>-</span> " đại điện cho một chuỗi số. </p>
+                <p class="brief-list">Để tìm sim bắt đầu bằng 098, quý khách nhập vào 098*</p>
+                <p class="brief-list">Để tìm sim kết thúc bằng 888, quý khách nhập vào *888</p>
+                <p class="brief-list">Để tìm sim bên trong có số 888, quý khách nhập vào 888</p>
+                <p class="brief-list">Để tìm sim bắt đầu bằng 098 và kết thúc bằng 888, nhập vào 098*888</p>
+                <p class="brief-list">Để tìm sim bắt đầu bằng 098 và kết thúc bằng 808, 818, 828, 838, 848, 858, 868, 878, 888, 898 nhập vào 098*8x8</p>
+            </div>
+            <div class="box-2-h">
+                <p class="title-help">Sử dụng dấu " <span>-</span> " đại diện cho " <span>hoặc</span> " để tìm với nhiều kết quả nhanh hơn.</p>
+                <p class="brief-list">Để tìm sim bắt đầu bằng 096 hoặc 098, quý khách nhập vào 09(6-8)</p>
+                <p class="brief-list">Để tìm sim kết thúc bằng 888 hoặc 999, quý khách nhập vào *(888-999)</p>
+                <p class="brief-list">Để tìm sim bên trong có số 888 hoặc 999, quý khách nhập vào (888-999)</p>
+                <p class="brief-list">Để tìm sim bắt đầu bằng 096 hoặc 098 và kết thúc bằng 888 hoặc 999, nhập vào 09(6-8)*(888-999)</p>
+                <p class="brief-list">Để tìm sim bắt đầu bằng 096 hoặc 098 và kết thúc bằng 808 -> 898 hoặc từ 909 -> 999 nhập vào 09(6-8)*(8x8-9x9)</p>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="bg-opacity">
+    <!--Breadcrumb-->
+    <nav class=" breadcrumb breadcrumb-link" aria-label="breadcrumb">
+        <a class="breadcrumb-item" href="#">Trang chủ</a>
+        <a class="breadcrumb-item" href="#">Tin tức</a>
+        <span class="breadcrumb-item active">Mười bước để mua sim số đẹp trực tuyến an toàn</span>
+    </nav>
+    <!--Detail news-->
+    <div class="detail-news">
+        <div class="body-news">
+            <h1 class="title-news">Mười bước để mua sim số đẹp trực tuyến an toàn</h1>
+            <p class="time-post">Xã hội - <span>4 giờ trước</span></p>
+            <p class="brief">Sim so dep - Nhân sự kiện “Ngày mua sắm trực tuyến” lần đầu tiên được tổ chức tại Việt Nam vào 5/12 tới, Cục Thương mại điện tử và CNTT thuộc Bộ Công Thương vừa đưa ra hướng dẫn người tiêu dùng 10 bước để mua sắm trực tuyến an toàn.</p>
+            <img src="images/detail-news2.png" alt="">
+            <p>
+                Tại lễ phát động, đại diện Cục TMĐT và CNTT cho biết, là sự kiện TMĐT lớn nhất trong cả nước năm 2014, “Ngày mua sắm trực tuyến 2014” hứa hẹn sẽ thu hút nhiều người tiêu dùng trên toàn quốc tham gia mua hàng online để được hưởng những ưu đãi, khuyến mại lớn.
+                Trên cơ sở nhận định mua sắm qua mạng có nhiều tiện ích, ưu việt hơn hình thức mua sắm truyền thống, Cục TMĐT và CNTT cũng hướng dẫn người tiêu dùng các bước để đảm bảo đảm bảo quyền lợi của mình khi tham gia mua sắm trực tuyến:
+            </p>
+            <img src="images/detail-news.png" alt="">
+            <p>
+                <strong>Chỉ mua hàng trên những website hợp pháp</strong><br/>
+                Người tiêu dùng cần kiểm tra tính xác thực và hợp pháp của website TMĐT thông qua Cổng thông tin quản lý hoạt động TMĐT thuộc Bộ Công Thương tại địa chỉ http://www.online.gov.vn.
+                Với các website TMĐT có gắn biểu tượng “Đã đăng ký với Bộ Công Thương”, việc kiểm tra được thực hiện bằng cách click vào biểu tượng để được dẫn về thông tin đăng ký của website tại www.online.gov.vn.
+                <br/>
+                <strong>Kiểm tra thông tin về người bán và sản phẩm</strong><br/>
+                Người tiêu dùng thực hiện kiểm tra thông tin về người bán như: tên doanh nghiệp hoặc thương nhân, thông tin đăng ký kinh doanh, địa chỉ trụ sở giao dịch, thông tin liên hệ, số điện thoại cố định, đường dây nóng, email, các tài khoản hỗ trợ trực tuyến.
+                Bên cạnh đó, người mua hàng online có thể gọi điện hoặc kiểm tra chéo các thông tin về người  bán thông qua website của các cơ quan thuế, cơ quan cấp giấy chứng nhận đăng ký kinh doanh. Thông tin về sản phẩm được bày bán phải được công bố chi tiết, đầy đủ, rõ ràng.
+                <br/>
+                <strong>Kiểm tra độ uy tín của người bán trên môi trường trực tuyến</strong><br/>
+                Người tiêu dùng có thể tham khảo ý kiến của bạn bè, người thân về độ uy tín của người bán; tìm kiếm thông tin liên quan tới người bán bằng các công cụ tìm kiếm với các từ khóa như: “công ty X”, “lừa đảo”, “bán hàng giả”…; đọc các đánh giá (review) của khách hàng - những người đã từng mua hàng trên website đó để có thêm thông tin về người bán. Đặc biệt kiểm tra kỹ với những trường hợp giá bán rẻ hơn nhiều so với giá chung của thị trường; hoặc tra cứu mức độ uy tín của website thông qua các tổ chức đánh giá tín nhiệm như SafeWeb.
+                <br/>
+                <strong>Đọc kỹ các điều khoản, quy định và chính sách bán hàng</strong><br/>
+                Người mua hàng trực tuyến cần đọc kỹ các điều khoản liên quan tới bảo vệ thông tin cá nhân của khách hàng; các điều khoản giao dịch như phương thức thanh toán, giao hàng, chính sách đổi trả hàng, điều kiện hoàn tiền, phí vận chuyển, bảo hành và các dịch vụ sau bán hàng…
+                <br/>
+                <strong>Đảm bảo các thiết bị sử dụng là an toàn</strong><br/>
+                Người tiêu dùng online cần tiến hành giao dịch trên máy tính hoặc thiết bị di động an toàn, bảo mật. Nếu sử dụng mạng không dây, nên kiểm tra việc mã hóa đường truyền để đảm bảo bên thứ 3 không thể thu thập trái phép dữ liệu của bạn.
+                Trường hợp sử dụng máy tính lạ (nơi công cộng, máy dùng chung...), cần đăng xuất (log out) khỏi tài khoản sau khi sử dụng; xóa lịch sử duyệt web, cookie, cache...
+            </p>
+            <p class="refer">Tham khảo Reuter</p>
+        </div>
+        <div class="tag-news">
+            <ul>
+                <strong>Tags: </strong>
+                <li><a href="#">Sim số đẹp</a></li>
+                <li><a href="#">Thanh toán code</a></li>
+                <li><a href="#">Chính sách thương mại</a></li>
+                <li><a href="#">Thanh toán code</a></li>
+                <li><a href="#">Chính sách thương mại</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="other-news">
+            <h1 class="title-hea">Tin liên quan</h1>
+            <ul>
+                <li class="item-news">
+                    <a href="#">Tesla lại mất thêm một nhân tài, đã có 42 giám đốc rời bỏ công ty trong năm nay</a>
+                </li>
+                <li class="item-news">
+                    <a href="#">Tesla lại mất thêm một nhân tài, đã có 42 giám đốc rời bỏ công ty trong năm nay</a>
+                </li>
+                <li class="item-news">
+                    <a href="#">Ai đang dùng GrabPay phải đặc biệt lưu ý thông tin này sau ngày 1/10</a>
+                </li>
+                <li class="item-news">
+                    <a href="#">Apple vừa phải trả 15,3 tỷ USD cho Ủy ban châu Âu vì lợi dụng Ireland làm thiên đường thuế</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer-bottom">
+        <h1 class="title-footer">Công Ty TNHH TM DV Viễn Thông An Phú Lộc MST: 0313891354</h1>
+        <p class="body">Cửa Hàng Ủy Quyền Viettel - Gmobile<br/>
+            Địa chỉ: 486 Nguyễn Kiệm, P.3, Q. Phú Nhuận, TP.HCM<br/>
+            Cửa hàng Viettel: 176 Đồng Đen, P.14, Q. Tân Bình, TP.HCM<br/>
+            CN Hà Nội: Ngõ 8A Vũ Thạnh, P. Ô Chợ Dừa, Q. Đống Đa, Hà Nội<br/>
+            Hotline: 0984.747.747 - 0937.486.486 - 0911.486.486 - 0997.456.789<br/>
+            Email: simdeptructuyen@gmail.com <br/>
+            Website: <a href="#">Simsodepgiare.vn</a> - <a href="#">Simsodepgiare.com.vn</a>
+        </p>
+        <div id="accordion">
+            <div class="title-tog" id="headingOne">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Menu chính
+                </button>
+            </div>
+            <div id="collapseOne" class="collapse tog-show" aria-labelledby="headingOne" data-parent="#accordion">
+                <ul>
+                    <li><a href="#">Sim theo nhà mạng</a></li>
+                    <li><a href="#">Tìm nhanh theo sim</a></li>
+                    <li><a href="#">Phong thủy</a></li>
+                    <li><a href="#">Ký gửi sim</a></li>
+                    <li><a href="#">Tìm sim theo yêu cầu</a></li>
+                    <li><a href="#">Hướng dẫn</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="title-tog" id="headingTwo">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Hỗ trợ khách hàng
+                </button>
+            </div>
+            <div id="collapseTwo" class="collapse tog-show" aria-labelledby="headingTwo" data-parent="#accordion">
+                <ul>
+                    <li><a href="#">Bảo mật thông tin</a></li>
+                    <li><a href="#">Cam kết bán hàng</a></li>
+                    <li><a href="#">Điều khoản và điều kiện</a></li>
+                    <li><a href="#">Chính sách bán hàng</a></li>
+                </ul>
+            </div>
+            <div class="bor-bot"></div>
+        </div>
+        <p class="copyright">Copyright 2009 - 2015 © - Trung Tâm Sim Số Đẹp Giá Rẻ</p>
+        <div class="author">
+            <p class="name">Author: Nguyễn Đức Thọ</p>
+            <p class="design">Design by Tranhoang.pts@gmail.com</p>
+            <img src="images/check_bct.png" alt="" class="img-checkbct">
+        </div>
+    </footer>
+</div>

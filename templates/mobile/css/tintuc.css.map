@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,sBAAY,CACV,KAAK,CAAE,KAAK,CACZ,mCAAY,CACV,WAAW,CAAE,IAAI,CAKrB,4BAAkB,CAChB,UAAU,CAAE,iBAAiB",
+"sources": ["tintuc.scss"],
+"names": [],
+"file": "tintuc.css"
+}

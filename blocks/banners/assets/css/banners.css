@@ -1,0 +1,64 @@
+.banners-default_home {
+  float: left;
+  width: 100%; }
+  .banners-default_home .banners-item {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    @media (max-width: 991px) {
+      .banners-default_home .banners-item img {
+        float: left;
+        margin-right: 10px;
+        max-width: 120px; } }
+    @media (min-width: 992px) {
+      .banners-default_home .banners-item .name {
+        font-size: 14px;
+        line-height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.63);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        color: #fff;
+        text-transform: uppercase; } }
+    .banners-default_home .banners-item:hover {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+
+.banner-left {
+  top: 60px;
+  position: fixed;
+  margin-left: -341px !important; }
+
+.banner-right {
+  top: 60px;
+  position: fixed;
+  margin-left: 1024px !important; }
+
+.width-fi {
+  margin-bottom: 12px; }
+
+#banner_home .carousel-indicators, #banner_default .carousel-indicators {
+  bottom: -10px; }
+  #banner_home .carousel-indicators li, #banner_default .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background: #a8a8a8; }
+    #banner_home .carousel-indicators li.active, #banner_default .carousel-indicators li.active {
+      background: #fffffF !important; }
+    #banner_home .carousel-indicators li:hover, #banner_default .carousel-indicators li:hover {
+      cursor: pointer;
+      background: #fffffF; }
+
+/*# sourceMappingURL=banners.css.map */

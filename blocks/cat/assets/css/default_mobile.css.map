@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,0BAAG,CACD,cAAc,CAAE,cAAc,CAG9B,qCAAG,CACD,cAAc,CAAE,eAAe,CAC/B,gDAAY,CACV,cAAc,CAAE,eAAe,CAKvC,8CAAiC,CAC/B,MAAM,CAAE,gBAAgB",
+"sources": ["default_mobile.scss"],
+"names": [],
+"file": "default_mobile.css"
+}

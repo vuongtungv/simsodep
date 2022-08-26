@@ -1,0 +1,64 @@
+.row-content.pos-top {
+    background: #fff;
+}
+.block_slideshow{
+	margin-bottom: 20px;
+	position: relative;
+}
+.row-carosel {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    width: 100%;
+    padding: 25px 0px !important;
+}
+.hot-corner {
+    position: absolute;
+    min-width: 600px;
+    width: auto;
+    max-width: 625px;
+    padding: 12px;
+    border-radius: 5px;
+    z-index: 10;
+    bottom: 20px;
+    left: 50%;
+    top: auto;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,.35);
+    display: block;
+    color: rgba(255,255,255,.9);
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.hot-corner .hot-corner__logo {
+    float: left;
+    width: 22%;
+}
+.hot-corner .logoslide {
+	background: url("../images/bg-next.png") no-repeat scroll right center;
+    float: right;
+    text-align: left;
+    width: 75%;
+}
+.hot-corner .hot-corner_title {
+	color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.hot-corner .hot-corner_summary {
+	color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+.carousel-indicators {
+    bottom: 105px;
+}
+.carousel-indicators li {
+	width: 12px;
+    height: 12px;
+    margin: 0 1px;
+}
+.carousel-indicators li:hover,
+.carousel-indicators li.active {
+    background-color: #006cc6;
+}

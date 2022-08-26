@@ -1,0 +1,23 @@
+.contents_detail{
+  line-height: 25px;
+  background: #FFFFFF;
+  padding: 35px 30px;
+  .title-module{   
+    a{
+      font-size: 22px;
+      font-family: Text-semibold;
+      text-transform: uppercase;
+    }
+  }
+  .contents-description.row-item {
+    font-size: 17px;
+    text-align: justify;
+    a{
+      color: #333333;
+      &:hover{
+        color: #3478f7;
+        text-decoration: none;
+      }
+    }
+  }
+}

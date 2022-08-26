@@ -1,0 +1,66 @@
+.comments  .comment_header {
+    background: url("../images/icon_title.gif") no-repeat ;
+	color: #144594;
+    font-weight: bold;
+    padding-left: 22px;
+    text-decoration: underline;
+	cursor: pointer;
+}
+.comments .comment_form {
+    margin-left: -5px;
+}
+.comments tr{
+	margin-bottom: 10px;
+}
+.comments .form_name{
+	width: 260px;
+}
+.form_name li {
+    color: #a7a7a7;
+    list-style: inside none disc;
+}
+.form_name li span{
+    color: #333333;
+    font-size: 11px;
+}
+.comments .form_text{
+}
+
+.comments .select-box {
+	width: 230px;
+}
+.comments #text{
+	height: auto;
+	width: 400px;
+}
+
+.comments .code-view{
+	background: url("../images/change_captcha.gif") no-repeat scroll center center;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.comments #txtCaptcha{
+	width: 118px;
+}
+.comments  .button {
+    background: none repeat scroll 0 0 #b80405;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 4px 12px;
+}
+.comments_contents .comment-item {
+    border-top: 1px solid #ededed;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.comments_contents .name {
+    font-weight: bold;
+}
+.comments_contents .rating  {
+   margin: 8px 0;
+}
+.comments_contents .rating span {
+	font-weight: bold;
+}

@@ -1,0 +1,32 @@
+ul.menu-news-bottom {
+    background: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+ul.menu-news-bottom li.level0 {
+    border-left: 1px dashed #ccc;
+    padding: 15px;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+ul.menu-news-bottom li.level0.first-item {
+    border-left: none;
+}
+ul.menu-news-bottom li.level0 > a{
+	color: #006cc6;
+	font-weight: bold;
+	font-size: 15px;
+}
+ul.menu-news-bottom li.level0 ul{
+	margin-top: 10px;
+}
+ul.menu-news-bottom li.level0 ul li{
+	margin-bottom: 5px;
+}
+ul.menu-news-bottom li.level0 ul li a{
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}

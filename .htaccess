@@ -1,0 +1,213 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/$1 [R=301,L]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+AddType text/x-component .htc
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteCond %{REQUEST_URI} !^/index.php
+#RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+#RewriteRule (.*) index.php
+
+RewriteRule ^(index.php|index.html)$ index.php?module=home&view=home&Itemid=1lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^&tmpl=1$ index.php?module=home&view=home&Itemid=1&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^$ index.php?module=home&view=home&Itemid=1&lang=vi&%{QUERY_STRING} [L]
+
+RewriteRule ^$ index.php?&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^en$ index.php?module=home&view=home&Itemid=1&lang=en&%{QUERY_STRING} [L]
+
+RewriteRule ^dmca-validation(.*) dmca-validation.html [L]
+
+#Cron-job
+RewriteRule ^update_remove.html$ index.php?module=cronjob&view=cronjob&task=update_remove&Itemid=69  [L]
+
+#RewriteRule ^update_network.html$ index.php?module=cronjob&view=cronjob&task=update_network&Itemid=69  [L]
+#RewriteRule ^update_agency.html$ index.php?module=cronjob&view=cronjob&task=update_agency&Itemid=69  [L]
+
+RewriteRule ^update_price.html$ index.php?module=cronjob&view=cronjob&task=update_price&Itemid=69  [L]
+RewriteRule ^update_cat.html$ index.php?module=cronjob&view=cronjob&task=update_cat&Itemid=69  [L]
+RewriteRule ^update_sim.html$ index.php?module=cronjob&view=cronjob&task=update_sim&Itemid=69  [L]
+
+RewriteRule ^update_all.html$ index.php?module=cronjob&view=cronjob&task=update_all&Itemid=69  [L]
+
+#RewriteRule ^delete_sim.html$ index.php?module=cronjob&view=cronjob&task=delete_sim&Itemid=69  [L]
+RewriteRule ^check_duplicate.html$ index.php?module=cronjob&view=cronjob&task=check_duplicate&Itemid=69  [L]
+
+RewriteRule ^status_order.html$ index.php?module=cronjob&view=cronjob&task=update_status_order&Itemid=69  [L]
+
+
+#--------------------------------------Network--------------------------------------------------------
+RewriteRule ^viettel-trang-([0-9]*).html$ index.php?module=network&view=network&code=viettel&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^viettel.html$ index.php?module=network&view=network&code=viettel&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^mobifone-trang-([0-9]*).html$ index.php?module=network&view=network&code=mobifone&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^mobifone.html$ index.php?module=network&view=network&code=mobifone&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^vinaphone-trang-([0-9]*).html$ index.php?module=network&view=network&code=vinaphone&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^vinaphone.html$ index.php?module=network&view=network&code=vinaphone&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^vietnamobile-trang-([0-9]*).html$ index.php?module=network&view=network&code=vietnamobile&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^vietnamobile.html$ index.php?module=network&view=network&code=vietnamobile&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^gmobile-trang-([0-9]*).html$ index.php?module=network&view=network&code=gmobile&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^gmobile.html$ index.php?module=network&view=network&code=gmobile&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^co-dinh-trang-([0-9]*).html$ index.php?module=network&view=network&code=co-dinh&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^co-dinh.html$ index.php?module=network&view=network&code=co-dinh&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^itelecom-trang-([0-9]*).html$ index.php?module=network&view=network&code=itelecom&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^itelecom.html$ index.php?module=network&view=network&code=itelecom&Itemid=2&%{QUERY_STRING} [L]
+
+#--------------------------------------header--------------------------------------------------------
+RewriteRule ^viettel/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=viettel&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^viettel/([^/]*).html$ index.php?module=network&view=network&code=viettel&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^mobifone/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=mobifone&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^mobifone/([^/]*).html$ index.php?module=network&view=network&code=mobifone&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^vinaphone/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=vinaphone&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^vinaphone/([^/]*).html$ index.php?module=network&view=network&code=vinaphone&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^vietnamobile/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=vietnamobile&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^vietnamobile/([^/]*).html$ index.php?module=network&view=network&code=vietnamobile&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^gmobile/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=gmobile&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^gmobile/([^/]*).html$ index.php?module=network&view=network&code=gmobile&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^co-dinh/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=co-dinh&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^co-dinh/([^/]*).html$ index.php?module=network&view=network&code=co-dinh&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^itelecom/([^/]*)-trang-([0-9]*).html$ index.php?module=network&view=network&code=itelecom&Itemid=2&head=$1&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^itelecom/([^/]*).html$ index.php?module=network&view=network&code=itelecom&head=$1&Itemid=2&%{QUERY_STRING} [L]
+
+
+#--------------------------------------par--------------------------------------------------------
+RewriteRule ^sim-hop-menh-tho-trang-([0-9]*).html$ index.php?module=par&view=par&code=tho&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^sim-hop-menh-tho.html$ index.php?module=par&view=par&code=tho&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^sim-hop-menh-hoa-trang-([0-9]*).html$ index.php?module=par&view=par&code=hoa&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^sim-hop-menh-hoa.html$ index.php?module=par&view=par&code=hoa&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^sim-hop-menh-thuy-trang-([0-9]*).html$ index.php?module=par&view=par&code=thuy&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^sim-hop-menh-thuy.html$ index.php?module=par&view=par&code=thuy&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^sim-hop-menh-moc-trang-([0-9]*).html$ index.php?module=par&view=par&code=moc&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^sim-hop-menh-moc.html$ index.php?module=par&view=par&code=moc&Itemid=2&%{QUERY_STRING} [L]
+
+RewriteRule ^sim-hop-menh-kim-trang-([0-9]*).html$ index.php?module=par&view=par&code=kim&Itemid=2&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^sim-hop-menh-kim.html$ index.php?module=par&view=par&code=kim&Itemid=2&%{QUERY_STRING} [L]
+
+#-----------------------------new----------------------------------------------------------------------------------------------
+RewriteRule ^([^/]*)-cn([0-9]*)(-trang-([0-9]*)).html$ index.php?module=news&view=cat&ccode=$1&id=$2&Itemid=3&page=$4&lang=vi [L]
+RewriteRule ^([^/]*)-cn([0-9]*).html$ index.php?module=news&view=cat&ccode=$1&id=$2&Itemid=3&lang=vi [L]
+RewriteRule ^([^/]*)-cne([0-9]*)(-trang-([0-9]*)).html$ index.php?module=news&view=cat&ccode=$1&id=$2&Itemid=3&page=$4&lang=en [L]
+RewriteRule ^([^/]*)-cne([0-9]*).html$ index.php?module=news&view=cat&ccode=$1&id=$2&Itemid=3&lang=en [L]
+
+#RewriteRule ^([^/]*)-n([0-9]*).html$ index.php?module=news&view=news&code=$1&id=$2&Itemid=4&lang=vi [L]
+RewriteRule ^tin-tuc/([^/]*).html$ index.php?module=news&view=news&code=$1&Itemid=4&lang=vi [L]
+RewriteRule ^([^/]*)-ne([0-9]*).html$ index.php?module=news&view=news&code=$1&id=$2&Itemid=4&lang=en [L]
+
+RewriteRule ^tin-tuc(-trang-([0-9]*)).html$ index.php?module=news&view=home&Itemid=2&page=$2&lang=vi [L]
+RewriteRule ^tin-tuc.html$ index.php?module=news&view=home&Itemid=2&lang=vi [L]
+RewriteRule ^ky-gui-sim.html$ index.php?module=signedsim&view=signedsim&Itemid=2&lang=vi [L]
+RewriteRule ^ky-gui-sim-thanh-cong.html$ index.php?module=signedsim&view=signedsim&task=success&Itemid=2&lang=vi [L]
+RewriteRule ^tim-sim-theo-yeu-cau.html$ index.php?module=deprecate&view=deprecate&Itemid=2&lang=vi [L]
+RewriteRule ^gui-tim-sim-theo-yeu-cau-thanh-cong.html$ index.php?module=deprecate&view=deprecate&task=success&Itemid=2 [L]
+
+
+RewriteRule ^sim-phong-thuy.html$ index.php?module=home&view=home&task=phongthuy&Itemid=8 [L]
+RewriteRule ^dinh-gia-sim.html$ index.php?module=home&view=home&task=dinhgia&Itemid=8 [L]
+RewriteRule ^lap-dat-internet.html$ index.php?module=home&view=home&task=internet&Itemid=8 [L]
+RewriteRule ^bang-so.html$ index.php?module=home&view=home&task=bangso&Itemid=8 [L]
+
+#RewriteRule ^([^/]*)-nk([0-9]*)(-trang-([0-9]*)).html$ index.php?module=sim_network&view=home&type=$1&page=$4&Itemid=3&lang=vi [L]
+#RewriteRule ^([^/]*)-nk([0-9]*).html$ index.php?module=sim_network&view=home&type=$1&Itemid=3&lang=vi [L]
+#RewriteRule ^([^/]*)(-trang-([0-9]*))?.html$ index.php?module=sim_network&view=home&type=$1&page=$4&Itemid=3&lang=vi [L]
+RewriteRule ^sim-viettel-v90(-trang-([0-9]*))?.html$ index.php?module=sim_network&view=home&type=1&page=$2&Itemid=3&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^sim-vip(-trang-([0-9]*))?.html$ index.php?module=sim_network&view=home&type=2&page=$2&Itemid=3&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^sim-de-xuat(-trang-([0-9]*))?.html$ index.php?module=sim_network&view=home&type=3&page=$2&Itemid=3&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^khuyen-mai-sim-so-dep(-trang-([0-9]*))?.html$ index.php?module=sim_network&view=home&type=4&page=$2&Itemid=3&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^sim-tra-sau(-trang-([0-9]*))?.html$ index.php?module=sim_network&view=home&type=5&page=$2&Itemid=3&lang=vi&%{QUERY_STRING} [L]
+#RewriteRule ^([^/]*).html$ index.php?module=sim_network&view=home&type=$1&Itemid=3&lang=vi [L]
+
+RewriteRule ^tim-kiem-tin-tuc/([^/]*).html$ index.php?module=news&view=search&keyword=$1&Itemid=3&lang=vi [L]
+
+#RewriteRule ^tim-kiem-tin-tuc/([^/]*).html$ index.php?module=news&view=search&keyword=$1&Itemid=3&lang=vi [L]
+#RewriteRule ^search-news/([^/]*).html$ index.php?module=news&view=search&keyword=$1&Itemid=3&lang=en [L]
+
+#--------------------------------------search--------------------------------------------------------
+RewriteRule ^tim-sim/([^/]*)-trang-([0-9]*).html$ index.php?module=search&view=search&keyword=$1&Itemid=20&page=$2&%{QUERY_STRING} [L]
+RewriteRule ^tim-sim/([^/]*).html$ index.php?module=search&view=search&keyword=$1&Itemid=20&lang=vi&%{QUERY_STRING} [L]
+
+RewriteRule ^danh-sach-sim-trang-([0-9]*).html$ index.php?module=search&view=search&task=all&Itemid=20&page=$1&%{QUERY_STRING} [L]
+RewriteRule ^danh-sach-sim.html$ index.php?module=search&view=search&task=all&Itemid=20&lang=vi&%{QUERY_STRING} [L]
+
+#-----------------------contents -----------------------------------------------------------------------------------------
+RewriteRule ^apl/([^/]*).html$ index.php?module=contents&view=content&code=$1&id=$2&Itemid=8&lang=vi  [L]
+
+
+#--------------------contact --------------------------------------------------------------------------------------
+RewriteRule ^lien-he.html$ index.php?module=contact&Itemid=14&lang=vi [L]
+RewriteRule ^contact.html$ index.php?module=contact&Itemid=14&lang=en [L]
+
+#--------------------------------------sim--------------------------------------------------------
+
+#RewriteRule ^sim-(((?!trang|[/]|taxi).)*)-([0-9]*).html$ index.php?module=paynow&view=paynow&task=sim&net=$1&sim=$2&Itemid=2 [L]
+RewriteRule ^([0-9]*).html$ index.php?module=paynow&view=paynow&task=sim&sim=$1&Itemid=2 [L]
+
+RewriteRule ^dat-sim-thanh-cong.html$ index.php?module=paynow&view=paynow&task=success&Itemid=2 [L]
+RewriteRule ^gio-hang.html$ index.php?module=paynow&view=paynow&&task=display&Itemid=2 [L]
+RewriteRule ^so-sanh-sim.html$ index.php?module=paynow&view=paynow&&task=compare&Itemid=2 [L]
+RewriteRule ^export-([0-9]*).html$ index.php?module=paynow&view=paynow&task=pdf_success&id=$1&Itemid=2 [L]
+RewriteRule ^export-pdf-([0-9]*).html$ index.php?module=paynow&view=paynow&task=api_pdf_export&id=$1&raw=1&Itemid=2 [L]
+
+#--------------------------------------list--------------------------------------------------------
+RewriteRule ^([^/]*)-trang-([0-9]*).html$ index.php?module=list&view=list&code=$1&page=$2&Itemid=4&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^([^/]*).html$ index.php?module=list&view=list&code=$1&Itemid=4&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^([^/]*)/([^/]*)(-trang-([0-9]*)).html$ index.php?module=list&view=list&ccode=$1&code=$2&page=$4&Itemid=4&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^([^/]*)/([^/]*).html$ index.php?module=list&view=list&ccode=$1&code=$2&Itemid=4&lang=vi&%{QUERY_STRING} [L]
+
+
+
+#----------------auto delete cache ---------------------------------------------------------------------------------------------
+RewriteRule ^delete-cache.html index.php?module=cache&Itemid=22 [L]
+
+
+
+#----------------sitemap--------------------------------------------------------------------------------------------------------
+RewriteRule ^site-map.html(.*) index.php?module=sitemap&view=sitemap&Itemid=16 [L]
+RewriteRule ^sitemap.xml$ sitemap.php [L]
+
+#-------------------rss---------------------------------------------------------------------------------------------------------
+RewriteRule ^rss.xml$ rss.php [L]
+RewriteRule ^feeds$ rss.php [L]
+
+#-----------------genarate sitemap----------------------------------------------------------------------------------------------
+RewriteRule ^genarate_sitemap.html index.php?module=sitemap_auto&view=sitemap_auto&raw=1 [L]
+
+#----------------Configures the caching expiry date for browser caching of static files.
+<IfModule mod_expires.c>
+    <FilesMatch ".(jpg|jpeg|js)$">
+        ExpiresActive on
+        ExpiresDefault "access plus 0 seconds"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+
+<FilesMatch ".(css|html|htm|php|xml)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+</IfModule>
+
+#------------------notfound ----------------------------------------------------------------------------------------------------
+ErrorDocument 404 /404-page.html
+RewriteRule ^404-page.html index.php?module=notfound&view=notfound&Itemid=1000 [L]

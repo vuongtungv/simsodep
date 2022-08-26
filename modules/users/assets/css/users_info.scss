@@ -1,0 +1,229 @@
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2017, 11:38:08 AM
+    Author     : NgoQuang
+*/
+
+.contai_info{
+    background: #fff;
+    .title_info{
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin: 8px 0 15px 0;
+        padding-left: 0;
+        font-weight: bold;
+        border-bottom: 1px solid #ddd;
+        span{
+            border-bottom: 2px solid #cc0000;
+            padding-bottom: 7px;
+        }
+    }
+    .box_search{   
+        padding:0 0 10px 0;
+        .tit_1{
+            padding:0;
+            p{
+                font-weight: bold;
+                font-size: 17px;
+                padding-top: 5px;
+            }
+        }
+        .grp_btn{
+            form{
+                float: left;
+                padding-left: 30px;
+                .input_search{
+                    width: 250px;
+                    float: left;
+                }
+                .search_user{
+                    background: #cc0000;
+                    color: #fff;
+                    padding: 6px 10px;
+                    margin: 0 10px;
+                    display: inline-block;
+                    border-radius: 3px;
+                }
+            }
+            .link_created_user{
+                background: #1abc9c;
+                color: #fff;
+                padding: 6px 10px;
+
+                display: inline-block;
+                border-radius: 3px;
+            }
+        }
+    }
+    .table_info{
+        margin: 15px 0;
+        width: 100%;
+        border: 1px solid #ddd;
+        font-size:14px;
+        color:#000;
+        border-collapse: collapse;
+        tr{
+            &:nth-child(1){
+                td{
+                    border-top: none;
+                }
+            }
+            .th_left{
+                width: 160px;
+                background: #eee;
+            }
+        }
+    }
+    .form_created_user{
+        .control-label{
+            text-align: left;
+            margin-bottom: 0;
+            padding-top: 7px;
+            padding-left: 50px;
+            font-weight: 500;
+            .start{
+                color: #ff0000;
+            }
+
+        }
+        .form-control{
+            width: 50%;
+        }
+        .btn_register{
+            background: #cc0000;
+            font-size: 20px;
+            font-weight: 100;
+            padding: 5px 20px;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .check_validate{
+            color:#cc0000;
+            padding-top: 10px;
+            display: block;
+        }
+    }
+    .table_list_user{
+        thead{
+            background: #f5f5f5;
+            tr{
+                th{
+                    text-align: center;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    #frm_repassword_gh{
+        .form-group{
+            label{
+                text-align: left;
+                padding-left: 6%;
+                font-weight: 400;
+            }
+            .button-submit-edits{
+                background: #cc0000;
+                color: #fff;
+                border: none;
+                padding: 5px 20px;
+                border-radius: 3px;
+
+            }
+        }
+    }
+    .history_learning{
+        .head_top{
+            .type_exam{
+                width: 10%;
+                padding: 3px;
+            }
+            .date_search{
+                width: 30%;
+                padding: 3px;
+                float: left;
+                margin-right: 5px;
+            }
+            .control-label{
+                padding-top: 5px;
+                text-align: center;
+            }
+            .btn_show_list{
+                background: #cc0000;
+                color: #fff;
+                padding: 7px 10px;
+                text-align: center;
+                border-radius: 3px;
+                i{
+                    padding-right: 5px;
+                }
+            }
+            .btn_excel{
+                background: #207245;
+                color: #fff;
+                padding: 7px 10px;
+                text-align: center;
+                width: 150px;
+                margin-left: 10px;
+                border-radius: 3px;
+                i{
+                    padding-right: 5px;
+                }
+            }
+        }
+        .content_list{
+            .table-bordered{
+                thead{
+                    background: #eeeeee;
+                    tr{
+                        th{
+                            text-align: center;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        td{
+                            text-align: center;
+                        }
+                        .modal{
+                            .modal-dialog{
+                                .modal-body{
+                                    .container_{
+                                        .thread{
+                                            background: #eeeeee;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .total_history{
+                p{
+                    float: right;
+                    padding-left: 10px;
+                    .i_h{
+                        color: #cc0000;
+                        width: 30px;
+                        height: 30px;
+                        border: 1px solid #ddd;
+                        border-radius: 50%;
+                        padding: 8px;
+                        margin-right: 10px;
+                        font-weight: bold;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+

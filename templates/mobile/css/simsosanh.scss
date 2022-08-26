@@ -1,0 +1,184 @@
+.menu-top{
+  .search-icon{
+    width: 288px;
+    .form-search{
+      padding-top: 26px;
+    }
+  }
+}
+
+.compare-sim{
+  .box-hea{
+    padding: 45px 60px 30px;
+    background: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+    .hea{
+      font-size: 40px;
+      font-family: Roboto-Medium;
+      margin-bottom: 0px;
+      text-transform: uppercase;
+    }
+    .bri{
+      font-size: 36px;
+      font-family: Roboto-Regular;
+    }
+  }
+  .table1{
+    background: #ffffff;
+    width: 100%;
+    tr{
+      td{
+        border-bottom: 2px solid #e0e0e0;
+        width: 50%;
+        float: left;
+        .name{
+          font-family: Roboto-Medium;
+          font-size: 40px;
+          margin-bottom: 10px;
+          line-height: 35px;
+        }
+        .type-tex{
+          font-size: 36px;
+          font-family: Roboto-Regular;
+          margin-bottom: 10px;  
+          line-height: 35px;
+        }
+        .custom-control-label{
+          &:before{
+            width: 42px;
+            height: 42px;
+            left: 385px;
+            top: 50%;
+            transform: translate(0px, -50%);
+            border-radius: 10px;
+          }
+          &:after{
+            width: 42px;
+            height: 42px;
+            left: 385px;
+            top: 50%;
+            transform: translate(0px, -50%);
+          }
+        }
+      }
+      .td-first{
+        padding: 55px 55px 55px 60px;
+        border-right: 2px solid #e0e0e0;
+      }
+      .td-second{
+        padding: 55px 60px 55px 55px;
+      }
+    }
+  }
+  .box-hea-2{
+    background: #ffffff;
+    text-align: center;
+    padding: 40px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    p{
+      font-family: Roboto-Medium;
+      width: 505px;
+      margin: 0 auto;
+      font-size: 44px;
+      background: #3478f7;
+      line-height: 106px;
+      border-radius: 100px;
+      color: #ffffff;
+      img{
+        vertical-align: unset;
+      }
+    }
+  }
+  .box-table{
+    padding: 0px 28px;
+    background: #ffffff;
+    .table2tt{
+      tr{
+        // display: none;
+      }
+    }
+    .table2{
+      width: 100%;
+
+      .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+        //background: url(../images/check_v_2.png);
+        //background: #3ad000;
+      }
+      .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+        //background: url(../images/check_v_2.png);
+        background-color: #3ad000;
+      }
+
+      tr{
+        border-bottom: 2px solid #e0e0e0;
+        &:last-child{
+          border-bottom: none;
+        }
+        td{
+          font-size: 36px;
+          padding: 40px 0px;
+          font-family: Roboto-Regular;
+          p{
+            margin-bottom: 0px;
+          }
+          .custom-control-label{
+            &:before{
+              width: 42px;
+              height: 42px;
+              left: 32px;
+              top: 50%;
+              transform: translate(0px , -50%);
+            }
+            &:after{
+              width: 42px;
+              height: 42px;
+              left: 32px;
+              top: 50%;
+              transform: translate(0px , -50%);
+            }
+          }
+        }
+        .td-first{
+          width: 35%;
+          padding-left: 32px;
+          .name{
+            font-family: Roboto-Medium;
+            font-size: 38px;
+          }
+        }
+        .td-second{
+          width: 21%;
+        }
+        .td-thirt{
+          width: 34%;
+          .name{
+            font-family: Roboto-Medium;
+          }
+        }
+        .td-four{
+          width: 10%;
+        }
+      }
+    }
+  }
+  .sub-form{
+    padding: 65px 60px 70px;
+    text-align: center;
+    background: #ffffff;
+    border-top: 2px solid #e0e0e0;
+    button{
+      font-size: 40px;
+      font-family: Roboto-Medium;
+      width: 100%;
+      line-height: 106px;
+      text-transform: uppercase;
+      border-radius: 10px;
+    }
+  }
+}
+
+.no_compare{
+  background: #6c757d !important;
+}

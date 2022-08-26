@@ -1,0 +1,48 @@
+.form-promo .color_yell {
+  color: #ffd500; }
+.form-promo .detail-promo {
+  background: url("../images/bg_register_2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+.form-promo .show-infor {
+  top: 20px;
+  padding: 20px 60px; }
+  .form-promo .show-infor .name-regis {
+    font-size: 60px;
+    font-family: Roboto-Medium;
+    color: #fffffF; }
+  .form-promo .show-infor .price-regis {
+    font-size: 60px; }
+  .form-promo .show-infor .right {
+    color: #fffffF; }
+    .form-promo .show-infor .right ul li {
+      font-size: 40px;
+      font-family: Roboto-Medium;
+      line-height: 70px;
+      padding-left: 50px;
+      position: relative;
+      list-style-type: none; }
+      .form-promo .show-infor .right ul li:before {
+        content: url("/templates/mobile/images/img_svg/trang_chu/menu_phai/check.svg");
+        width: 29px;
+        height: 23px;
+        position: absolute;
+        left: 0px;
+        top: 23px; }
+.form-promo .bottom-send {
+  position: relative;
+  bottom: 0px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%; }
+.form-promo .method-regis {
+  font-size: 40px;
+  font-family: Roboto-Medium;
+  color: #fffffF;
+  width: 60%;
+  height: 200px;
+  padding: 20px 0px 0px 60px; }
+  .form-promo .method-regis p {
+    line-height: 70px; }
+
+/*# sourceMappingURL=default_mobile.css.map */

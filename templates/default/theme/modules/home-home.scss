@@ -1,0 +1,113 @@
+.home-home{
+	.flex-section{
+		.flex-row{
+			.flex-item {
+			    text-align: center;
+			    a{
+			    	margin-top:30px; 
+			    	display: block;
+				    img{
+						@include img-responsive(inline-block);
+					}
+				}			  
+			}
+		}
+		
+	}
+	.float-section{
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	    position: relative;
+	    border-bottom: 2px solid #333333;
+		text-align: center;
+	    span{
+	    	background : #fff; 
+			color: #000000;
+			padding: 0 20px;
+			font-size: 30px;
+			margin-bottom: -12px;
+			display: inline-block;
+	    }
+	}	
+}
+@media (min-width: $screen-sm-min) {
+}
+@media (min-width: $screen-md-min) {
+	.home-home{
+		.flex-section{
+			.flex-row{
+				display: -webkit-box;
+			    display: -webkit-flex;
+			    display: -ms-flexbox;
+			    display: flex;
+			    -webkit-box-orient: horizontal;
+			    -webkit-box-direction: normal;
+			    -webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			    flex-direction: row;
+			    -webkit-box-pack: justify;
+			    -webkit-justify-content: space-between;
+			    -ms-flex-pack: justify;
+			    justify-content: space-between;
+			    .flex-item {
+				     display: -webkit-box;
+				    display: -webkit-flex;
+				    display: -ms-flexbox;
+				    display: flex;
+				    -webkit-box-orient: vertical;
+				    -webkit-box-direction: normal;
+				    -webkit-flex-direction: column;
+				    -ms-flex-direction: column;
+				    flex-direction: column;
+				    -webkit-box-pack: justify;
+				    -webkit-justify-content: space-between;
+				    -ms-flex-pack: justify;
+				    justify-content: space-between;
+				    -webkit-box-flex: 0;
+				    -webkit-flex: 0 0 auto;
+				    -ms-flex: 0 0 auto;
+				    flex: 0 0 auto;
+				     a{
+				    	margin-top:0;
+				    } 
+				}
+			}
+			&.choice{
+				padding-bottom: 40px;
+				 border-bottom: 1px solid #000;
+				 .flex-item {
+					    max-width: 33.3333%;			  
+				}
+			}
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+}
+.home-home-mobile{
+	.float-section{
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	    position: relative;
+	    border-bottom: 2px solid #333333;
+		text-align: center;
+	    span{
+	    	background : #fff; 
+			color: #000000;
+			padding: 0 20px;
+			font-size: 30px;
+			margin-bottom: -12px;
+			display: inline-block;
+	    }
+	}
+	a{
+		margin-top:30px; 
+		 margin-top: 30px;
+	    display: block;
+	    text-align: center;
+		img{
+				@include img-responsive(inline-block);
+		}
+	}
+	
+}

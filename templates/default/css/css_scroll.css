@@ -1,0 +1,155 @@
+.warp-scroll {
+  height: 50px;
+  background: #3478f7;
+  display: none; }
+  .warp-scroll .header-scroll {
+    margin-bottom: 0px;
+    padding: 0px;
+    position: relative; }
+    .warp-scroll .header-scroll > li {
+      list-style: none;
+      display: table-cell;
+      vertical-align: middle;
+      line-height: 50px; }
+      .warp-scroll .header-scroll > li .logo-scroll {
+        height: 33px;
+        width: 51px; }
+      .warp-scroll .header-scroll > li .dot-scroll {
+        height: 6px;
+        width: 40px;
+        line-height: 6px; }
+      .warp-scroll .header-scroll > li .cart-scroll {
+        height: 21px;
+        width: 28px; }
+    .warp-scroll .header-scroll > li:nth-child(1) {
+      padding: 0px 44px; }
+    .warp-scroll .header-scroll .text-search-2 {
+      width: 520px; }
+      .warp-scroll .header-scroll .text-search-2::placeholder {
+        font-family: Text-Regular;
+        font-size: 14px;
+        color: #878787; }
+    .warp-scroll .header-scroll > li:nth-child(3) {
+      padding: 0px 37px;
+      cursor: pointer; }
+      .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll {
+        position: absolute;
+        display: none;
+        width: 100%;
+        background: #FFFFFF;
+        top: 50px;
+        right: 0px;
+        z-index: 99; }
+        .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll:after {
+          content: '';
+          position: absolute;
+          transform: rotate(45deg);
+          width: 15px;
+          height: 16px;
+          top: -6px;
+          right: 300px;
+          z-index: 1;
+          background: #ffffff; }
+        .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu {
+          flex-direction: row; }
+          .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item {
+            display: inline-block;
+            padding: 0px;
+            line-height: 50px;
+            height: 50px;
+            position: relative; }
+            .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item > a {
+              color: #333333;
+              font-size: 16px;
+              font-family: Text-Regular;
+              text-transform: uppercase;
+              padding: 0px 22px; }
+            .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item ul {
+              display: none; }
+            .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover a {
+              color: #007bff; }
+            .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul {
+              display: block;
+              position: absolute;
+              background: #ffffff;
+              top: 50px;
+              left: 0px;
+              padding-left: 0px;
+              width: 222px; }
+              .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li {
+                width: 100%;
+                padding: 0px 0px 0px 49px !important;
+                position: relative;
+                list-style: none; }
+                .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li a {
+                  color: #333333;
+                  font-size: 15px;
+                  font-family: Text-Regular; }
+                  .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li a:hover {
+                    text-decoration: none; }
+                .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover a {
+                  color: #007bff; }
+                .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 {
+                  display: block;
+                  position: absolute;
+                  top: 0px;
+                  left: 222px;
+                  background: #fffffF;
+                  padding-left: 20px;
+                  width: 100%; }
+                  .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 > li {
+                    position: relative;
+                    width: 100%;
+                    padding: 0px !important;
+                    list-style: none;
+                    margin-bottom: 10px; }
+                    .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 > li span {
+                      font-size: 14px;
+                      font-family: Text-Regular; }
+                    .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 > li > ul {
+                      display: block;
+                      position: absolute;
+                      background: #fffffF;
+                      width: 100%;
+                      padding-left: 0px;
+                      column-count: 2;
+                      -webkit-column-count: 2;
+                      -moz-column-count: 2;
+                      box-shadow: none;
+                      top: 40px; }
+                      .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 > li > ul li {
+                        padding-left: 0px;
+                        line-height: 30px !important;
+                        list-style: none; }
+                        .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 > li > ul li a {
+                          color: #333333;
+                          font-size: 14px;
+                          font-family: Text-Light; }
+                        .warp-scroll .header-scroll > li:nth-child(3) .show-menu-scroll #megamenu > li.nav-item:hover > ul > li:hover .level-3 > li > ul li:hover a {
+                          color: #007bff; }
+    .warp-scroll .header-scroll > li:nth-child(4) a:hover {
+      text-decoration: none; }
+    .warp-scroll .header-scroll > li:nth-child(4) span {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-family: Text-Regular; }
+    .warp-scroll .header-scroll > li:nth-child(4) a > span {
+      padding-left: 10px; }
+
+.css_fix_top_menu {
+  display: block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1200; }
+
+.oe_overlay {
+  background: #000;
+  opacity: .3 !important;
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=css_scroll.css.map */

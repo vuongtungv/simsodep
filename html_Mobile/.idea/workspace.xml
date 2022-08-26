@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee69c1d2-9732-49cb-bc8a-29cfeafccdc0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2008637097">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="28" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="51" />
+          <entry key="js" value="19" />
+          <entry key="otf" value="3" />
+          <entry key="scss" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="51" />
+          <entry key="JavaScript" value="19" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="SCSS" value="50" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="16808" />
+          <entry key="js" value="1822" />
+          <entry key="scss" value="15248" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="16808" />
+          <entry key="JavaScript" value="1822" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="SCSS" value="15233" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.new.class" />
+    </session>
+    <session id="314966017">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="13" />
+          <entry key="js" value="14" />
+          <entry key="png" value="9" />
+          <entry key="scss" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="13" />
+          <entry key="Image" value="9" />
+          <entry key="JavaScript" value="14" />
+          <entry key="SCSS" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="7355" />
+          <entry key="js" value="1100" />
+          <entry key="scss" value="10078" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="7355" />
+          <entry key="JavaScript" value="1100" />
+          <entry key="SCSS" value="10078" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timsimtheoyeucau.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="664" column="44" selection-start-line="664" selection-start-column="33" selection-end-line="664" selection-end-column="44" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#19176#19182#0" expanded="true" />
+                <element signature="e#19182#19188#0" expanded="true" />
+                <element signature="e#26184#26190#0" expanded="true" />
+                <element signature="e#26190#26196#0" expanded="true" />
+                <element signature="e#27739#27745#0" expanded="true" />
+                <element signature="e#27745#27751#0" expanded="true" />
+                <element signature="e#35127#35133#0" expanded="true" />
+                <element signature="e#35133#35139#0" expanded="true" />
+                <element signature="e#37466#37472#0" expanded="true" />
+                <element signature="e#37472#37478#0" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/timsimtheoyeucau.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+              <folding>
+                <element signature="e#30#40#0" />
+                <element signature="e#929#1169#0" />
+                <element signature="e#1190#1463#0" />
+                <element signature="e#1484#1755#0" />
+                <element signature="e#1858#1872#0" />
+                <element signature="e#2033#2168#0" />
+                <element signature="e#2267#2277#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Copy of SCSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search</find>
+      <find>45px 25px</find>
+      <find>menu-icon</find>
+      <find>list-item</find>
+      <find>1px</find>
+      <find>dots-show</find>
+      <find>checkcontainer</find>
+      <find>options</find>
+      <find>view-</find>
+      <find>bottom</find>
+      <find>price-new</find>
+      <find>view-mor</find>
+      <find>sale-sim</find>
+      <find>select-op</find>
+      <find>search_bg</find>
+      <find>30px 43px 50px 43px</find>
+      <find>click_search</find>
+      <find>form-search</find>
+      <find>select-options</find>
+      <find>.slogan</find>
+      <find>title-sim-type</find>
+      <find>table-quick-cart</find>
+      <find>.back-head</find>
+      <find>search-icon</find>
+      <find>Dãy</find>
+      <find>price-show</find>
+      <find>breadcrumb-link</find>
+      <find>time-post</find>
+      <find>title-news</find>
+      <find>title-hea</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/chitiettin.html" />
+        <option value="$PROJECT_DIR$/thanhtoan.html" />
+        <option value="$PROJECT_DIR$/abc.html" />
+        <option value="$PROJECT_DIR$/css/sosanhsim.scss" />
+        <option value="$PROJECT_DIR$/sosanhsim.html" />
+        <option value="$PROJECT_DIR$/css/compare-sim.scss" />
+        <option value="$PROJECT_DIR$/simtheonhamang.html" />
+        <option value="$PROJECT_DIR$/css/simtheonhamang.scss" />
+        <option value="$PROJECT_DIR$/css/timtheoyeucau.scss" />
+        <option value="$PROJECT_DIR$/kyguisim.html" />
+        <option value="$PROJECT_DIR$/css/kyguisim.scss" />
+        <option value="$PROJECT_DIR$/404_Error.html" />
+        <option value="$PROJECT_DIR$/css/404error.scss" />
+        <option value="$PROJECT_DIR$/bill.html" />
+        <option value="$PROJECT_DIR$/css/bill.scss" />
+        <option value="$PROJECT_DIR$/css/thanhtoan.scss" />
+        <option value="$PROJECT_DIR$/demoScroll.html" />
+        <option value="$PROJECT_DIR$/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/js/js_scrollBar.js" />
+        <option value="$PROJECT_DIR$/link_search.html" />
+        <option value="$PROJECT_DIR$/form-search-full.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/link_searchFull.js" />
+        <option value="$PROJECT_DIR$/js/templates.js" />
+        <option value="$PROJECT_DIR$/js/sim_all.js" />
+        <option value="$PROJECT_DIR$/css/sim_all.scss" />
+        <option value="$PROJECT_DIR$/simAll.html" />
+        <option value="$PROJECT_DIR$/css/tintuc.scss" />
+        <option value="$PROJECT_DIR$/tintuc.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/css/chitiettintuc.scss" />
+        <option value="$PROJECT_DIR$/chitiettintuc.html" />
+        <option value="$PROJECT_DIR$/timsimtheoyeucau.html" />
+        <option value="$PROJECT_DIR$/css/timsimtheoyeucau.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/@types/jquery-mousewheel/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@types/jquery/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@types/mcustomscrollbar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@types/sizzle/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jquery-mousewheel/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/malihu-custom-scrollbar-plugin/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MOBILE_simsodep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOBILE_simsodep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOBILE_simsodep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOBILE_simsodep" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOBILE_simsodep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOBILE_simsodep" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SCSS" />
+    <property name="last_opened_file_path" value="D:/xampp/htdocs/MayGiangThanh" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FINAL_STYLE_DATA\simsodep\js" />
+      <recent name="D:\FINAL_STYLE_DATA\simsodep\css" />
+      <recent name="D:\FINAL_STYLE_DATA\simsodep\fonts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee69c1d2-9732-49cb-bc8a-29cfeafccdc0" name="Default Changelist" comment="" />
+      <created>1541058033785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541058033785</updated>
+      <workItem from="1541058035151" duration="9790000" />
+      <workItem from="1541208740797" duration="5746000" />
+      <workItem from="1541231526167" duration="9460000" />
+      <workItem from="1541297474635" duration="6142000" />
+      <workItem from="1541339408227" duration="5036000" />
+      <workItem from="1541381633913" duration="14372000" />
+      <workItem from="1541406796533" duration="302000" />
+      <workItem from="1541434103312" duration="1861000" />
+      <workItem from="1541468095202" duration="159000" />
+      <workItem from="1541554469681" duration="6022000" />
+      <workItem from="1541578862460" duration="8540000" />
+      <workItem from="1541603059804" duration="33000" />
+      <workItem from="1541641039335" duration="22182000" />
+      <workItem from="1541727203645" duration="26895000" />
+      <workItem from="1541986429483" duration="19971000" />
+      <workItem from="1542073141726" duration="1204000" />
+      <workItem from="1542077404036" duration="21334000" />
+      <workItem from="1542121602188" duration="1073000" />
+      <workItem from="1542159201992" duration="23617000" />
+      <workItem from="1543995291984" duration="10444000" />
+      <workItem from="1544059949967" duration="7518000" />
+      <workItem from="1544147249167" duration="5854000" />
+      <workItem from="1544153192803" duration="1398000" />
+      <workItem from="1544338001189" duration="1584000" />
+      <workItem from="1544367292226" duration="3772000" />
+      <workItem from="1544405806919" duration="683000" />
+      <workItem from="1544449564345" duration="1986000" />
+      <workItem from="1544492289908" duration="1029000" />
+      <workItem from="1544858754602" duration="4665000" />
+      <workItem from="1544864023698" duration="5852000" />
+      <workItem from="1545010167808" duration="24926000" />
+      <workItem from="1545184804079" duration="24960000" />
+      <workItem from="1545269747184" duration="26687000" />
+      <workItem from="1545355982186" duration="25254000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="330351000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.61843973" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fonts/SanFranciscoDisplay-Medium.otf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/utilities/_sizing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/chitiettin.scss" />
+    <entry file="file://$PROJECT_DIR$/chitiettin.html" />
+    <entry file="file://$PROJECT_DIR$/abc.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/abc.scss" />
+    <entry file="file://$PROJECT_DIR$/css/sosanhsim.scss" />
+    <entry file="file://$PROJECT_DIR$/css/compare-sim.scss" />
+    <entry file="file://$PROJECT_DIR$/css/simtheonhamang.scss" />
+    <entry file="file://$PROJECT_DIR$/css/timtheoyeucau.scss" />
+    <entry file="file://$PROJECT_DIR$/css/kyguisim.scss" />
+    <entry file="file://$PROJECT_DIR$/simtheonhamang.html" />
+    <entry file="file://$PROJECT_DIR$/kyguisim.html" />
+    <entry file="file://$PROJECT_DIR$/css/404error.scss" />
+    <entry file="file://$PROJECT_DIR$/404_Error.html" />
+    <entry file="file://$PROJECT_DIR$/fonts/SanFranciscoText-MediumItalic.otf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sosanhsim.html" />
+    <entry file="file://$PROJECT_DIR$/thanhtoan.html" />
+    <entry file="file://$PROJECT_DIR$/css/bill.scss" />
+    <entry file="file://$PROJECT_DIR$/bill.html" />
+    <entry file="file://$PROJECT_DIR$/css/thanhtoan.scss" />
+    <entry file="file://$PROJECT_DIR$/demoScroll.html" />
+    <entry file="file://$USER_HOME$/OneDrive/Desktop/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mCustomScrollbar.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/uncompressed/jquery.mousewheel.js" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.mCustomScrollbar.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="197" column="46" selection-start-line="197" selection-start-column="46" selection-end-line="197" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon_search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon_show_menu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon_toggle.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js_scrollBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="14" selection-start-line="8" selection-start-column="11" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/link_search.scss" />
+    <entry file="file://$PROJECT_DIR$/form-search-full.html" />
+    <entry file="file://$PROJECT_DIR$/images/icon-10_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon-10_02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon-10_04.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon-10_05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/link_searchFull.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#647#834#0" />
+            <element signature="e#888#1069#0" />
+            <element signature="e#1116#1303#0" />
+            <element signature="e#1357#1538#0" />
+            <element signature="e#1585#1772#0" />
+            <element signature="e#1826#2007#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sim_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sim_all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="e#26#36#0" />
+            <element signature="e#124#138#0" />
+            <element signature="e#327#345#0" />
+            <element signature="e#172#186#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simAll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="679" column="30" selection-start-line="679" selection-start-column="30" selection-end-line="679" selection-end-column="30" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#41219#41225#0" expanded="true" />
+            <element signature="e#41225#41231#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#tr#1;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tintuc.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="584" column="21" lean-forward="true" selection-end-line="978" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/chitiettintuc.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="e#179#193#0" />
+            <element signature="e#189#268#0" />
+            <element signature="e#280#294#0" />
+            <element signature="e#279#356#0" />
+            <element signature="e#365#416#0" />
+            <element signature="e#544#1061#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tintuc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="710" column="6" lean-forward="true" selection-start-line="710" selection-start-column="6" selection-end-line="710" selection-end-column="6" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chitiettintuc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="711" column="39" selection-end-line="775" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19176#19182#0" expanded="true" />
+            <element signature="e#19182#19188#0" expanded="true" />
+            <element signature="e#26184#26190#0" expanded="true" />
+            <element signature="e#26190#26196#0" expanded="true" />
+            <element signature="e#27739#27745#0" expanded="true" />
+            <element signature="e#27745#27751#0" expanded="true" />
+            <element signature="e#35127#35133#0" expanded="true" />
+            <element signature="e#35133#35139#0" expanded="true" />
+            <element signature="e#37466#37472#0" expanded="true" />
+            <element signature="e#37472#37478#0" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timsimtheoyeucau.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="664" column="44" selection-start-line="664" selection-start-column="33" selection-end-line="664" selection-end-column="44" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19176#19182#0" expanded="true" />
+            <element signature="e#19182#19188#0" expanded="true" />
+            <element signature="e#26184#26190#0" expanded="true" />
+            <element signature="e#26190#26196#0" expanded="true" />
+            <element signature="e#27739#27745#0" expanded="true" />
+            <element signature="e#27745#27751#0" expanded="true" />
+            <element signature="e#35127#35133#0" expanded="true" />
+            <element signature="e#35133#35139#0" expanded="true" />
+            <element signature="e#37466#37472#0" expanded="true" />
+            <element signature="e#37472#37478#0" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#4;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/timsimtheoyeucau.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="e#30#40#0" />
+            <element signature="e#929#1169#0" />
+            <element signature="e#1190#1463#0" />
+            <element signature="e#1484#1755#0" />
+            <element signature="e#1858#1872#0" />
+            <element signature="e#2033#2168#0" />
+            <element signature="e#2267#2277#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

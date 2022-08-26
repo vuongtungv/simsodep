@@ -1,0 +1,41 @@
+.news_cat h1{
+	border-bottom: 1px solid #E8E8E8;
+	background: url(../images/bg_title.png) ;
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.newslist{
+	margin: 0 ;
+	padding: 0;
+	list-style: none;
+}
+.newslist li:first-child{
+	padding-top:20px;
+    border-top: 1px solid #E8E8E8;
+}
+.newslist li{
+	display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.newslist li  a img {
+    float: left;
+    margin-right:  16px ;
+}
+.newslist li h3 {
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.newslist li h3 a{
+	color: #0d4c8f;
+    font-size: 13px;
+    font-weight: bold;
+}

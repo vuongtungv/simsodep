@@ -1,0 +1,36 @@
+.home-deposit{
+  .title-top{
+    width: 30%;
+  }
+  .item-right{
+    .show-hover{
+      .box-hover{
+        background: #f4f4f4;
+        border-radius: 5px;
+        padding: 15px;
+        position: relative;
+        margin-bottom: 14px;
+        display: none;
+        top: -9px;
+        p{
+          margin-bottom: 0px;
+          font-family: Text-regular;
+          span{
+            font-family: Text-semibold;
+          }
+        }
+        &:before{
+          content: '';
+          position: absolute;
+          transform: rotate(45deg);
+          width: 20px;
+          height: 20px;
+          top: -7px;
+          left: 25px;
+          z-index: 1;
+          background: #f4f4f4;
+        }
+      }
+    }
+  }
+}

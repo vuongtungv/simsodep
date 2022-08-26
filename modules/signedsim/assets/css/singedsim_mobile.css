@@ -1,0 +1,18 @@
+.menu-top .search-icon {
+  width: 288px; }
+  .menu-top .search-icon .form-search {
+    padding-top: 26px; }
+
+.box-2 .tit-note {
+  margin-bottom: 16px !important; }
+.box-2 .label-requi:nth-child(1):before {
+  content: url("../../../../templates/mobile/images/img_svg/ki_gui_sim/so_sim_ki_gui.svg") !important;
+  width: 73px !important;
+  height: 46px !important; }
+.box-2 .label-requi:nth-child(3):before {
+  content: "";
+  background-image: url("../../../../templates/mobile/images/img_svg/ki_gui_sim/hoa_hong.svg") !important;
+  width: 51px !important;
+  height: 51px !important; }
+
+/*# sourceMappingURL=singedsim_mobile.css.map */

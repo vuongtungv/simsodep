@@ -1,0 +1,25 @@
+.contents_detail{
+  line-height: 60px;
+  background: #FFFFFF;
+  padding: 35px 30px;
+  .title-module{
+    margin-bottom: 35px;     
+    a{
+      font-size: 44px;
+      font-family: Roboto-Medium;
+      text-transform: uppercase;
+    }
+  }
+  .contents-description.row-item {
+    font-family: Roboto-Regular;
+    font-size: 40px;
+    text-align: justify;
+    a{
+      color: #333333;
+      &:hover{
+        text-decoration: none;
+        color: #3478f7;
+      }
+    }
+  }
+}

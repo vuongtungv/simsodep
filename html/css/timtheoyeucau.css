@@ -1,0 +1,79 @@
+.home-search-demand {
+  background: #ffffff;
+  padding: 30px 0px 42px; }
+
+.form-default {
+  padding: 0px 30px; }
+  .form-default .item-left {
+    padding: 0px 35px 0px 80px; }
+    .form-default .item-left .text-border {
+      padding-left: 0px;
+      border-radius: 0px;
+      margin-bottom: 30px;
+      font-family: Text-Light;
+      font-size: 16px;
+      outline: none;
+      height: 30px;
+      line-height: 30px;
+      color: #282F3D;
+      background-color: #fff;
+      border: 0 solid #b9b9b9;
+      border-width: 0 0 1px;
+      box-sizing: border-box;
+      transition: border .1s linear 0s, box-shadow .1s linear 0s;
+      -webkit-appearance: none; }
+      .form-default .item-left .text-border:focus {
+        box-shadow: none; }
+      .form-default .item-left .text-border::placeholder {
+        color: #040404 !important;
+        opacity: 1; }
+    .form-default .item-left label {
+      font-family: Text-Light;
+      font-size: 16px;
+      color: #333333; }
+    .form-default .item-left .text-note {
+      background: #f2f2f2;
+      border: none;
+      height: 154px !important;
+      padding: 15px 15px 0px 20px;
+      font-size: 15.5px; }
+      .form-default .item-left .text-note:focus {
+        box-shadow: none; }
+    .form-default .item-left .customer-note {
+      font-size: 16px;
+      font-family: Text-Italic;
+      margin-top: 20px; }
+  .form-default .item-right {
+    padding: 0px 77px 0px 35px;
+    font-size: 16px; }
+    .form-default .item-right p {
+      margin-bottom: 10px;
+      text-align: justify; }
+    .form-default .item-right .input-text {
+      border-radius: 3px;
+      margin-bottom: 22px;
+      font-family: Text-Light;
+      padding-left: 21px;
+      border: 1px solid #b9b9b9 !important;
+      height: 48px !important; }
+      .form-default .item-right .input-text:focus {
+        box-shadow: none;
+        border: 1.5px solid #c4c4c4; }
+    .form-default .item-right .note {
+      font-family: Text-semibold-Italic; }
+  .form-default .btn-send {
+    width: 100%;
+    font-size: 16px;
+    font-family: Text-regular;
+    padding: 13px 0px 10px 0px;
+    text-transform: uppercase;
+    margin-top: 42px; }
+
+::placeholder {
+  color: #333333 !important;
+  opacity: 1; }
+
+.center_page {
+  margin-top: 14px; }
+
+/*# sourceMappingURL=timtheoyeucau.css.map */

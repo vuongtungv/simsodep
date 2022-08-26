@@ -1,0 +1,96 @@
+.button-level-1{
+  position: relative;
+  &:after{
+    content: url("/templates/mobile/images/img_svg/trang_chu/menu_trai/down_menu.svg");
+    width: 55px;
+    height: 27px;
+    position: absolute;
+    right: 0px;
+  }
+}
+.button-level-1[aria-expanded="true"]{
+  &:after{
+    //content: url("/templates/mobile/images/top-icon.png");
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+  }
+}
+
+
+
+
+
+.button-level-2{
+  height: 55px;   
+  margin-top: 32px !important;
+  &:after{
+    content: url("/templates/mobile/images/img_svg/trang_chu/foo_open.svg");
+    width: 22px;
+    height: 22px;
+    top: 0px;
+
+  }
+}
+.button-level-2[aria-expanded="true"]{
+  &:after{
+    content: url("/templates/mobile/images/img_svg/trang_chu/foo_close.svg");
+    width: 19px;
+    height: 19px;
+  }
+}
+.click-x{
+  >a{
+    color: #3478f7 !important;
+  }
+}
+
+
+
+.li-find-sim{
+  .button-show-find-sim{
+    position: relative;
+    &:after{
+      content: url("/templates/mobile/images/down-icon.png");
+      width: 55px;
+      height: 27px;
+      position: absolute;
+      right: 0px;
+    }
+  }
+  .button-show-find-sim[aria-expanded="true"]{
+    &:after{
+      content: url("/templates/mobile/images/top-icon.png");
+    }
+  }
+  .level_0{
+    padding-left: 60px !important;
+    >li{
+      border-bottom: 1px solid #e0e0e0;
+      min-height: 112px;
+      >a{
+        line-height:112px;
+      }
+    }
+    .in-icon-click{
+      display: none;
+    }
+    .level_1{
+      display: none;
+      >li{
+        padding-bottom: 68px;
+      }
+    }
+    .has-child .in-icon-click{
+      display: block;
+      .icon-drop{
+        position: absolute;
+        right: 0px;
+        top: 40px;
+        background: none;
+        border: none;
+      }
+    }
+  }
+}

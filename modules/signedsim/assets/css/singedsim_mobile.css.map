@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,sBAAY;EACV,KAAK,EAAE,KAAK;EACZ,mCAAY;IACV,WAAW,EAAE,IAAI;;AAKrB,gBAAS;EACP,aAAa,EAAE,eAAe;AAEhC,uCAAgC;EAC9B,OAAO,EAAE,0FAA0F;EACnG,KAAK,EAAE,eAAe;EACtB,MAAM,EAAE,eAAe;AAEzB,uCAAgC;EAC9B,OAAO,EAAE,EAAE;EACX,gBAAgB,EAAE,qFAAqF;EACvG,KAAK,EAAE,eAAe;EACtB,MAAM,EAAE,eAAe",
+"sources": ["singedsim_mobile.scss"],
+"names": [],
+"file": "singedsim_mobile.css"
+}

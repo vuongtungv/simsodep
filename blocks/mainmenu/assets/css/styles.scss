@@ -1,0 +1,96 @@
+#cssmenu{
+	position: relative;
+	float: left;
+	@media (max-width: 991px){
+		display: none;
+	}
+
+	>ul > li
+	{
+	    float: left;
+      line-height: 50px;
+	    position: relative;
+		>a{
+			color: #ffffff;
+
+			@media (min-width: 1200px){
+				font-size: 16px;
+				font-weight: bold;
+			}
+			@media (max-width: 1199px){
+				font-size: 14px;
+				font-weight: bold;
+			}
+		}
+	}
+	.level_0{
+		@media (min-width: 992px){
+			padding: 5px 10px 0px;
+		}
+		@media (min-width: 1200px){
+			padding: 0px 18px;
+		}
+
+		&:hover{
+			background-color: #34495e;
+			>a{
+
+			}
+		}
+		&:first-child{
+			//padding-left: 65px;
+			//background: url(../images/icon-home-honda.png) no-repeat 18px 7px;
+			&:hover{
+				//background: #34495e url(../images/icon-home-honda.png) no-repeat 18px 7px;
+			}
+			>a{
+				border-bottom: none !important;
+			}
+		}
+
+	}
+	.level_0.activated{
+		background-color: #34495e;
+		>a{
+
+		}
+	}
+	ul > li:hover > ul {
+	    left: 0px;
+	    top: 100%;
+	    opacity: 1;
+	}
+	ul ul{
+		 position: absolute;
+		 left: -9999px;
+		 top: 70px;
+		 opacity: 0;
+		 -webkit-transition: opacity .3s ease, top .25s ease;
+		 -moz-transition: opacity .3s ease, top .25s ease;
+		 -ms-transition: opacity .3s ease, top .25s ease;
+		 -o-transition: opacity .3s ease, top .25s ease;
+		 transition: opacity .3s ease, top .25s ease;
+		 z-index: 1000;
+	}
+	ul ul li {
+	    position: relative;
+			a {
+				line-height: 18px;
+		    display: block;
+		    width: 200px;
+		    padding: 10px 20px !important;
+		    color: #fff;
+		    background: #34495e;
+		    -webkit-transition: all .35s ease;
+		    -moz-transition: all .35s ease;
+		    -ms-transition: all .35s ease;
+		    -o-transition: all .35s ease;
+		    transition: all .35s ease;
+		    text-transform: none;
+			}
+			&:hover > a {
+			    background: #fff;
+			    color: #cd0101;
+			}
+	}
+}

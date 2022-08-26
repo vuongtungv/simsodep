@@ -1,0 +1,36 @@
+array(2) {
+  [""]=>
+  array(7) {
+    [0]=>
+    string(7) "2307780"
+    [1]=>
+    string(9) "786290000"
+    [2]=>
+    string(10) "0988000040"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(20) "Sim tứ quý giữa"
+    [5]=>
+    string(2) "29"
+    [6]=>
+    string(1) "9"
+  }
+  ["0988000006"]=>
+  array(7) {
+    [0]=>
+    string(7) "2307746"
+    [1]=>
+    string(9) "786788000"
+    [2]=>
+    string(10) "0988000006"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(20) "Sim ngũ quý giữa"
+    [5]=>
+    string(2) "31"
+    [6]=>
+    string(1) "1"
+  }
+}

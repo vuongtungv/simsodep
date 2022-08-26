@@ -1,0 +1,150 @@
+.contentpt .ifpt {
+  margin-bottom: -10px; }
+
+.time-post {
+  font-family: Text-regular;
+  font-size: 15px;
+  margin-bottom: 6px;
+  margin-top: 6px; }
+  .time-post span {
+    font-family: Text-regular;
+    font-size: 14px; }
+
+.home-news {
+  background: #ffffff;
+  padding-bottom: 30px;
+  text-align: justify; }
+  .home-news .center-news {
+    margin: 0 auto;
+    width: 730px; }
+    .home-news .center-news .title-news {
+      padding: 30px 0px 5px;
+      font-size: 18px;
+      font-family: Text-regular;
+      text-transform: uppercase;
+      border-bottom: 1px solid #aeaeae;
+      margin-bottom: 20px; }
+    .home-news .center-news .big-news {
+      border-bottom: 1px solid #aeaeae;
+      margin-bottom: 30px;
+      padding-bottom: 25px;
+      text-align: justify; }
+      .home-news .center-news .big-news img {
+        margin-bottom: 20px;
+        width: 342px;
+        height: 172px; }
+      .home-news .center-news .big-news a {
+        font-size: 22px;
+        font-family: Text-semibold;
+        line-height: 30px;
+        color: #333333; }
+        .home-news .center-news .big-news a:hover {
+          text-decoration: none;
+          color: #3478f7; }
+    .home-news .center-news .item-small-news {
+      border-bottom: 1px solid #aeaeae;
+      margin-bottom: 30px;
+      padding-bottom: 30px; }
+      .home-news .center-news .item-small-news a {
+        font-family: Text-semibold;
+        line-height: 30px;
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #333333; }
+        .home-news .center-news .item-small-news a:hover {
+          text-decoration: none;
+          color: #3478f7; }
+        .home-news .center-news .item-small-news a img {
+          width: 271px;
+          height: 172px; }
+      .home-news .center-news .item-small-news .small-news {
+        padding-left: 0px; }
+  .home-news .brief {
+    font-family: Text-regular;
+    font-size: 16px;
+    margin-bottom: 0px;
+    text-align: justify; }
+
+/*--------- Detail news ----------*/
+.detail-news {
+  padding: 35px 40px;
+  background: #ffffff; }
+  .detail-news .body-news {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aeaeae;
+    font-size: 17px;
+    text-align: justify; }
+    .detail-news .body-news .title-news {
+      font-size: 22px;
+      font-family: Text-semibold;
+      text-transform: uppercase;
+      line-height: 30px; }
+    .detail-news .body-news .brief {
+      font-family: Text-regular;
+      font-size: 16px; }
+    .detail-news .body-news > img {
+      width: 100%;
+      padding: 10px 0px 23px 0px; }
+    .detail-news .body-news .refer {
+      text-align: right;
+      font-family: Text-Italic;
+      font-size: 16px; }
+    .detail-news .body-news a {
+      color: #333333; }
+      .detail-news .body-news a:hover {
+        color: #3478f7;
+        text-decoration: none; }
+  .detail-news .tag-news {
+    padding: 20px 0px 0px 0px; }
+    .detail-news .tag-news strong {
+      width: 5%;
+      float: left; }
+    .detail-news .tag-news ul {
+      margin-bottom: 0px;
+      float: left;
+      list-style-type: none;
+      padding-left: 0px;
+      width: 95%; }
+      .detail-news .tag-news ul li {
+        display: inline-block;
+        margin-right: 8px;
+        margin-bottom: 20px; }
+        .detail-news .tag-news ul li a {
+          padding: 7px 16px;
+          background: #ebebeb;
+          color: #333333;
+          border-radius: 25px;
+          font-family: Text-regular; }
+          .detail-news .tag-news ul li a:hover {
+            text-decoration: none;
+            background: #dedede;
+            transition: 0.15s ease-in-out; }
+  .detail-news .other-news .title-hea {
+    margin-top: 20px; }
+  .detail-news .other-news .box-list {
+    display: flex; }
+    .detail-news .other-news .box-list .item-news {
+      width: 219px;
+      margin-right: 22px; }
+      .detail-news .other-news .box-list .item-news:last-child {
+        margin-right: 0px; }
+      .detail-news .other-news .box-list .item-news a {
+        color: #333333; }
+        .detail-news .other-news .box-list .item-news a:hover {
+          text-decoration: none;
+          cursor: pointer;
+          color: #3478f7; }
+        .detail-news .other-news .box-list .item-news a h3 {
+          font-family: Text-regular;
+          font-size: 15px;
+          margin: 15px 0px; }
+
+.body-news ul li {
+  padding: 4px 0px 0px 0px; }
+
+.center_page {
+  background-position: center;
+  display: block;
+  margin: 14px auto 13px auto; }
+
+/*# sourceMappingURL=tintuc.css.map */

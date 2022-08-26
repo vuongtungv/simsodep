@@ -1,0 +1,65 @@
+.button-level-1 {
+  position: relative; }
+  .button-level-1:after {
+    content: url("/templates/mobile/images/img_svg/trang_chu/menu_trai/down_menu.svg");
+    width: 55px;
+    height: 27px;
+    position: absolute;
+    right: 0px; }
+
+.button-level-1[aria-expanded="true"]:after {
+  transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg); }
+
+.button-level-2 {
+  height: 55px;
+  margin-top: 32px !important; }
+  .button-level-2:after {
+    content: url("/templates/mobile/images/img_svg/trang_chu/foo_open.svg");
+    width: 22px;
+    height: 22px;
+    top: 0px; }
+
+.button-level-2[aria-expanded="true"]:after {
+  content: url("/templates/mobile/images/img_svg/trang_chu/foo_close.svg");
+  width: 19px;
+  height: 19px; }
+
+.click-x > a {
+  color: #3478f7 !important; }
+
+.li-find-sim .button-show-find-sim {
+  position: relative; }
+  .li-find-sim .button-show-find-sim:after {
+    content: url("/templates/mobile/images/down-icon.png");
+    width: 55px;
+    height: 27px;
+    position: absolute;
+    right: 0px; }
+.li-find-sim .button-show-find-sim[aria-expanded="true"]:after {
+  content: url("/templates/mobile/images/top-icon.png"); }
+.li-find-sim .level_0 {
+  padding-left: 60px !important; }
+  .li-find-sim .level_0 > li {
+    border-bottom: 1px solid #e0e0e0;
+    min-height: 112px; }
+    .li-find-sim .level_0 > li > a {
+      line-height: 112px; }
+  .li-find-sim .level_0 .in-icon-click {
+    display: none; }
+  .li-find-sim .level_0 .level_1 {
+    display: none; }
+    .li-find-sim .level_0 .level_1 > li {
+      padding-bottom: 68px; }
+  .li-find-sim .level_0 .has-child .in-icon-click {
+    display: block; }
+    .li-find-sim .level_0 .has-child .in-icon-click .icon-drop {
+      position: absolute;
+      right: 0px;
+      top: 40px;
+      background: none;
+      border: none; }
+
+/*# sourceMappingURL=menu-mobile.css.map */

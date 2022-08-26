@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.error-home {
+  margin-top: 37px;
+  text-align: center; }
+  .error-home .box-alert {
+    width: 648px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 80px; }
+    .error-home .box-alert .left {
+      width: 75%;
+      text-align: left;
+      border-right: 1px solid #aeaeae; }
+      .error-home .box-alert .left p {
+        margin-bottom: 0px; }
+      .error-home .box-alert .left p:nth-child(1) {
+        font-family: Text-Regular;
+        font-size: 30px; }
+        .error-home .box-alert .left p:nth-child(1) span {
+          font-family: Text-Black; }
+      .error-home .box-alert .left p:nth-child(2) {
+        font-size: 27.4px;
+        font-family: Text-Light;
+        color: #333333; }
+    .error-home .box-alert .right {
+      width: 30%;
+      text-align: right;
+      margin-top: 3px; }
+      .error-home .box-alert .right p {
+        margin-bottom: 15px; }
+        .error-home .box-alert .right p a {
+          font-family: Text-Regular;
+          font-size: 16px;
+          color: #333333; }
+          .error-home .box-alert .right p a:hover {
+            text-decoration: underline;
+            color: #3478f7; }
+      .error-home .box-alert .right button {
+        width: 82%; }
+        .error-home .box-alert .right button a {
+          color: #ffffff;
+          font-family: Text-regular;
+          text-decoration: none; }
+
+.fa-angle-left:before {
+  content: "´ää";
+  margin-right: 4px; }
+
+/*# sourceMappingURL=404error.css.map */

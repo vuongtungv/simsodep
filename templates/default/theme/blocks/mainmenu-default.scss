@@ -1,0 +1,24 @@
+.navigation__list {
+	float: left;
+	.navigation__list__item {
+	    margin: 0;
+		display: inline-block;
+		font-size: 14px;
+		.navigation__list__link {
+			color: $navbar-default-link-color;
+		    padding: 0 24px;
+		    line-height: 32px;
+		    display: block;
+		    text-transform: uppercase;
+		    position: relative;
+		}
+		.navigation__list__link.active {
+		    background-color: $navbar-default-link-active-bg;
+		    color: $navbar-default-link-active-color;
+		}
+		.navigation__list__link:hover {
+		    background-color: $navbar-default-link-hover-bg;
+		    color: $navbar-default-link-hover-color;
+		}
+	}
+}

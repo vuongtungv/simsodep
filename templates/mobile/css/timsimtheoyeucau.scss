@@ -1,0 +1,146 @@
+.menu-top{
+  .search-icon{
+    width: 288px;
+    .form-search{
+      padding-top: 26px;
+    }
+  }
+}
+.form-required{
+  .card-header{
+    background: #3478f7;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto-Medium;
+    font-size: 44px;
+    color: #ffffff;
+    line-height: 108.6px;
+    height: 108.6px;
+    padding: 0px;
+  }
+  .box-1{
+    padding: 70px 60px 60px 60px;
+    background: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+    .label-requi{
+      width: 100%;
+      position: relative;
+      margin-bottom: 0px;
+      height: 112px;
+      margin-bottom: 50px;
+      &:nth-child(1){
+        &:before{
+          content: url("../images/img_svg/ki_gui_sim/ho_ten.svg");
+          width: 34px;
+          height: 47px;
+          position: absolute;
+          left: 40px;
+          top: 25%;
+        }
+      }
+      &:nth-child(2){
+        &:before{
+          content: "";
+          background-image: url("../images/img_svg/ki_gui_sim/phone.svg");
+          width: 46px;
+          height: 46px;
+          position: absolute;
+          left: 40px;
+          top: 50%;
+          margin-top: -24.5px;
+        }
+      }
+      &:nth-child(3){
+        &:before{
+          content: "";
+          background-image: url("../images/img_svg/ki_gui_sim/dia_chi.svg");
+          width: 42px;
+          height: 53px;
+          position: absolute;
+          left: 40px;
+          top: 20%;
+        }
+      }
+      &:nth-child(5){
+        &:before{
+          content: "";
+          background-image: url("../images/img_svg/ki_gui_sim/email.svg");
+          width: 56px;
+          height: 36px;
+          position: absolute;
+          left: 40px;
+          top: 33%;
+        }
+      }
+    }
+    .in-reque{
+      line-height: 112px;
+      font-size: 36px;
+      padding: 0px 50px 0px 112px;
+      border-radius: 10px;
+      font-family:Roboto-Regular;
+      border: 1px solid #7c7c7c;
+    }
+    .in-texa{
+      padding-left: 40px;
+    }
+    .customer-note{
+      font-size: 36px;
+      font-family: Roboto-Regular;
+      margin-bottom: 0px;
+      margin-top: 40px;
+      span{
+        font-family:Roboto-Medium;
+      }
+    }
+  }
+  .box-2{
+    @extend .box-1;
+    .note{
+      border-bottom: 2px solid #e0e0e0;
+      margin-top: 0px;
+      .tit-note{
+        font-family: Roboto-Regular;
+        span{
+          font-family: Roboto-Medium;
+        }
+        margin-bottom: 0px;
+      }
+    }
+    .sub-requi{
+      width: 100%;
+      margin: 65px 0px 5px 0px;
+      line-height: 105px;
+      padding: 0px;
+      text-transform: uppercase;
+      font-family: Roboto-Medium;
+      font-size: 44px;
+      border-radius: 10px;
+      background: #3478f7;
+      color: #ffffff;
+    }
+    .label-requi{
+      &:nth-child(1){
+        &:before{
+          content: url("../images/logo-requi-05.png");
+          width: 73px;
+          height: 41px;
+          position: absolute;
+          left: 20px;
+          top: 30%;
+        }
+      }
+      &:nth-child(2){
+        &:before{
+          content: "";
+          background-image: url("../images/logo-requi-06.png");
+          width: 55px;
+          height: 56px;
+          position: absolute;
+          left: 40px;
+          top: 45%;
+        }
+      }
+    }
+  }
+}

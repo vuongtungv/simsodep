@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So sánh sim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/compare-sim.css"/>
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="scss/font-awesome/css/font-awesome.css"/>
+    <!-- Bootstrap js -->
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/templates.js" type="text/javascript"></script>
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--Promotion information-->
+<div class="container promotion-information">
+    <marquee behavior="scroll" direction="left" class="top-slide" onmouseover="this.stop();" onmouseleave="this.start();">
+        <a href="http://demo.simsodepgiare.vn/huong-dan-dang-ky-sim.html">Hướng dẫn đăng ký sim</a>
+        <a href="http://demo.simsodepgiare.vn/Uu-dai-lon-goi-cuoc-Smart-199-cua-Vinaphone-t271.html">Ưu đãi lớn gói cước Smart 199 của Vinaphone</a>
+        <a href="http://demo.simsodepgiare.vn/10-buoc-de-mua-sim-so-dep-truc-tuyen-an-toan-t224.html">10 bước để mua sim số đẹp trực tuyến an toàn</a>
+    </marquee>
+    <span class="close-promo pull-right"><i class="fa fa-times" aria-hidden="true"></i></span>
+</div>
+
+
+<!--Company information-->
+<div class="container company-information">
+    <span class="title-company pull-left">Công Ty TNHH TM DV Viễn thông An Phú Lộc</span>
+    <span class="work-company pull-right">Giờ làm việc : Thứ hai - thứ bảy (8h30 - 19h00), Chủ nhật (10h00 - 15h00) </span>
+    <div class="clearfix"></div>
+</div>
+
+<!-- Company-contact -->
+<div class="container company-contact">
+    <div class="img-logo">
+        <img src="images/logo.png">
+    </div>
+    <div class="contact-header">
+        <p class="gmail">Simdeptructuyen@gmail.com</p>
+        <p class="phone">Bộ phận chăm sóc khách hàng</p>
+        <p class="phone-2">   0984 747 747 - 0937 486 486 - 0911 486 486</p>
+    </div>
+    <div class="shopcart">
+        <p>Giỏ hàng</p>
+        <div class="icon-cart">
+            <img src="images/icon_cart.png" alt="Giỏ hàng">
+            <span>1</span>
+        </div>
+        <!--Show cart-->
+        <div class="show-cart">
+            <table class="table table-hover table-cart">
+                <thead>
+                <tr>
+                    <th scope="col">Số sim</th>
+                    <th scope="col">Giá tiền</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>0984 747 747</td>
+                    <td>8.870.000 đ</td>
+                    <td><span><i class="fa fa-times" aria-hidden="true"></i></span></td>
+                </tr>
+                <tr>
+                    <td>0984 747 747</td>
+                    <td>8.870.000 đ</td>
+                    <td><span><i class="fa fa-times" aria-hidden="true"></i></span></td>
+                </tr>
+                <tr>
+                    <td>0984 747 747</td>
+                    <td>8.870.000 đ</td>
+                    <td><span><i class="fa fa-times" aria-hidden="true"></i></span></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td>Tổng thanh toán</td>
+                    <td>27.850.000 đ</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="btn btn-primary">So sánh sim</a></td>
+                    <td><a href="#" class="btn btn-primary">Thanh toán</a></td>
+                    <td></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!--Menu top-->
+<nav class="container navbar navbar-expand-lg menu-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-top"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu-top">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Sim theo nhà mạng <span class="sr-only">(current)</span></a>
+                <ul>
+                    <li><a href="#">Viettel</a></li>
+                    <li><a href="#">Mobifone</a></li>
+                    <li><a href="#">Vinaphone</a></li>
+                    <li><a href="#">Gmobile</a></li>
+                    <li><a href="#">Vietnamobile</a></li>
+                    <li><a href="#">Cố định</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Phong thủy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ký gửi sim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tìm sim theo yêu cầu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hướng dẫn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Menu filter-->
+<div class="container" id="sim_search_wrap">
+    <form action="">
+        <div class="search_bg search_bg-lv1">
+            <div class="SumoSelect">
+                <!--Danh sách sim-->
+                <input type="hidden" id="selected-value" name="select-options">
+                <div class="select-options">
+                    <div class="value">Danh sách mạng</div>
+                    <div class="select-dropdown-icon">
+                        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+                    </div>
+                    <div class="options">
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>
+                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>
+                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Mobifone</div>
+                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>
+                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Sim cố định</div>
+                    </div>
+                </div>
+                <!--Thể loại sim-->
+                <input type="hidden" id="selected-type" name="select-type">
+                <div class="select-type">
+                    <div class="value-type">Thể loại sim</div>
+                    <div class="select-dropdown-icon">
+                        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+                    </div>
+                    <div class="options">
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Mobifone</div>
+                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>
+                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile</div>
+                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Beline</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Sfone</div>
+                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">cố định</div>
+                    </div>
+                </div>
+
+                <!--Giá tiền-->
+                <input type="hidden" id="selected-price" name="select-prices">
+                <div class="select-prices">
+                    <div class="value-price">Chọn giá tiền</div>
+                    <div class="select-dropdown-icon">
+                        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+                    </div>
+                    <div class="options">
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Từ 0.5 - 1tr</div>
+                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Từ 1tr - 2tr</div>
+                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Từ 2tr - 5tr</div>
+                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Từ 5tr - 10tr</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Từ 10tr - 20tr</div>
+                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Từ 20tr - 50tr</div>
+                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">Từ 50tr - 100tr
+                        </div>
+                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">Từ 100tr - 200tr
+                        </div>
+                        <div class="option" value="9" data-placement="bottom" data-toggle="tooltip">Từ 200tr - 500tr
+                        </div>
+                        <div class="option" value="10" data-placement="bottom" data-toggle="tooltip">Trên 500tr</div>
+                    </div>
+                </div>
+                <!--<div class="form form-control" style="width: 292px;">-->
+                <!--<input class="price-show" type="text" name="price-show"-->
+                <!--placeholder="Từ...">-->
+                <!--<img src="images/from_to.png">-->
+                <!--<input class="price-show" type="text" name="price-show" style="width: 50%;"-->
+                <!--placeholder="Đến...">-->
+                <!--</div>-->
+            </div>
+        </div>
+        <!--<div class="search_bg search_bg-lv2">-->
+        <!--<div class="SumoSelect">-->
+
+        <!--<div class="form form-control sim-type type-number">-->
+        <!--<span class="title-sim-type">Sim:</span>-->
+        <!--<label class="checkcontainer">Tất cả-->
+        <!--<input type="radio" checked="checked" name="sim-type">-->
+        <!--<span class="radiobtn"></span>-->
+        <!--</label>-->
+        <!--<label class="checkcontainer">10 số-->
+        <!--<input type="radio" name="sim-type">-->
+        <!--<span class="radiobtn"></span>-->
+        <!--</label>-->
+        <!--<label class="checkcontainer">11 số-->
+        <!--<input type="radio" name="sim-type">-->
+        <!--<span class="radiobtn"></span>-->
+        <!--</label>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="search_bg search_bg-lv3">
+            <input type="text" class="form form-control text-search" name="text-search" id="text-search"
+                   placeholder="Nhập số sim quý khách muốn tìm kiếm">
+            <span class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <div id="search-guide" class="hint" data-toggle="tooltip" style="line-height: 18px;">
+						<span style="color: #0762dc; font-size: 16px; font-family: text-regular;">Sử dụng dấu <span
+                                style="color: #5d5d5d;font-weight: bold;">"x"</span> đại điện cho 1 số và dấu <span
+                                style="color: #5d5d5d;font-weight: bold;">"*"</span> đại điện cho một chuỗi số.
+						</span> <br>
+                <p>Để tìm sim bắt đầu bằng 098, quý khách nhập vào 098*</p>
+                <p>Để tìm sim kết thúc bằng 888, quý khách nhập vào *888</p>
+                <p>Để tìm sim bên trong có số 888, quý khách nhập vào 888</p>
+                <p>Để tìm sim bắt đầu bằng 098 và kết thúc bằng 888, nhập vào
+                    098*888</p>
+                <p>Để tìm sim bắt đầu bằng 098 và kết thúc bằng 808, 818, 828,
+                    838, 848, 858, 868, 878, 888, 898 nhập vào 098*8x8</p>
+                <br>
+                <span style="color: #0762dc; font-size: 16px;font-family: text-regular;">Sử dụng dấu <span
+                        style="color: #5d5d5d;font-weight: bold;">"-"</span> đại diện cho <span
+                        style="color: #5d5d5d;font-weight: bold">"hoặc"</span> để tìm với nhiều kết quả
+							nhanh hơn.
+						</span> <br>
+                <p>Để tìm sim bắt đầu bằng 096 hoặc 098, quý khách nhập vào
+                    09(6-8)</p>
+                <p>Để tìm sim kết thúc bằng 888 hoặc 999, quý khách nhập vào
+                    *(888-999)</p>
+                <p>Để tìm sim bên trong có số 888 hoặc 999, quý khách nhập vào
+                    (888-999)</p>
+                <p>Để tìm sim bắt đầu bằng 096 hoặc 098 và kết thúc bằng 888 hoặc
+                    999, nhập vào 09(6-8)*(888-999)</p>
+                <p>Để tìm sim bắt đầu bằng 096 hoặc 098 và kết thúc bằng 808 -&gt;
+                    898 hoặc từ 909 -&gt; 999 nhập vào 09(6-8)*(8x8-9x9)</p>
+            </div>
+        </div>
+        <div id="black-opa">
+        </div>
+        <div class="search_bg search_bg-lv4">
+            <div class="form form-control sim-price type-number">
+                <span class="title-sim-price">Giá:</span>
+                <label class="checkcontainer">Tất cả
+                    <input type="radio" checked="checked" name="sim-price">
+                    <span class="radiobtn"></span>
+                </label>
+                <label class="checkcontainer">Tăng
+                    <input type="radio" name="sim-price">
+                    <span class="radiobtn"></span>
+                </label>
+                <label class="checkcontainer">Giảm
+                    <input type="radio" name="sim-price">
+                    <span class="radiobtn"></span>
+                </label>
+            </div>
+            <button class="btn btn-primary btn-advanced" id="advanced-search" type="button" data-toggle="collapse" data-target="#advanced-search" aria-expanded="false" aria-controls="advanced-search" style="display: block;">Tìm kiếm nâng cao</button>
+        </div>
+        <div class="search_bg collapse search_bg-lv5">
+            <div class="top">
+                <input class="form form-control total-button-sim" type="text" id="total-button-sim"
+                       name="total-button-sim"
+                       placeholder="Tổng nút (1-10)">
+                <input class="form form-control total-score-sim" type="text" id="total-score-sim" name="total-score-sim"
+                       placeholder="Tổng điểm (<86)">
+            </div>
+            <div class="form form-control seri-sim type-number">
+                <span class="title-sim-type">Dãy số không bao gồm:</span>
+                <!--<label class="checkcontainer">0-->
+                <!--<input type="radio" checked="checked" name="seri-sim">-->
+                <!--<span class="radiobtn"></span>-->
+                <!--</label>-->
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" checked class="custom-control-input" id="InputPlace0">
+                    <label class="custom-control-label" for="InputPlace0">0</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace1">
+                    <label class="custom-control-label" for="InputPlace1">1</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" checked class="custom-control-input" id="InputPlace2">
+                    <label class="custom-control-label" for="InputPlace2">2</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace3">
+                    <label class="custom-control-label" for="InputPlace3">3</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace4">
+                    <label class="custom-control-label" for="InputPlace4">4</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace5">
+                    <label class="custom-control-label" for="InputPlace5">5</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" checked class="custom-control-input" id="InputPlace6">
+                    <label class="custom-control-label" for="InputPlace6">6</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace7">
+                    <label class="custom-control-label" for="InputPlace7">7</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace8">
+                    <label class="custom-control-label" for="InputPlace8">8</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace9">
+                    <label class="custom-control-label" for="InputPlace9">9</label>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+    <p class="slogan span10" style="font-weight: normal">Trung tâm mua bán sim số đẹp giá rẻ, uy tín - chuyên nghiệp</p>
+</div>
+
+<!--Beadcrumb-->
+<nav aria-label="breadcrumb" class="container breadcrumb-link">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+        <li class="breadcrumb-item active" aria-current="page">So sánh sim</li>
+    </ol>
+</nav>
+<!--Home home-->
+<div class="container compare-sim">
+    <h1 class="title-hea">So sánh sim</h1>
+    <p class="note-compare">Quý khách chọn từ 02 đến 04 sim trong giỏ hàng để so sánh</p>
+    <div class="show-sim-compare">
+        <div class="row no-gutters">
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone1">
+                <label class="custom-control-label" for="phone1">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone2">
+                <label class="custom-control-label" for="phone2">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone3">
+                <label class="custom-control-label" for="phone3">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone4">
+                <label class="custom-control-label" for="phone4">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone5">
+                <label class="custom-control-label" for="phone5">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone6">
+                <label class="custom-control-label" for="phone6">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone7">
+                <label class="custom-control-label" for="phone7">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                <input type="checkbox" class="custom-control-input" id="phone8">
+                <label class="custom-control-label" for="phone8">
+                    <p class="phone">0934 747 747</p>
+                    <p class="supplier">Vietnamobile</p>
+                    <p class="price">5.500.000 đ</p>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="title-box">
+        <button type="button" class="box-head">So sánh sim</button>
+    </div>
+
+    <table class="table table-striped table-compare">
+        <thead>
+            <tr>
+                <th scope="col" width="20%"><p>Số sim</p></th>
+                <th scope="col" width="20%"><p>0987 474 747</p></th>
+                <th scope="col" width="20%"><p></p></th>
+                <th scope="col" width="20%"><p></p></th>
+                <th scope="col" width="20%"><p></p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><p>Nhà mạng</p></th>
+                <td>Vietnamobile</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row"><p>Thể loại</p></th>
+                <td>Taxi4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row"><p>Nút</p></th>
+                <td>52</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row"><p>Điểm</p></th>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row"><p>Giá tiền</p></th>
+                <td>5.500.000 đ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><button class="btn btn-primary">Thanh toán</button></td>
+                <td>
+                    <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                        <input type="checkbox" class="custom-control-input" id="compare1">
+                        <label class="custom-control-label" for="compare1"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                        <input type="checkbox" class="custom-control-input" id="compare2">
+                        <label class="custom-control-label" for="compare2"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                        <input type="checkbox" class="custom-control-input" id="compare3">
+                        <label class="custom-control-label" for="compare3"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="custom-control custom-checkbox custom-control-inline item-compare col-md-2">
+                        <input type="checkbox" class="custom-control-input" id="compare4">
+                        <label class="custom-control-label" for="compare4"></label>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</div>
+<img src="images/center_page.png" alt="" class="content-home center_page">
+<!--Footer-->
+<footer class="container footer-bottom">
+    <div class="top-foot row no-gutters">
+        <div class="col-md-6">
+            <h3 class="title-hea">Công ty TNHH TM DV Viễn Thông An Phú Lộc</h3>
+            <p class="mst">MST: 0313891354</p>
+            <p>
+                Cửa hàng ủy quyền Viettel - Gmobile <br/>
+                Địa chỉ: 486 Nguyễn Kiệm, P.3, Quận Phú Nhuận, Tp.HCM<br/>
+                Cửa hàng Viettel: 176 Đồng Đen, P.14, Quận Tân Bình, Tp.HCM <br/>
+                CN Hà Nội: Ngõ 8A Vũ Thạch, P. Ô Chợ Dừa, Q. Đống Đa, Hà Nội <br/>
+                Hotline: 0984.747.747 - 0937.486.486 - 0911.486.486 - 0997.456.789 <br/>
+                Email: simdeptructuyen@gmail.com <br/>
+                Website: simsodepgiare.com - simsodepgiare.com.vn
+            </p>
+        </div>
+        <div class="col-md-2 link-foot">
+            <ul>
+                <li><a href="#" style="font-weight: bold">Trang chủ</a></li>
+                <li><a href="#">Phong thủy</a></li>
+                <li><a href="#">Kí gửi sim</a></li>
+                <li><a href="#">Tìm sim theo yêu cầu</a></li>
+                <li><a href="#">Hướng dẫn</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Giỏ hàng</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 link-foot">
+            <ul>
+                <li><a href="#" style="font-weight: bold">Hỗ trợ mua sim</a></li>
+                <li><a href="#">Bảo mật thông tin</a></li>
+                <li><a href="#">Cam kết bán hàng</a></li>
+                <li><a href="#">Điều khoản và điều kiện</a></li>
+                <li><a href="#">Chính sách bán hàng</a></li>
+                <li><a href="#">Lên đầu trang</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 number-sims">
+            <div class="color-life"></div>
+            <div class="sims">
+                <div class="num million">1</div>
+                <div class="num thousand">815</div>
+                <div class="num hundred">326</div>
+            </div>
+            <p>Tổng số sim hiện có</p>
+            <img src="images/bct.png" alt="">
+        </div>
+    </div>
+    <div class="bottom-foot">
+        <span class="pull-left">Copyright 2009 - 2015 &copy; - Trung tâm sim số đẹp giá rẻ</span>
+        <span class="pull-center">Author: Nguyễn Văn A</span>
+        <span class="pull-right">Design by nguyenvana@gmail.com</span>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+</body>
+</html>

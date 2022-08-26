@@ -1,0 +1,265 @@
+.menu-top .search-icon {
+  width: 288px; }
+  .menu-top .search-icon .form-search {
+    padding-top: 26px; }
+
+.view-all-sims .bg-head {
+  background: #efefef;
+  border-bottom: 2px solid #d7d7d7;
+  padding: 0px 60px;
+  display: inline-flex;
+  font-size: 36px;
+  font-family: Roboto-Regular;
+  width: 100%; }
+  .view-all-sims .bg-head .title {
+    width: 290px;
+    margin-bottom: 0px;
+    line-height: 112px;
+    padding-left: 85px;
+    position: relative; }
+    .view-all-sims .bg-head .title:before {
+      content: "";
+      background-image: url("../images/img_svg/sim_theo_nha_mang/bo_loc.svg");
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      margin-top: -25px;
+      left: 0px; }
+  .view-all-sims .bg-head .show-pagination {
+    width: 550px;
+    line-height: 112px;
+    position: relative;
+    text-align: right; }
+    .view-all-sims .bg-head .show-pagination .show-value {
+      color: #717171;
+      position: relative;
+      padding-right: 23px; }
+      .view-all-sims .bg-head .show-pagination .show-value:after {
+        content: url("../images/img_svg/trang_chu/down.svg");
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(0px, -50%); }
+      .view-all-sims .bg-head .show-pagination .show-value .value-pagination {
+        color: #333333; }
+      .view-all-sims .bg-head .show-pagination .show-value > select {
+        border: none;
+        background: none;
+        width: auto;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 210px; }
+        .view-all-sims .bg-head .show-pagination .show-value > select:focus {
+          outline: none; }
+        .view-all-sims .bg-head .show-pagination .show-value > select.up, .view-all-sims .bg-head .show-pagination .show-value > select.down {
+          width: 300px; }
+        .view-all-sims .bg-head .show-pagination .show-value > select.prioritize {
+          width: 330px; }
+      .view-all-sims .bg-head .show-pagination .show-value > img {
+        position: absolute;
+        top: 50px;
+        right: 0px; }
+.view-all-sims .table-list {
+  width: 100%;
+  background: #ffffff;
+  padding: 0px 28px; }
+  .view-all-sims .table-list tr {
+    border-bottom: 2px solid #e0e0e0; }
+    .view-all-sims .table-list tr td {
+      padding: 30px 5px; }
+      .view-all-sims .table-list tr td p {
+        margin-bottom: 0px; }
+  .view-all-sims .table-list .stt {
+    font-family: Roboto-Regular;
+    font-size: 32px;
+    text-align: center; }
+  .view-all-sims .table-list .detail {
+    padding-right: 28px; }
+    .view-all-sims .table-list .detail span img:last-child {
+      padding: 15px 10px;
+      display: block; }
+    .view-all-sims .table-list .detail .exit_cart {
+      display: block; }
+    .view-all-sims .table-list .detail .no_cart {
+      display: none; }
+    .view-all-sims .table-list .detail .scart {
+      margin: 0px auto; }
+  .view-all-sims .table-list .body-i {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    .view-all-sims .table-list .body-i .sim-num {
+      font-size: 40px;
+      font-family: Roboto-Medium;
+      color: #333333; }
+    .view-all-sims .table-list .body-i .sim-net, .view-all-sims .table-list .body-i .sim-type, .view-all-sims .table-list .body-i .point, .view-all-sims .table-list .body-i .knot {
+      font-family: Roboto-Regular;
+      font-size: 36px; }
+    .view-all-sims .table-list .body-i .price {
+      font-size: 40px;
+      font-family: Roboto-Medium; }
+
+.filter-show {
+  padding: 0px 28px;
+  position: absolute;
+  top: 28px;
+  z-index: 2;
+  width: 100%;
+  display: none; }
+  .filter-show .body {
+    background: #ffffff;
+    text-align: center;
+    position: relative;
+    padding: 0px 0px 50px; }
+    .filter-show .body .header-bor {
+      height: 150px;
+      line-height: 150px;
+      text-align: left;
+      position: relative; }
+      .filter-show .body .header-bor .img-close {
+        padding-left: 55px;
+        width: 100px;
+        padding-top: 55px; }
+      .filter-show .body .header-bor .btn-completed {
+        position: absolute;
+        right: 55px;
+        top: 0px;
+        font-size: 48px;
+        color: #6bcd0a;
+        font-family: Roboto-Medium; }
+  .filter-show .box-sort-price {
+    text-align: left;
+    font-family: Roboto-Regular;
+    font-size: 44px;
+    padding: 0px 55px;
+    height: 88px; }
+    .filter-show .box-sort-price .title-sim-type {
+      float: right;
+      padding-right: 270px; }
+    .filter-show .box-sort-price .switch {
+      margin-right: 18px;
+      position: relative;
+      display: inline-block;
+      width: 145px;
+      height: 65px;
+      top: -65px;
+      left: 645px;
+      margin-bottom: 0px; }
+      .filter-show .box-sort-price .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0; }
+      .filter-show .box-sort-price .switch input[type="checkbox"] {
+        box-sizing: border-box;
+        padding: 0; }
+      .filter-show .box-sort-price .switch input:checked + .slider:before {
+        -webkit-transform: translateX(80px);
+        -ms-transform: translateX(80px);
+        transform: translateX(80px);
+        z-index: 2; }
+      .filter-show .box-sort-price .switch input:checked + .slider:after {
+        background: #3478f7;
+        position: absolute;
+        content: "";
+        border-radius: 50px;
+        width: 138px;
+        height: 55px;
+        left: 5px;
+        bottom: 5px;
+        -webkit-transition: .4s;
+        transition: .4s;
+        z-index: 1; }
+      .filter-show .box-sort-price .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: -3px;
+        bottom: 0;
+        border-radius: 50px;
+        background-color: #999999;
+        -webkit-transition: .4s;
+        transition: .4s; }
+        .filter-show .box-sort-price .switch .slider:before {
+          position: absolute;
+          content: "";
+          border-radius: 50%;
+          height: 46px;
+          width: 46px;
+          left: 10px;
+          bottom: 10px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s; }
+  .filter-show .accordion2 {
+    text-align: left; }
+    .filter-show .accordion2 .title-tog {
+      padding: 16px 55px;
+      border-top: 2px solid #e0e0e0; }
+      .filter-show .accordion2 .title-tog .btn-link {
+        padding: 6px 0px;
+        color: #333333;
+        font-family: Roboto-Regular;
+        font-size: 44px;
+        position: relative;
+        width: 100%;
+        text-align: left; }
+        .filter-show .accordion2 .title-tog .btn-link:focus {
+          text-decoration: none; }
+        .filter-show .accordion2 .title-tog .btn-link:hover {
+          text-decoration: none; }
+      .filter-show .accordion2 .title-tog button[aria-expanded='false']:after {
+        content: url("../images/img_svg/thanh_toan/open.svg");
+        width: 39px;
+        height: 39px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translate(0px, -50%); }
+      .filter-show .accordion2 .title-tog button[aria-expanded='true']:after {
+        content: url("/templates/mobile/images/img_svg/thanh_toan/close.svg");
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        top: 50%;
+        right: 6.5px;
+        transform: translate(0px, -50%); }
+    .filter-show .accordion2 .tog-show {
+      padding: 40px 65px 0px 95px; }
+      .filter-show .accordion2 .tog-show .height-scroll-s {
+        height: 1000px !important; }
+        .filter-show .accordion2 .tog-show .height-scroll-s .mCustomScrollBox {
+          padding-right: 30px; }
+        .filter-show .accordion2 .tog-show .height-scroll-s .mCSB_scrollTools {
+          right: -5px; }
+      .filter-show .accordion2 .tog-show .item-compare {
+        width: 100%;
+        margin-right: 0px;
+        font-size: 40px;
+        font-family: Roboto-Regular;
+        padding-left: 0px;
+        padding-top: 14px;
+        border-bottom: 2px solid #e0e0e0; }
+        .filter-show .accordion2 .tog-show .item-compare .custom-control-label {
+          width: 100%; }
+          .filter-show .accordion2 .tog-show .item-compare .custom-control-label:before {
+            width: 42px;
+            height: 42px;
+            left: unset;
+            right: 0px;
+            top: 23px;
+            border-radius: 10px;
+            background-color: #bebebe; }
+          .filter-show .accordion2 .tog-show .item-compare .custom-control-label:after {
+            width: 42px;
+            height: 42px;
+            left: unset;
+            right: 0px;
+            top: 23px; }
+        .filter-show .accordion2 .tog-show .item-compare:last-child {
+          border-bottom: none; }
+    .filter-show .accordion2 .bor-bot {
+      border-top: 2px solid  #e0e0e0; }
+
+/*# sourceMappingURL=sim_all.css.map */

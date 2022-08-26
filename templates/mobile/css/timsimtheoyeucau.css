@@ -1,0 +1,109 @@
+.menu-top .search-icon {
+  width: 288px; }
+  .menu-top .search-icon .form-search {
+    padding-top: 26px; }
+
+.form-required .card-header {
+  background: #3478f7;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Roboto-Medium;
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 108.6px;
+  height: 108.6px;
+  padding: 0px; }
+.form-required .box-1, .form-required .box-2 {
+  padding: 70px 60px 60px 60px;
+  background: #ffffff;
+  border-bottom: 2px solid #e0e0e0; }
+  .form-required .box-1 .label-requi, .form-required .box-2 .label-requi {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+    height: 112px;
+    margin-bottom: 50px; }
+    .form-required .box-1 .label-requi:nth-child(1):before, .form-required .box-2 .label-requi:nth-child(1):before {
+      content: url("../images/img_svg/ki_gui_sim/ho_ten.svg");
+      width: 34px;
+      height: 47px;
+      position: absolute;
+      left: 40px;
+      top: 25%; }
+    .form-required .box-1 .label-requi:nth-child(2):before, .form-required .box-2 .label-requi:nth-child(2):before {
+      content: "";
+      background-image: url("../images/img_svg/ki_gui_sim/phone.svg");
+      width: 46px;
+      height: 46px;
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      margin-top: -24.5px; }
+    .form-required .box-1 .label-requi:nth-child(3):before, .form-required .box-2 .label-requi:nth-child(3):before {
+      content: "";
+      background-image: url("../images/img_svg/ki_gui_sim/dia_chi.svg");
+      width: 42px;
+      height: 53px;
+      position: absolute;
+      left: 40px;
+      top: 20%; }
+    .form-required .box-1 .label-requi:nth-child(5):before, .form-required .box-2 .label-requi:nth-child(5):before {
+      content: "";
+      background-image: url("../images/img_svg/ki_gui_sim/email.svg");
+      width: 56px;
+      height: 36px;
+      position: absolute;
+      left: 40px;
+      top: 33%; }
+  .form-required .box-1 .in-reque, .form-required .box-2 .in-reque {
+    line-height: 112px;
+    font-size: 36px;
+    padding: 0px 50px 0px 112px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    border: 1px solid #7c7c7c; }
+  .form-required .box-1 .in-texa, .form-required .box-2 .in-texa {
+    padding-left: 40px; }
+  .form-required .box-1 .customer-note, .form-required .box-2 .customer-note {
+    font-size: 36px;
+    font-family: Roboto-Regular;
+    margin-bottom: 0px;
+    margin-top: 40px; }
+    .form-required .box-1 .customer-note span, .form-required .box-2 .customer-note span {
+      font-family: Roboto-Medium; }
+.form-required .box-2 .note {
+  border-bottom: 2px solid #e0e0e0;
+  margin-top: 0px; }
+  .form-required .box-2 .note .tit-note {
+    font-family: Roboto-Regular;
+    margin-bottom: 0px; }
+    .form-required .box-2 .note .tit-note span {
+      font-family: Roboto-Medium; }
+.form-required .box-2 .sub-requi {
+  width: 100%;
+  margin: 65px 0px 5px 0px;
+  line-height: 105px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-family: Roboto-Medium;
+  font-size: 44px;
+  border-radius: 10px;
+  background: #3478f7;
+  color: #ffffff; }
+.form-required .box-2 .label-requi:nth-child(1):before {
+  content: url("../images/logo-requi-05.png");
+  width: 73px;
+  height: 41px;
+  position: absolute;
+  left: 20px;
+  top: 30%; }
+.form-required .box-2 .label-requi:nth-child(2):before {
+  content: "";
+  background-image: url("../images/logo-requi-06.png");
+  width: 55px;
+  height: 56px;
+  position: absolute;
+  left: 40px;
+  top: 45%; }
+
+/*# sourceMappingURL=timsimtheoyeucau.css.map */

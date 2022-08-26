@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sim số đẹp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="js/jquery.mCustomScrollbar.css"/>
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="scss/font-awesome/css/font-awesome.css"/>
+    <!-- Bootstrap js -->
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/templates.js" type="text/javascript"></script>
+    <script src="js/js_scrollBar.js" type="text/javascript"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--Promotion information-->
+<div class="container promotion-information">
+    <marquee behavior="scroll" direction="left" class="top-slide" onmouseover="this.stop();" onmouseleave="this.start();">
+        <a href="http://demo.simsodepgiare.vn/huong-dan-dang-ky-sim.html">Hướng dẫn đăng ký sim</a>
+        <a href="http://demo.simsodepgiare.vn/Uu-dai-lon-goi-cuoc-Smart-199-cua-Vinaphone-t271.html">Ưu đãi lớn gói cước Smart 199 của Vinaphone</a>
+        <a href="http://demo.simsodepgiare.vn/10-buoc-de-mua-sim-so-dep-truc-tuyen-an-toan-t224.html">10 bước để mua sim số đẹp trực tuyến an toàn</a>
+    </marquee>
+    <span class="close-promo pull-right"><i class="fa fa-times" aria-hidden="true"></i></span>
+</div>
+
+
+<!--Company information-->
+<div class="container company-information">
+    <span class="title-company pull-left">Công Ty TNHH TM DV Viễn thông An Phú Lộc</span>
+    <span class="work-company pull-right">Giờ làm việc : Thứ hai - thứ bảy (8h30 - 19h00), Chủ nhật (10h00 - 15h00) </span>
+    <div class="clearfix"></div>
+</div>
+
+<!-- Company-contact -->
+<div class="container company-contact">
+    <div class="img-logo">
+        <img src="images/logo.png">
+    </div>
+    <div class="contact-header">
+        <p class="gmail">Simdeptructuyen@gmail.com</p>
+        <p class="phone">Bộ phận chăm sóc khách hàng</p>
+        <p class="phone-2">   0984 747 747 - 0937 486 486 - 0911 486 486</p>
+    </div>
+    <div class="shopcart">
+        <p>Giỏ hàng</p>
+        <div class="icon-cart">
+            <img src="images/icon_cart.png" alt="Giỏ hàng">
+            <span>1</span>
+        </div>
+        <!--Show cart-->
+        <div class="show-cart">
+            <table class="table table-hover table-cart">
+                <thead>
+                <tr>
+                    <th scope="col">Số sim</th>
+                    <th scope="col">Giá tiền</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>0984 747 747</td>
+                    <td>8.870.000 đ</td>
+                    <td><span><i class="fa fa-times" aria-hidden="true"></i></span></td>
+                </tr>
+                <tr>
+                    <td>0984 747 747</td>
+                    <td>8.870.000 đ</td>
+                    <td><span><i class="fa fa-times" aria-hidden="true"></i></span></td>
+                </tr>
+                <tr>
+                    <td>0984 747 747</td>
+                    <td>8.870.000 đ</td>
+                    <td><span><i class="fa fa-times" aria-hidden="true"></i></span></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td>Tổng thanh toán</td>
+                    <td>27.850.000 đ</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="btn btn-primary">So sánh sim</a></td>
+                    <td><a href="#" class="btn btn-primary">Thanh toán</a></td>
+                    <td></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!--Menu top-->
+<nav class="container navbar navbar-expand-lg menu-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-top"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu-top">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Sim theo nhà mạng <span class="sr-only">(current)</span></a>
+                <ul>
+                    <li><a href="#">Viettel</a></li>
+                    <li><a href="#">Mobifone</a></li>
+                    <li><a href="#">Vinaphone</a></li>
+                    <li><a href="#">Gmobile</a></li>
+                    <li><a href="#">Vietnamobile</a></li>
+                    <li><a href="#">Cố định</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Phong thủy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ký gửi sim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tìm sim theo yêu cầu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hướng dẫn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Menu filter-->
+<div class="container" id="sim_search_wrap">
+    <form action="">
+        <div class="search_bg search_bg-lv1">
+            <div class="SumoSelect">
+                <!--Danh sách sim-->
+                <input type="hidden" id="selected-value" name="select-options">
+                <div class="select-options">
+                    <div class="value">Danh sách mạng</div>
+                    <div class="select-dropdown-icon">
+                        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+                    </div>
+                    <div class="options">
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>
+                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>
+                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Mobifone</div>
+                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>
+                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Sim cố định</div>
+                    </div>
+                </div>
+                <!--Thể loại sim-->
+                <input type="hidden" id="selected-type" name="select-type">
+                <div class="select-type">
+                    <div class="value-type">Thể loại sim</div>
+                    <div class="select-dropdown-icon">
+                        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+                    </div>
+                    <div class="options">
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Mobifone</div>
+                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>
+                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile</div>
+                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Beline</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Sfone</div>
+                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">cố định</div>
+                    </div>
+                </div>
+
+                <!--Giá tiền-->
+                <input type="hidden" id="selected-price" name="select-prices">
+                <div class="select-prices">
+                    <div class="value-price">Chọn giá tiền</div>
+                    <div class="select-dropdown-icon">
+                        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+                    </div>
+                    <div class="options">
+                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Từ 0.5 - 1tr</div>
+                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Từ 1tr - 2tr</div>
+                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Từ 2tr - 5tr</div>
+                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Từ 5tr - 10tr</div>
+                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Từ 10tr - 20tr</div>
+                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">Từ 20tr - 50tr</div>
+                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">Từ 50tr - 100tr
+                        </div>
+                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">Từ 100tr - 200tr
+                        </div>
+                        <div class="option" value="9" data-placement="bottom" data-toggle="tooltip">Từ 200tr - 500tr
+                        </div>
+                        <div class="option" value="10" data-placement="bottom" data-toggle="tooltip">Trên 500tr</div>
+                    </div>
+                </div>
+                <!--<div class="form form-control" style="width: 292px;">-->
+                    <!--<input class="price-show" type="text" name="price-show"-->
+                           <!--placeholder="Từ...">-->
+                    <!--<img src="images/from_to.png">-->
+                    <!--<input class="price-show" type="text" name="price-show" style="width: 50%;"-->
+                           <!--placeholder="Đến...">-->
+                <!--</div>-->
+            </div>
+        </div>
+        <!--<div class="search_bg search_bg-lv2">-->
+            <!--<div class="SumoSelect">-->
+
+                <!--<div class="form form-control sim-type type-number">-->
+                    <!--<span class="title-sim-type">Sim:</span>-->
+                    <!--<label class="checkcontainer">Tất cả-->
+                        <!--<input type="radio" checked="checked" name="sim-type">-->
+                        <!--<span class="radiobtn"></span>-->
+                    <!--</label>-->
+                    <!--<label class="checkcontainer">10 số-->
+                        <!--<input type="radio" name="sim-type">-->
+                        <!--<span class="radiobtn"></span>-->
+                    <!--</label>-->
+                    <!--<label class="checkcontainer">11 số-->
+                        <!--<input type="radio" name="sim-type">-->
+                        <!--<span class="radiobtn"></span>-->
+                    <!--</label>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="search_bg search_bg-lv3">
+            <input type="text" class="form form-control text-search" name="text-search" id="text-search"
+                   placeholder="Nhập số sim quý khách muốn tìm kiếm">
+            <span class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <div id="search-guide" class="hint" data-toggle="tooltip" style="line-height: 18px;">
+						<span style="color: #0762dc; font-size: 16px; font-family: text-regular;">Sử dụng dấu <span
+                                style="color: #5d5d5d;font-weight: bold;">"x"</span> đại điện cho 1 số và dấu <span
+                                style="color: #5d5d5d;font-weight: bold;">"*"</span> đại điện cho một chuỗi số.
+						</span> <br>
+                <p>Để tìm sim bắt đầu bằng 098, quý khách nhập vào 098*</p>
+                <p>Để tìm sim kết thúc bằng 888, quý khách nhập vào *888</p>
+                <p>Để tìm sim bên trong có số 888, quý khách nhập vào 888</p>
+                <p>Để tìm sim bắt đầu bằng 098 và kết thúc bằng 888, nhập vào
+                    098*888</p>
+                <p>Để tìm sim bắt đầu bằng 098 và kết thúc bằng 808, 818, 828,
+                    838, 848, 858, 868, 878, 888, 898 nhập vào 098*8x8</p>
+                <br>
+                <span style="color: #0762dc; font-size: 16px;font-family: text-regular;">Sử dụng dấu <span
+                        style="color: #5d5d5d;font-weight: bold;">"-"</span> đại diện cho <span
+                        style="color: #5d5d5d;font-weight: bold">"hoặc"</span> để tìm với nhiều kết quả
+							nhanh hơn.
+						</span> <br>
+                <p>Để tìm sim bắt đầu bằng 096 hoặc 098, quý khách nhập vào
+                    09(6-8)</p>
+                <p>Để tìm sim kết thúc bằng 888 hoặc 999, quý khách nhập vào
+                    *(888-999)</p>
+                <p>Để tìm sim bên trong có số 888 hoặc 999, quý khách nhập vào
+                    (888-999)</p>
+                <p>Để tìm sim bắt đầu bằng 096 hoặc 098 và kết thúc bằng 888 hoặc
+                    999, nhập vào 09(6-8)*(888-999)</p>
+                <p>Để tìm sim bắt đầu bằng 096 hoặc 098 và kết thúc bằng 808 -&gt;
+                    898 hoặc từ 909 -&gt; 999 nhập vào 09(6-8)*(8x8-9x9)</p>
+            </div>
+        </div>
+        <div id="black-opa">
+        </div>
+        <div class="search_bg search_bg-lv4">
+            <div class="form form-control sim-price type-number">
+                <span class="title-sim-price">Giá:</span>
+                <label class="checkcontainer">Tất cả
+                    <input type="radio" checked="checked" name="sim-price">
+                    <span class="radiobtn"></span>
+                </label>
+                <label class="checkcontainer">Tăng
+                    <input type="radio" name="sim-price">
+                    <span class="radiobtn"></span>
+                </label>
+                <label class="checkcontainer">Giảm
+                    <input type="radio" name="sim-price">
+                    <span class="radiobtn"></span>
+                </label>
+            </div>
+            <button class="btn btn-primary btn-advanced" id="advanced-search" type="button" data-toggle="collapse" data-target="#advanced-search" aria-expanded="false" aria-controls="advanced-search" style="display: block;">Tìm kiếm nâng cao</button>
+        </div>
+        <div class="search_bg collapse search_bg-lv5">
+            <div class="top">
+                <input class="form form-control total-button-sim" type="text" id="total-button-sim"
+                       name="total-button-sim"
+                       placeholder="Tổng nút (1-10)">
+                <input class="form form-control total-score-sim" type="text" id="total-score-sim" name="total-score-sim"
+                       placeholder="Tổng điểm (<86)">
+            </div>
+            <div class="form form-control seri-sim type-number">
+                <span class="title-sim-type">Dãy số không bao gồm:</span>
+                <!--<label class="checkcontainer">0-->
+                    <!--<input type="radio" checked="checked" name="seri-sim">-->
+                    <!--<span class="radiobtn"></span>-->
+                <!--</label>-->
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" checked class="custom-control-input" id="InputPlace0">
+                    <label class="custom-control-label" for="InputPlace0">0</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace1">
+                    <label class="custom-control-label" for="InputPlace1">1</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" checked class="custom-control-input" id="InputPlace2">
+                    <label class="custom-control-label" for="InputPlace2">2</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace3">
+                    <label class="custom-control-label" for="InputPlace3">3</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace4">
+                    <label class="custom-control-label" for="InputPlace4">4</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace5">
+                    <label class="custom-control-label" for="InputPlace5">5</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" checked class="custom-control-input" id="InputPlace6">
+                    <label class="custom-control-label" for="InputPlace6">6</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace7">
+                    <label class="custom-control-label" for="InputPlace7">7</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace8">
+                    <label class="custom-control-label" for="InputPlace8">8</label>
+                </div>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="InputPlace9">
+                    <label class="custom-control-label" for="InputPlace9">9</label>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+    <p class="slogan span10" style="font-weight: normal">Trung tâm mua bán sim số đẹp giá rẻ, uy tín - chuyên nghiệp</p>
+</div>
+
+<!--Content home-->
+<div class="container content-home">
+    <div class="row no-gutters">
+        <div class="col-md-9 left-content">
+            <div class="quick-filter quick-filter-type">
+                <h3 class="title-hea">Tìm nhanh theo loại</h3>
+                <ul>
+                    <li><a href="#">Sim Lục Quý</a></li>
+                    <li><a href="#">Sim Ngũ Quý</a></li>
+                    <li><a href="#">Sim Tứ Quý</a></li>
+                    <li><a href="#">Sim Tam Hoa</a></li>
+                    <li><a href="#">Sim Tam Hoa Kép</a></li>
+                    <li><a href="#">Sim Taxi 2</a></li>
+                    <li><a href="#">Sim Taxi 3</a></li>
+                    <li><a href="#">Sim Lục Quý</a></li>
+                    <li><a href="#">Sim Ngũ Quý</a></li>
+                    <li><a href="#">Sim Tứ Quý</a></li>
+                    <li><a href="#">Sim Tam Hoa</a></li>
+                    <li><a href="#">Sim Tam Hoa Kép</a></li>
+                    <li><a href="#">Sim Taxi 2</a></li>
+                    <li><a href="#">Sim Taxi 3</a></li>
+                    <li><a href="#">Sim Lục Quý</a></li>
+                    <li><a href="#">Sim Ngũ Quý</a></li>
+                    <li><a href="#">Sim Tứ Quý</a></li>
+                    <li><a href="#">Sim Tam Hoa</a></li>
+                    <li><a href="#">Sim Tam Hoa Kép</a></li>
+                    <li><a href="#">Sim Taxi 2</a></li>
+                    <li><a href="#">Sim Taxi 3</a></li>
+                    <li><a href="#">Sim Lục Quý</a></li>
+                    <li><a href="#">Sim Ngũ Quý</a></li>
+                    <li><a href="#">Sim Tứ Quý</a></li>
+                    <li><a href="#">Sim Tam Hoa</a></li>
+                    <li><a href="#">Sim Tam Hoa Kép</a></li>
+                    <li><a href="#">Sim Taxi 2</a></li>
+                    <li><a href="#">Sim Taxi 3</a></li>
+                    <li><a href="#">Sim Lục Quý</a></li>
+                    <li><a href="#">Sim Ngũ Quý</a></li>
+                    <li><a href="#">Sim Tứ Quý</a></li>
+                    <li><a href="#">Sim Tam Hoa</a></li>
+                    <li><a href="#">Sim Tam Hoa Kép</a></li>
+                    <li><a href="#">Sim Taxi 2</a></li>
+                    <li><a href="#">Sim Taxi 3</a></li>
+                </ul>
+            </div>
+            <div class="quick-filter quick-filter-number">
+                <span class="title-hea">Tìm nhanh theo đầu số</span>
+                <div class="SumoSelect">
+                    <!--Theo nhà mạng-->
+                    <input type="hidden" id="quicked-net" name="quick-net">
+                    <div class="quick-net btn btn-primary">
+                        <div class="value-quick-net">Theo nhà mạng</div>
+                        <div class="select-dropdown-icon">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="options">
+                            <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Mobifone</div>
+                            <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone</div>
+                            <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel</div>
+                            <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">Vietnamobile
+                            </div>
+                            <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Beline</div>
+                            <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile</div>
+                            <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Sfone</div>
+                            <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">cố định</div>
+                        </div>
+                    </div>
+
+                    <!--Theo đầu số-->
+                    <input type="hidden" id="quicked-first" name="quick-first">
+                    <div class="quick-first btn btn-primary">
+                        <div class="value-quick-first">Đầu số</div>
+                        <div class="select-dropdown-icon">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="options">
+                            <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">097</div>
+                            <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">098</div>
+                            <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">036</div>
+                            <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">094</div>
+                            <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">092</div>
+                            <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">093</div>
+                        </div>
+                    </div>
+
+                    <!--Xem toàn bộ sim-->
+                    <a href="#" class="all-sim btn btn-primary">Xem toàn bộ sim trong hệ thống</a>
+                </div>
+            </div>
+            <div class="quick-filter sale-of-day">
+                <span class="title-hea">Sim khuyến mãi trong ngày</span>
+                <span class="pull-right view-all"><a href="#">Xem thêm <i class="fa fa-angle-right"
+                                                                          aria-hidden="true"></i></a></span>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-filter sim-vip">
+                <span class="title-hea">Sim vip</span>
+                <span class="pull-right view-all"><a href="#">Xem thêm <i class="fa fa-angle-right"
+                                                                          aria-hidden="true"></i></a></span>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-filter sim-offer">
+                <span class="title-hea">Sim đề xuất</span>
+                <span class="pull-right view-all"><a href="#">Xem thêm <i class="fa fa-angle-right"
+                                                                          aria-hidden="true"></i></a></span>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-phone">
+                        <p class="top">
+                            <span class="phone-number pull-left">0998 421 541</span>
+                            <span class="phone-type pull-right">Vietnamobile</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="bottom">
+                            <span class="price-old pull-left">10.430.000 đ</span>
+                            <span class="price-new pull-right">8.870.000 đ</span>
+                        </p>
+                        <div class="clearfix"></div>
+                        <div class="action-phone">
+                            <span class="pull-left add-cart"><a href="#">Thêm vào giỏ hàng</a></span>
+                            <span class="pull-right view-other"><a href="#">Mua ngay <i class="fa fa-angle-right"
+                                                                                        aria-hidden="true"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 right-content">
+            <div class="card sim-default sim-tasteful">
+                <div class="card-header">Khuyến mãi sim số đẹp</div>
+                <div class="card-body ">
+                    <div class="scroll-y">
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="item-phone">
+                            <p class="top">
+                                <span class="phone-number pull-left">0982 653 721</span>
+                                <span class="phone-type pull-right">
+                            <a href="#"><img src="images/icon_sim.png" alt=""></a>
+                            <a href=""><img src="images/icon_sim_06.png" alt=""></a>
+                        </span>
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="bottom">
+                                <span class="price-old pull-left">10.430.000 đ</span>
+                                <span class="price-new pull-right">8.870.000 đ</span>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer"><a href="#">Xem thêm sim khuyến mãi <i class="fa fa-angle-right"
+                                                                                aria-hidden="true"></i></a></div>
+            </div>
+            <div class="card sim-default sim-date">
+                <div class="card-header">Tìm sim theo ngày sinh</div>
+                <div class="card-body">
+                    <div class="find-date">
+                        <div class="SumoSelect">
+                            <!--Ngày-->
+                            <input type="hidden" id="selected-day-2" name="select-day-2" value="1">
+                            <div class="select-day-2">
+                                <div class="value-day-2">Ngày</div>
+                                <div class="select-dropdown-icon">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="options">
+                                    <div class="scroll-y">
+                                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">01</div>
+                                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">02</div>
+                                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">03</div>
+                                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">04</div>
+                                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">05</div>
+                                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">06</div>
+                                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">07</div>
+                                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">08</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Tháng-->
+                            <input type="hidden" id="selected-month-2" name="select-month-2" value="1">
+                            <div class="select-month-2">
+                                <div class="value-month-2">Tháng</div>
+                                <div class="select-dropdown-icon">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="options">
+                                    <div class="scroll-y">
+                                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">01</div>
+                                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">02</div>
+                                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">03</div>
+                                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">04</div>
+                                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">05</div>
+                                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">06</div>
+                                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">07</div>
+                                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">08</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Năm-->
+                            <input type="hidden" id="selected-year-2" name="select-year-2" value="1">
+                            <div class="select-year-2">
+                                <div class="value-year-2">Năm</div>
+                                <div class="select-dropdown-icon">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="options">
+                                    <div class="scroll-y">
+                                        <div class="option" value="0" data-placement="bottom" data-toggle="tooltip">1990
+                                        </div>
+                                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">1991
+                                        </div>
+                                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">1992
+                                        </div>
+                                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">1993
+                                        </div>
+                                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">1994
+                                        </div>
+                                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">1995
+                                        </div>
+                                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">1996
+                                        </div>
+                                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">1997
+                                        </div>
+                                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">1998
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-number">
+                        <label class="checkcontainer">Tất cả
+                            <input type="radio" checked="checked" name="sim-date">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">10 số
+                            <input type="radio" name="sim-date">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">11 số
+                            <input type="radio" name="sim-date">
+                            <span class="radiobtn"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="card-footer"><a href="#">Tìm kiếm sim <i class="fa fa-angle-right"
+                                                                     aria-hidden="true"></i></a></div>
+            </div>
+            <div class="card sim-default sim-geomancy">
+                <div class="card-header">Tìm sim phong thủy</div>
+                <div class="card-body">
+                    <div class="find-date find-total">
+
+                        <input class="form-control" type="text" placeholder="Tổng nút">
+                        <input class="form-control" type="text" placeholder="Tổng điểm">
+                    </div>
+                    <div class="type-number">
+                        <label class="checkcontainer">Tất cả
+                            <input type="radio" checked="checked" name="sim-geomancy">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">10 số
+                            <input type="radio" name="sim-geomancy">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">11 số
+                            <input type="radio" name="sim-geomancy">
+                            <span class="radiobtn"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="card-footer"><a href="#">Tìm kiếm sim <i class="fa fa-angle-right"
+                                                                     aria-hidden="true"></i></a></div>
+            </div>
+            <div class="card sim-default sim-combine-destiny">
+                <div class="card-header">Tìm sim hợp mệnh</div>
+                <div class="card-body">
+                    <div class="box-combine-destiny">
+                        <p class="active"><img src="images/icon_combine_destiny-01.png" alt=""><span><img
+                                src="images/bar.png" alt=""></span>Sim
+                            Hợp Mệnh Kim</p>
+                        <p><img src="images/icon_combine_destiny-02.png" alt=""><span><img src="images/bar.png" alt=""></span>Sim
+                            Hợp Mệnh Mộc</p>
+                        <p><img src="images/icon_combine_destiny-03.png" alt=""><span><img src="images/bar.png" alt=""></span>Sim
+                            Hợp Mệnh Thủy</p>
+                        <p><img src="images/icon_combine_destiny-04.png" alt=""><span><img src="images/bar.png" alt=""></span>Sim
+                            Hợp Mệnh Hỏa</p>
+                        <p><img src="images/icon_combine_destiny-05.png" alt=""><span><img src="images/bar.png" alt=""></span>Sim
+                            Hợp Mệnh Thổ</p>
+                    </div>
+                    <!-- theo ngày tháng năm sinh -->
+                    <div class="find-date">
+                        <div class="SumoSelect">
+                            <!--Ngày-->
+                            <input type="hidden" id="selected-day" name="select-day" value="1">
+                            <div class="select-day">
+                                <div class="value-day">Ngày</div>
+                                <div class="select-dropdown-icon">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="options">
+                                    <div class="scroll-y">
+                                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">1
+                                        </div>
+                                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">2
+                                        </div>
+                                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">3
+                                        </div>
+                                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">4
+                                        </div>
+                                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">5
+                                        </div>
+                                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">6
+                                        </div>
+                                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">7
+                                        </div>
+                                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">8</div>
+                                        <div class="option" value="9" data-placement="bottom" data-toggle="tooltip">9</div>
+                                        <div class="option" value="10" data-placement="bottom" data-toggle="tooltip">10</div>
+                                        <div class="option" value="11" data-placement="bottom" data-toggle="tooltip">11</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Tháng-->
+                            <input type="hidden" id="selected-month" name="select-month" value="1">
+                            <div class="select-month">
+                                <div class="value-month">Tháng</div>
+                                <div class="select-dropdown-icon">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="options">
+                                    <div class="scroll-y">
+                                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">01
+                                        </div>
+                                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">02
+                                        </div>
+                                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">03
+                                        </div>
+                                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">04
+                                        </div>
+                                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">05
+                                        </div>
+                                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">06
+                                        </div>
+                                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">07
+                                        </div>
+                                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">08
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Năm-->
+                            <input type="hidden" id="selected-year" name="select-year" value="1">
+                            <div class="select-year">
+                                <div class="value-year">Năm</div>
+                                <div class="select-dropdown-icon">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="options">
+                                    <div class="scroll-y">
+                                        <div class="option" value="0" data-placement="bottom" data-toggle="tooltip">
+                                            1990
+                                        </div>
+                                        <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">
+                                            1991
+                                        </div>
+                                        <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">
+                                            1992
+                                        </div>
+                                        <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">
+                                            1993
+                                        </div>
+                                        <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">
+                                            1994
+                                        </div>
+                                        <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">
+                                            1995
+                                        </div>
+                                        <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">
+                                            1996
+                                        </div>
+                                        <div class="option" value="7" data-placement="bottom" data-toggle="tooltip">
+                                            1997
+                                        </div>
+                                        <div class="option" value="8" data-placement="bottom" data-toggle="tooltip">
+                                            1998
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-number">
+                        <label class="checkcontainer">Nam
+                            <input type="radio" checked="checked" name="gender">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer" style=" margin-left: 14px;">Nữ
+                            <input type="radio" name="gender">
+                            <span class="radiobtn"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="card-footer"><a href="#">Tìm kiếm sim <i class="fa fa-angle-right"
+                                                                     aria-hidden="true"></i></a></div>
+            </div>
+            <div class="register-sale">
+                <div class="box-top">
+                    <h1 class="title-hea">Đăng ký khuyến mãi</h1>
+                    <div class="SumoSelect">
+                        <!--Đang ký -->
+                        <input type="hidden" id="selected-sim-name" name="sim-name" value="1">
+                        <div class="sim-name">
+                            <div class="value-type">Mobifone</div>
+                            <div class="select-dropdown-icon">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                            <div class="options">
+                                <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Mobifone
+                                </div>
+                                <div class="option" value="2" data-placement="bottom" data-toggle="tooltip">Vinaphone
+                                </div>
+                                <div class="option" value="1" data-placement="bottom" data-toggle="tooltip">Viettel
+                                </div>
+                                <div class="option" value="4" data-placement="bottom" data-toggle="tooltip">
+                                    Vietnamobile
+                                </div>
+                                <div class="option" value="3" data-placement="bottom" data-toggle="tooltip">Beline</div>
+                                <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Gmobile
+                                </div>
+                                <div class="option" value="5" data-placement="bottom" data-toggle="tooltip">Sfone</div>
+                                <div class="option" value="6" data-placement="bottom" data-toggle="tooltip">cố định
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="all-sim btn btn-primary">Đăng ký ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="images/center_page.png" alt="" class="content-home center_page">
+    <div class="reviews-sim">
+        <div class="box-content">
+            <div class="scroll-y">
+                <h5 class="title">Sim số đẹp Mobifone giá rẻ</h5>
+                <p>
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone. <br/>
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.<br/>
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                    Mobifone đc xem là 1 trong những nhà mạng lớn, uy tín tại thị trường việt nam. Chính vì vậy, các thuê
+                    bao luôn săn đón nhà mạng này để có được sim số đpẹ Mobifone.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="news-home">
+        <div class="title">
+            <button class="btn btn-primary">TIN TỨC SIM SỐ ĐẸP</button>
+            <span class="pull-right view-all"><a href="#">Xem thêm <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="content-new row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-6 news-big">
+                        <a href="#">
+                            <img src="images/img-new.png" alt="">
+                            <p class="title-new">Mua tivi mà bỏ qua chất lượng âm thanh, có lẽ bạn sẽ phải hối tiếc.</p>
+                        </a>
+                        <p class="time-post">4 giờ trước</p>
+                        <p class="brief">Soundbar là lựa chọn hoàn hảo cho những người tìm kiếm trải nghiệm "xem
+                            phim rạp" ngay tại căn nhà của...</p>
+
+                    </div>
+                    <div class="col-md-6 news-big">
+                        <a href="#">
+                            <img src="images/img-news_01.png" alt="">
+                            <p href="#" class="title-new">Mua tivi mà bỏ qua chất lượng âm thanh, có lẽ bạn sẽ phải hối
+                                tiếc.</p>
+                        </a>
+                        <p class="time-post">4 giờ trước</p>
+                        <p class="brief">Soundbar là lựa chọn hoàn hảo cho những người tìm kiếm trải nghiệm "xem
+                            phim rạp" ngay tại căn nhà của...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="small-news">
+                    <div class="scroll-y">
+                        <div class="item-news">
+                            <a href="#">Trường Giang khoe nhẫn cưới với Nhã Phương trên sóng "Ơn giời".</a>
+                            <p>Trong căn phòng khách mời nóng bỏng Elly Trần, trưởng phòng Trường Giang...</p>
+                        </div>
+                        <div class="item-news">
+                            <a href="#">Trường Giang khoe nhẫn cưới với Nhã Phương trên sóng "Ơn giời".</a>
+                            <p>Trong căn phòng khách mời nóng bỏng Elly Trần, trưởng phòng Trường Giang...</p>
+                        </div>
+                        <div class="item-news">
+                            <a href="#">Trường Giang khoe nhẫn cưới với Nhã Phương trên sóng "Ơn giời".</a>
+                            <p>Trong căn phòng khách mời nóng bỏng Elly Trần, trưởng phòng Trường Giang...</p>
+                        </div>
+                        <div class="item-news">
+                            <a href="#">Trường Giang khoe nhẫn cưới với Nhã Phương trên sóng "Ơn giời".</a>
+                            <p>Trong căn phòng khách mời nóng bỏng Elly Trần, trưởng phòng Trường Giang...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<img src="images/center_page.png" alt="" class="content-home center_page">
+<!--Footer-->
+<footer class="container footer-bottom">
+    <div class="top-foot row no-gutters">
+        <div class="col-md-6">
+            <h3 class="title-hea">Công ty TNHH TM DV Viễn Thông An Phú Lộc</h3>
+            <p class="mst">MST: 0313891354</p>
+            <p>
+                Cửa hàng ủy quyền Viettel - Gmobile <br/>
+                Địa chỉ: 486 Nguyễn Kiệm, P.3, Quận Phú Nhuận, Tp.HCM<br/>
+                Cửa hàng Viettel: 176 Đồng Đen, P.14, Quận Tân Bình, Tp.HCM <br/>
+                CN Hà Nội: Ngõ 8A Vũ Thạch, P. Ô Chợ Dừa, Q. Đống Đa, Hà Nội <br/>
+                Hotline: 0984.747.747 - 0937.486.486 - 0911.486.486 - 0997.456.789 <br/>
+                Email: simdeptructuyen@gmail.com <br/>
+                Website: simsodepgiare.com - simsodepgiare.com.vn
+            </p>
+        </div>
+        <div class="col-md-2 link-foot">
+            <ul>
+                <li><a href="#" style="font-weight: bold">Trang chủ</a></li>
+                <li><a href="#">Phong thủy</a></li>
+                <li><a href="#">Kí gửi sim</a></li>
+                <li><a href="#">Tìm sim theo yêu cầu</a></li>
+                <li><a href="#">Hướng dẫn</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Giỏ hàng</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 link-foot">
+            <ul>
+                <li><a href="#" style="font-weight: bold">Hỗ trợ mua sim</a></li>
+                <li><a href="#">Bảo mật thông tin</a></li>
+                <li><a href="#">Cam kết bán hàng</a></li>
+                <li><a href="#">Điều khoản và điều kiện</a></li>
+                <li><a href="#">Chính sách bán hàng</a></li>
+                <li><a href="#">Lên đầu trang</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 number-sims">
+            <div class="color-life"></div>
+            <div class="sims">
+                <div class="num million">1</div>
+                <div class="num thousand">815</div>
+                <div class="num hundred">326</div>
+            </div>
+            <p>Tổng số sim hiện có</p>
+            <img src="images/bct.png" alt="">
+        </div>
+    </div>
+    <div class="bottom-foot">
+        <span class="pull-left">Copyright 2009 - 2015 &copy; - Trung tâm sim số đẹp giá rẻ</span>
+        <span class="pull-center">Author: Nguyễn Đức Thọ</span>
+        <span class="pull-right">Design by Tranhoang.pts@gmail.com</span>
+        <div class="clearfix"></div>
+    </div>
+</footer>
+
+</body>
+</html>

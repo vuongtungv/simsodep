@@ -1,0 +1,56 @@
+.menu-top{
+  .search-icon{
+    width: 288px;
+    .form-search{
+      padding-top: 26px;
+    }
+  }
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight:normal;
+  font-style:normal;
+}
+.alert404{
+  padding: 0px 60px;
+  text-align: center;
+  font-family: Roboto-Regular;
+  >img{
+    padding: 120px 0px 50px;
+  }
+  .oops{
+    font-size: 52px;
+    span{
+      font-family: Roboto-Bold;
+    }
+  }
+  .exc{
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
+.go-back{
+  padding: 0px 60px 55px;
+  .bor-top{
+    padding-top: 55px;
+    border-top: 1px solid #aeaeae;
+    display: flex;
+    justify-content: space-between;
+  }
+  a{
+    font-size: 40px;
+    font-family: Roboto-Medium;
+  }
+  .go-home{
+    color: #ffffff;
+    width: 365px;
+    line-height: 90px;
+    border-radius: 10px;
+  }
+  .retur{
+    color: #333333;
+    line-height: 90px;
+    padding-top: 5px;
+  }
+}

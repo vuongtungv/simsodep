@@ -1,0 +1,87 @@
+array(5) {
+  [""]=>
+  array(7) {
+    [0]=>
+    string(7) "2307772"
+    [1]=>
+    string(9) "786290000"
+    [2]=>
+    string(10) "0988000032"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(20) "Sim tứ quý giữa"
+    [5]=>
+    string(2) "30"
+    [6]=>
+    string(1) "0"
+  }
+  ["0988000044"]=>
+  array(7) {
+    [0]=>
+    string(7) "2307784"
+    [1]=>
+    string(9) "786788000"
+    [2]=>
+    string(10) "0988000044"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(13) "Sim số kép"
+    [5]=>
+    string(2) "33"
+    [6]=>
+    string(1) "3"
+  }
+  ["0988000046"]=>
+  array(7) {
+    [0]=>
+    string(7) "2307786"
+    [1]=>
+    string(9) "786788000"
+    [2]=>
+    string(10) "0988000046"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(20) "Sim tứ quý giữa"
+    [5]=>
+    string(2) "35"
+    [6]=>
+    string(1) "5"
+  }
+  ["0988000045"]=>
+  array(7) {
+    [0]=>
+    string(7) "2307785"
+    [1]=>
+    string(9) "786788000"
+    [2]=>
+    string(10) "0988000045"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(20) "Sim tứ quý giữa"
+    [5]=>
+    string(2) "34"
+    [6]=>
+    string(1) "4"
+  }
+  ["0988000047"]=>
+  array(7) {
+    [0]=>
+    string(7) "2307787"
+    [1]=>
+    string(9) "786788000"
+    [2]=>
+    string(10) "0988000047"
+    [3]=>
+    string(7) "Viettel"
+    [4]=>
+    string(20) "Sim tứ quý giữa"
+    [5]=>
+    string(2) "36"
+    [6]=>
+    string(1) "6"
+  }
+}

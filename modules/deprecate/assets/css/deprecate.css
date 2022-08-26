@@ -1,0 +1,144 @@
+.home-search-demand {
+  background: #ffffff;
+  padding: 30px 0px 42px; }
+
+.form-default {
+  padding: 0px 30px; }
+  .form-default .item-left {
+    padding: 0px 35px 0px 80px; }
+    .form-default .item-left .text-border {
+      padding-left: 0px;
+      border-radius: 0px;
+      margin-bottom: 30px;
+      font-family: Text-Regular;
+      font-size: 17px;
+      outline: none;
+      height: 30px;
+      line-height: 30px;
+      color: #282F3D;
+      background-color: #fff;
+      border: 0 solid #b9b9b9;
+      border-width: 0 0 1px;
+      box-sizing: border-box;
+      transition: border .1s linear 0s, box-shadow .1s linear 0s;
+      -webkit-appearance: none; }
+      .form-default .item-left .text-border:focus {
+        box-shadow: none; }
+      .form-default .item-left .text-border::placeholder {
+        color: #040404 !important;
+        opacity: 1;
+        font-size: 16px;
+        font-family: Text-Light; }
+    .form-default .item-left .value-city {
+      font-family: Text-Light; }
+    .form-default .item-left label {
+      font-family: Text-Light;
+      font-size: 16px;
+      color: #333333; }
+    .form-default .item-left .text-note {
+      background: #f2f2f2;
+      border: none;
+      height: 154px !important;
+      padding: 15px 15px 0px 20px;
+      font-size: 15.5px; }
+      .form-default .item-left .text-note:focus {
+        box-shadow: none; }
+    .form-default .item-left .customer-note {
+      font-size: 16px;
+      font-family: Text-Italic;
+      margin-top: 20px; }
+  .form-default .item-position {
+    position: relative; }
+    .form-default .item-position p {
+      display: none;
+      position: absolute;
+      bottom: -40px;
+      color: #ef5939; }
+    .form-default .item-position i.fa.fa-check-circle {
+      display: none;
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      font-size: 18px;
+      color: #6ece0b; }
+  .form-default .error_input {
+    border-bottom: 2px solid #ef5939 !important; }
+  .form-default .success_input {
+    border-bottom: 2px solid #3478f7 !important; }
+  .form-default .border_none {
+    border-bottom: 1px solid #b9b9b9 !important; }
+  .form-default .item-right {
+    padding: 0px 77px 0px 35px;
+    font-size: 16px; }
+    .form-default .item-right p {
+      margin-bottom: 10px;
+      text-align: justify; }
+    .form-default .item-right .item-position {
+      position: relative; }
+      .form-default .item-right .item-position p {
+        display: none;
+        position: absolute;
+        top: 11px;
+        right: 20px;
+        color: #ef5939; }
+    .form-default .item-right .input-text-2 {
+      border-radius: 3px;
+      margin-bottom: 22px;
+      font-family: Text-Light;
+      padding-left: 21px;
+      border: 1px solid #b9b9b9;
+      height: 48px !important; }
+      .form-default .item-right .input-text-2:focus {
+        box-shadow: none;
+        border: 1.5px solid #c4c4c4; }
+    .form-default .item-right .note {
+      font-family: Text-semibold-Italic; }
+  .form-default .btn-send {
+    width: 100%;
+    font-size: 16px;
+    font-family: Text-regular;
+    text-transform: uppercase;
+    margin-top: 42px;
+    height: 43px;
+    padding-top: 10px; }
+
+::placeholder {
+  color: #333333 !important;
+  opacity: 1; }
+
+.center_page {
+  margin-top: 14px; }
+
+.select-city {
+  position: relative;
+  cursor: pointer; }
+  .select-city .options {
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    cursor: pointer;
+    z-index: 99;
+    background: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.4);
+    padding: 15px 0px 15px 15px; }
+    .select-city .options .option {
+      line-height: 35px; }
+  .select-city .scroll-y {
+    height: 200px !important; }
+
+.check_ok:after {
+  content: "\f058";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #6bcd0a;
+  position: absolute;
+  top: 8px;
+  font-size: 18px;
+  right: 0px; }
+
+.item-right .check_ok:after {
+  top: 15px;
+  right: 5px; }
+
+/*# sourceMappingURL=deprecate.css.map */

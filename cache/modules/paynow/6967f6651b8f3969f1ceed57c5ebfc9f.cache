@@ -1,0 +1,21 @@
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Undefined variable: number in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>84</b><br />
+<br />
+<b>Warning</b>:  fopen(): open_basedir restriction in effect. File(/var/www/html/xemay/error.log) is not within the allowed path(s): (/home/simsodep/:/tmp/:/var/tmp/:/usr/local/php56/lib/:/usr/local/php54/lib/:/usr/local/php55/lib/:/usr/local/php56/lib/:/usr/local/php70/lib/:/usr/local/php71/lib/:/usr/local/php72/lib/:/usr/local/lib/php/) in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fopen(/var/www/html/xemay/error.log): failed to open stream: Operation not permitted in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1319</b><br />
+<br />
+<b>Warning</b>:  fwrite() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1323</b><br />
+<br />
+<b>Warning</b>:  fclose() expects parameter 1 to be resource, boolean given in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/includes/functions.php</b> on line <b>1324</b><br />
+<br />
+<b>Notice</b>:  Undefined variable: string in <b>/home/simsodep/domains/simdep.phongcachso.com/public_html/modules/paynow/controllers/paynow.php</b> on line <b>85</b><br />
+{"total_original":"500000","total":null,"string":null,"telephone":"0977120167","email":"ducdo@finalstyle.com","address":null,"name":"\u0110\u1ed9","discount":"0","position":"4","position_name":"Kh m\u1edbi","id":"3"}

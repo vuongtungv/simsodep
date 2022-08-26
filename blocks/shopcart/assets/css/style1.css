@@ -1,0 +1,22 @@
+
+.shopcart {
+    background: url("../images/shopcart.png") no-repeat scroll left center;
+    padding-left: 28px;
+}
+.shopcart .buy_img {
+    line-height: 24px;
+}
+.shopcart .buy_img font {
+    background: #fff;
+    border-radius: 12px;
+    color: #E8154F;
+    display: inline-block;
+    height: 24px;
+    text-align: center;
+    width: 24px;
+}
+.shopcart .buy_img span {
+      color: #fff;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;

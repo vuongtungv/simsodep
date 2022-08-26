@@ -1,0 +1,2 @@
+#search{position:relative}@media (min-width: 992px){#search{width:272px;margin-right:14px;padding-top:26px}}@media (max-width: 991px){#search{width:100%;background-color:#fff;margin-top:10px}}#search .fa-search{font-size:20px;color:#333333;background-color:white;border-radius:50%;padding:9px 10px;margin-right:8px}#search .form-control{border-radius:3px;box-shadow:none;color:#777777;font-weight:500;padding-right:30px;background:url("../images/icon-seach.png") no-repeat right 10px center}
+/*# sourceMappingURL=search.css.map */

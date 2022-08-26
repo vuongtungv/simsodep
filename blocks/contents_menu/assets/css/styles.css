@@ -1,0 +1,174 @@
+.contents_menu-default {
+    border: 1px solid #dddddd;
+    border-right: none;
+}
+.contents_menu-default .block_title {
+
+}
+
+.block_enterprise_menu .block_title span{
+    padding-right: 18px;
+    background: url("../images/icon-title.png") no-repeat right center;
+}
+#css_menu_content,
+#css_menu_content ul,
+#css_menu_content ul li,
+#css_menu_content ul li div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#css_menu_content {
+  width: 100%;
+  color: #ffffff;
+}
+#css_menu_content ul ul {
+  display: none;
+}
+#css_menu_content > ul > li.active > ul {
+  display: block;
+}
+
+#css_menu_content > ul > li:last-child{
+  border-bottom: none;
+}
+.align-right {
+  float: right;
+}
+#css_menu_content > ul > li > div {
+    padding: 17px 0px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#css_menu_content > ul > li > div > a{
+    padding-left: 15px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#css_menu_content > ul > li.open > div ,#css_menu_content > ul > li.activated > div{
+    
+}
+#css_menu_content > ul > li{
+  border-top: 1px solid #ebebeb;
+  position: relative;
+}
+/*#css_menu_content > ul > li:before{
+    position: absolute;
+    content: '';
+    border-left: 2px solid;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 9;
+}*/
+#css_menu_content > ul > li.open::before,#css_menu_content > ul > li:hover::before  {
+    border-color: #ff5c3c;
+}
+#css_menu_content > ul > li.open > div > a , #css_menu_content > ul > li:hover > div > a{
+    color: #ff5c3c;
+}
+#css_menu_content > ul > li:hover > div , #css_menu_content > ul > li.open div{
+  
+}
+/*
+#css_menu_content > ul > li.has-sub > div:after {
+  position: absolute;
+    right: 15px;
+    top: 12px;
+    z-index: 5;
+    display: block;
+    height: 10px;
+    width: 2px;
+    background: #333333;
+    content: "";
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+#css_menu_content > ul > li.has-sub > div:before {
+      position: absolute;
+    right: 11px;
+    top: 16px;
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #333333;
+    content: "";
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+#css_menu_content > ul > li.has-sub.open > div:after {
+  background: #ffffff;
+}
+#css_menu_content > ul > li.has-sub.open > div:before {
+  background: #ffffff;
+}
+#css_menu_content > ul > li.has-sub.open > div:after,
+#css_menu_content > ul > li.has-sub.open > div:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+*/
+#css_menu_content ul ul li div {
+    padding: 10px 10px 10px 25px;
+    cursor: pointer;
+    line-height: 20px;
+    z-index: 2;
+    text-decoration: none;
+    color: #dddddd;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+#css_menu_content ul ul li div a{
+    padding-left: 10px;
+    position: relative;
+}
+#css_menu_content ul ul li.activated div a{
+    color: #b21413;
+}
+
+#css_menu_content ul ul li div a:before{
+    position: absolute;
+    content: '';
+    border: 2px solid #ff5c3c;
+    top: 7px;
+    left: 0px;
+}
+#css_menu_content ul ul ul li div {
+  padding-left: 32px;
+}
+#css_menu_content ul ul li div:hover {
+  color: #ffffff;
+}
+#css_menu_content ul ul > li.has-sub > div:after {
+  top: 16px;
+  right: 26px;
+  background: #dddddd;
+}
+#css_menu_content ul ul > li.has-sub > div:before {
+  top: 20px;
+  background: #dddddd;
+}

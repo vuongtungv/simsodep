@@ -1,0 +1,46 @@
+.faq_menu{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.faq_menu .block_title{
+    padding: 10px 20px;
+    background: #006cc6;
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+.faq_menu .block_title a{
+    color: #fff;
+    font-size: 16px;
+}
+.faq_menu .nav-faq-menus{
+	padding: 0px 20px;
+}
+.faq_menu .nav-faq-menus li{
+	padding: 5px 0;
+	width: 100%;
+}
+.faq_menu .nav-faq-menus li a{
+	color: #333;
+	font-size: 15px;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+.faq_menu .nav-faq-menus li:hover a,
+.faq_menu .nav-faq-menus li.active a{
+	color: #006cc6;
+}
+.faq_menu .nav-faq-menus li ul{
+	display: none;
+}
+.faq_menu .nav-faq-menus li:hover ul{
+}
+.faq_menu .nav-faq-menus li ul li{
+	padding-left: 15px;
+}
+.faq_menu .nav-faq-menus li ul li a,
+.faq_menu .nav-faq-menus li:hover ul li a{
+	color: #555;
+}

@@ -1,0 +1,29 @@
+ul.col-mn {
+   
+}
+.col-mn .level0 > a {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.col-mn .level0:hover > a {
+    text-decoration: none;
+}
+
+.col-mn .level0{
+    line-height: 24px;
+}
+
+.col-mn .level1 a {
+    color: #333333;
+    background: url('../images/icon-item-menu-ft.png') no-repeat left 6px;
+    padding-left: 16px;
+}
+.col-mn .level1:hover a {
+    text-decoration: none;
+}
+
+.col-mn .level1{
+    line-height: 24px;
+}
